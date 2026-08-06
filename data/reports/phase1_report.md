@@ -1,6 +1,6 @@
 # Phase 1 - Baseline Report
 
-Sinh luc: 2026-08-06T10:36:01.342506+00:00
+Sinh luc: 2026-08-06T14:52:50.418689+00:00
 
 ## 1. Nguon du lieu
 
@@ -12,7 +12,7 @@ Sinh luc: 2026-08-06T10:36:01.342506+00:00
 | records_raw | 24 |
 | records_clean | 24 |
 | raw_mode | snapshot |
-| run_date | 2026-08-06T10:34:21.472110+00:00 |
+| run_date | 2026-08-06T14:51:32.702192+00:00 |
 
 ## 2. Metrics RAG tren du lieu sach
 
@@ -28,7 +28,7 @@ Sinh luc: 2026-08-06T10:36:01.342506+00:00
 
 | Ragas metric | Gia tri |
 | --- | --- |
-| answer_relevancy | 0.284 |
+| answer_relevancy | 0.232 |
 | context_precision | 0.700 |
 | context_recall | 0.700 |
 | faithfulness | 0.700 |

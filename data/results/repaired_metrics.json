@@ -5,7 +5,7 @@
   "judge_accuracy": 1.0,
   "mean_judge_score": 5,
   "ragas": {
-    "answer_relevancy": 0.283,
+    "answer_relevancy": 0.2379,
     "context_precision": 0.7,
     "context_recall": 0.7,
     "faithfulness": 0.7

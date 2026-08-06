@@ -1,6 +1,6 @@
 # Phase 2 - Corruption / Repair Comparison
 
-Sinh luc: 2026-08-06T10:40:13.731890+00:00
+Sinh luc: 2026-08-06T14:56:19.711436+00:00
 
 Ca 3 trang thai duoc danh gia tren cung mot frozen evaluation set, cung model
 va cung top_k. Chi co du lieu dau vao thay doi.
@@ -13,15 +13,15 @@ va cung top_k. Chi co du lieu dau vao thay doi.
 | Retrieval hit rate | 1.000 | 0.400 | 1.000 | -0.600 | +0.000 |
 | Mean token F1 | 1.000 | 0.310 | 1.000 | -0.690 | +0.000 |
 | Judge accuracy | 1.000 | 0.300 | 1.000 | -0.700 | +0.000 |
-| Mean judge score | 5 | 2.600 | 5 | -2.400 | +0.000 |
+| Mean judge score | 5 | 2.500 | 5 | -2.500 | +0.000 |
 
 ## 2. Ragas
 
 | Ragas metric | Baseline | Corrupted | Repaired | Delta corrupted | Delta repaired |
 | --- | --- | --- | --- | --- | --- |
-| answer_relevancy | 0.284 | 0.228 | 0.283 | -0.056 | -0.001 |
+| answer_relevancy | 0.232 | 0.158 | 0.238 | -0.074 | +0.006 |
 | context_precision | 0.700 | 0.200 | 0.700 | -0.500 | +0.000 |
-| context_recall | 0.700 | 0.300 | 0.700 | -0.400 | +0.000 |
+| context_recall | 0.700 | 0.350 | 0.700 | -0.350 | +0.000 |
 | faithfulness | 0.700 | 0.444 | 0.700 | -0.256 | +0.000 |
 
 ## 3. Tin hieu observability

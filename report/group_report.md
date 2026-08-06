@@ -34,11 +34,11 @@ Viết từ 150–250 từ, trả lời ngắn gọn:
 
 Nhóm đã hoàn thành toàn bộ luồng end-to-end: ingestion từ Crossref, cleaning và data contract, embedding/index bằng ChromaDB, frozen evaluation set, quality/freshness monitoring, corruption và repair, cùng hai báo cáo markdown tự sinh. Baseline pipeline (`script/run_phase1.py`) tạo ra `data/raw/crossref_response.json` và `crossref_records.json` (24 records), `data/clean/papers_clean.csv|json` (24 dòng), embedding manifest `data/embeddings/papers_embeddings.json` với collection Chroma `papers-baseline`, frozen test set 10 câu tại `data/eval/test_set.json`, `data/results/baseline_metrics.json` và `baseline_answers.json`, `data/results/agent_demo_answers.json`, `data/quality/quality_baseline.json` + `freshness_report.json`, và `data/reports/phase1_report.md`.
 
-Baseline đạt `retrieval_hit_rate` 1.000, `mean_token_f1` 1.000, `judge_accuracy` 1.000, `mean_judge_score` 5, Ragas `context_precision`/`context_recall`/`faithfulness` cùng ở 0.700, quality 0/9 check FAIL và `is_fresh: true`. Corruption gồm 6 kịch bản xác định (không random) đã kéo bốn metric xuống 0.400 / 0.310 / 0.300 / 2.600 và làm 4/9 check FAIL, `is_fresh: false`.
+Baseline đạt `retrieval_hit_rate` 1.000, `mean_token_f1` 1.000, `judge_accuracy` 1.000, `mean_judge_score` 5, Ragas `context_precision`/`context_recall`/`faithfulness` cùng ở 0.700, quality 0/9 check FAIL và `is_fresh: true`. Corruption gồm 6 kịch bản xác định (không random) đã kéo bốn metric xuống 0.400 / 0.310 / 0.300 / 2.500 và làm 4/9 check FAIL, `is_fresh: false`.
 
 Kịch bản ảnh hưởng rõ nhất là `drop_latest_record`: xóa 2 tài liệu nằm trong `ground_truth_doc_ids` khiến 6/10 câu hỏi (q1–q6) trượt retrieval, chiếm toàn bộ mức sụt của `retrieval_hit_rate`. Repair bằng cách clean lại raw snapshot đã phục hồi **hoàn toàn** cả bốn metric về đúng mức baseline, quality về 0 FAIL và freshness về `Fresh` (24 dòng, `oldest_published` 2026-02-09).
 
-Giới hạn lớn nhất còn lại: kịch bản `embedding_noise` không bị bất kỳ quality check nào bắt, `answer_relevancy` của Ragas phân biệt rất yếu giữa ba trạng thái (0.284 → 0.228 → 0.283), và corruption áp dụng đồng thời nên chưa tách được đóng góp riêng của từng kịch bản.
+Giới hạn lớn nhất còn lại: kịch bản `embedding_noise` không bị bất kỳ quality check nào bắt, `answer_relevancy` của Ragas phân biệt yếu giữa ba trạng thái (0.232 → 0.158 → 0.238), và corruption áp dụng đồng thời nên chưa tách được đóng góp riêng của từng kịch bản.
 
 ## 3. Kiến trúc và luồng dữ liệu
 
@@ -65,7 +65,7 @@ Crossref API
 | ----------------- | -------------- | -------------------------- | ------------------------ | -------------- |
 | Ingestion         | Crossref REST API `https://api.crossref.org/works` (query + filter từ `Settings`) | Fetch có timeout 30s, retry tối đa 4 lần cho `429/5xx` với exponential backoff và `Retry-After`; parse `message.items`; gỡ JATS/HTML; DOI lowercase làm `paper_id`; chuẩn hóa ngày; loại record thiếu DOI/title/abstract và DOI trùng | `data/raw/crossref_response.json`, `data/raw/crossref_records.json` | TV1 — Phạm Tùng Dương |
 | Cleaning          | `list[PaperRecord]` từ raw snapshot + `run_date`        | Gỡ thẻ XML/HTML trước khi đo độ dài; drop title rỗng và summary < 100 ký tự; gộp `authors_joined`/`categories_joined`; tính `summary_chars`, `age_days`; dựng `text_for_embedding`; dedupe `paper_id`; sort `published` giảm dần     | `data/clean/papers_clean.csv`, `data/clean/papers_clean.json` (24 dòng, 11 cột contract) | TV2 — Hồ Lương An |
-| Embedding/index   | Cột `text_for_embedding` của cleaned DataFrame        | OpenAI `text-embedding-3-small`; ChromaDB persistent tại `data/chroma`; ba collection tách biệt `papers-baseline` / `papers-corrupted` / `papers-repaired`; metadata mang `paper_id`       | `data/embeddings/papers_embeddings.json`, `papers_embeddings_corrupted.json`, `papers_embeddings_repaired.json`; `data/chroma/` | TV4 — Nguyễn Thành Vinh (cấu hình + orchestration) |
+| Embedding/index   | Cột `text_for_embedding` của cleaned DataFrame        | Local `sentence-transformers/all-MiniLM-L6-v2` (vector 384 chiều, không gọi API); ChromaDB persistent tại `data/chroma`; ba collection tách biệt `papers-baseline` / `papers-corrupted` / `papers-repaired`; metadata mang `paper_id`       | `data/embeddings/papers_embeddings.json`, `papers_embeddings_corrupted.json`, `papers_embeddings_repaired.json`; `data/chroma/` | TV4 — Nguyễn Thành Vinh (cấu hình + orchestration) |
 | Evaluation        | Frozen `test_set.json` + Chroma collection tương ứng        | Sinh test set bằng template cứng (TV2); retrieval `top_k=4`, so `paper_id` với `ground_truth_doc_ids`; `token_f1`; LLM judge `gpt-4o-mini`     | `data/eval/test_set.json`; `data/results/baseline_metrics.json`, `corrupted_metrics.json`, `repaired_metrics.json` và ba file `*_answers.json` | TV2 (test set) — Hồ Lương An; TV4 (chạy evaluate) — Nguyễn Thành Vinh |
 | Observability     | Cleaned/corrupted/repaired DataFrame + `Settings`        | 9 quality check (completeness, uniqueness, độ dài, freshness) và freshness report 5 field; sinh 2 báo cáo markdown thuần trình bày | `data/quality/quality_{baseline,corrupted,repaired}.json`, `data/quality/freshness_{report,corrupted,repaired}.json`, `data/reports/phase1_report.md`, `data/reports/corruption_report.md` | TV3 — Bế Nguyễn Hà Sơn |
 | Corruption/repair | Cleaned DataFrame (baseline) và raw snapshot        | 6 kịch bản corruption xác định, không random, không mutate input; repair bằng cách clean lại `crossref_records.json` qua đúng `build_clean_dataframe`    | `data/clean/papers_clean_corrupted.*`, `papers_clean_repaired.*`, `data/results/corruption_log.json` | TV4 — Nguyễn Thành Vinh |
@@ -79,7 +79,7 @@ Crossref API
 | ---------------------------- | ------------------- |
 | `LLM_PROVIDER`             | `openai`         |
 | `LLM_MODEL`                | `gpt-4o-mini`         |
-| Embedding model              | `text-embedding-3-small` (OpenAI, `EMBEDDING_PROVIDER=openai`)         |
+| Embedding model              | `sentence-transformers/all-MiniLM-L6-v2` chạy local (`EMBEDDING_PROVIDER=local`), vector 384 chiều, không cần API key         |
 | Số lượng Crossref records | `max_results = 24`; nhận về và parse thành công 24/24         |
 | Retrieval`top_k`           | `4`         |
 | Freshness threshold          | `180` ngày (`freshness_threshold_days`, cũng dùng cho filter `from-pub-date`)         |
@@ -113,8 +113,8 @@ python script/run_corruption_flow.py
 
 | Lệnh             | Trạng thái                                    | Thời điểm chạy gần nhất | Bằng chứng                         |
 | ----------------- | ----------------------------------------------- | ----------------------------- | ------------------------------------ |
-| Baseline pipeline | Thành công (exit code 0) | 2026-08-06, 10:36 UTC (`quality_baseline` 10:36:01Z)                  | `data/reports/phase1_report.md`, `data/results/baseline_metrics.json` (hit 1.000 / F1 1.000 / judge 1.000 / score 5 / Ragas 0.700), `data/results/agent_demo_answers.json` (3/3 câu trả lời từ agent, 0 lỗi), `data/quality/quality_baseline.json` (`all_passed: true`) — không file nào chứa secret |
-| Corruption flow   | Thành công (exit code 0) | 2026-08-06, 10:37–10:39 UTC (`quality_corrupted` 10:37:59Z, `quality_repaired` 10:39:20Z)                  | `data/reports/corruption_report.md`, `data/results/corrupted_metrics.json`, `repaired_metrics.json`, `corruption_log.json` (12 entry), `data/quality/quality_{corrupted,repaired}.json` — không file nào chứa secret |
+| Baseline pipeline | Thành công (exit code 0) | 2026-08-06, 14:51–14:52 UTC (`run_date` 14:51:32Z, `quality_baseline` 14:52:50Z)                  | `data/reports/phase1_report.md`, `data/results/baseline_metrics.json` (hit 1.000 / F1 1.000 / judge 1.000 / score 5 / Ragas 0.700), `data/results/agent_demo_answers.json` (3/3 câu trả lời từ agent, 0 lỗi), `data/quality/quality_baseline.json` (`all_passed: true`) — không file nào chứa secret |
+| Corruption flow   | Thành công (exit code 0) | 2026-08-06, 14:55–14:56 UTC (`quality_corrupted` 14:55:34Z, `quality_repaired` 14:56:19Z)                  | `data/reports/corruption_report.md`, `data/results/corrupted_metrics.json`, `repaired_metrics.json`, `corruption_log.json` (12 entry), `data/quality/quality_{corrupted,repaired}.json` — không file nào chứa secret |
 
 ## 5. Ingestion, cleaning và data contract
 
@@ -124,7 +124,7 @@ python script/run_corruption_flow.py
 | --------------------------- | ------------------------------------- |
 | Source                      | Crossref REST API — `https://api.crossref.org/works` |
 | Query/filter                | query `artifical intelligence`; filter `from-pub-date:2026-02-07,has-abstract:true`; `rows=24`                  |
-| Thời điểm lấy dữ liệu | Snapshot dùng cho bài nộp: `run_date` 2026-08-06T10:34:21Z (pipeline chạy ở chế độ `raw_mode: snapshot`, chỉ fetch lại khi bật `REFRESH_SOURCE`)                           |
+| Thời điểm lấy dữ liệu | Snapshot dùng cho bài nộp: `run_date` 2026-08-06T14:51:32Z (pipeline chạy ở chế độ `raw_mode: snapshot`, chỉ fetch lại khi bật `REFRESH_SOURCE`)                           |
 | Số record nhận được    | 24 items Crossref → 24 `PaperRecord` (0 DOI trùng, 0 record thiếu DOI/title/summary; 16 record có PDF URL; 24/24 không có `subject`)                         |
 | Cơ chế retry/backoff      | Timeout 30s, tối đa 4 lần thử, retry cho lỗi kết nối và HTTP `429/500/502/503/504`, exponential backoff, ưu tiên header `Retry-After`                       |
 
@@ -169,7 +169,7 @@ Document ID là DOI viết thường, lấy từ ingestion và **không được
 | Số câu hỏi                            | 10 (`samples: 10` trong cả ba file metrics)                 |
 | Các`question_type`                    | `factual` (7 câu: tác giả, ngày xuất bản), `summary` (3 câu)                  |
 | Ground-truth document ID                 | `ground_truth_doc_ids` là DOI lấy trực tiếp từ cleaned dataset; retrieval hit khi ít nhất một `paper_id` trong top-k nằm trong danh sách này     |
-| Embedding model                          | OpenAI `text-embedding-3-small`                  |
+| Embedding model                          | Local `sentence-transformers/all-MiniLM-L6-v2` (384 chiều)                  |
 | Vector store/collection                  | ChromaDB persistent tại `data/chroma`; collection `papers-baseline`, `papers-corrupted`, `papers-repaired`                 |
 | Retrieval`top_k`                       | 4                   |
 | LLM provider/model                       | `openai` / `gpt-4o-mini` (dùng cho LLM judge)                   |
@@ -187,12 +187,12 @@ Vì test set là biến kiểm soát duy nhất khiến phép so sánh có ý ng
 | ------------------------ | -------------------------------------- | ------------ | ---------- |
 | Raw response/records     | `data/raw/`                          | Có | `crossref_response.json` (24 `message.items`) và `crossref_records.json` (24 `PaperRecord`, round-trip load thành công) |
 | Cleaned dataset          | `data/clean/`                        | Có | `papers_clean.csv|json` 24 dòng × 11 cột; kèm bản `_corrupted` (23 dòng) và `_repaired` (24 dòng) |
-| Embedding manifest/index | `data/embeddings/`                   | Có | 3 manifest ứng với 3 collection; `embedding_model: text-embedding-3-small`, `persist_path` tương đối `data\chroma`; DB nằm ở `data/chroma/` |
+| Embedding manifest/index | `data/embeddings/`                   | Có | 3 manifest ứng với 3 collection; `embedding_model: sentence-transformers/all-MiniLM-L6-v2`, `persist_path` tương đối `data\chroma`; DB nằm ở `data/chroma/` |
 | Evaluation set           | `data/eval/`                         | Có | `test_set.json` — 10 câu frozen, dùng chung cho cả ba trạng thái |
 | Baseline metrics         | `data/results/baseline_metrics.json` | Có | Kèm `baseline_answers.json` để truy vết từng câu; `judge.reasoning` do model sinh, 0/10 câu dùng fallback heuristic |
 | Quality/freshness        | `data/quality/`                      | Có | 3 file quality + 3 file freshness. Thư mục `data/quality/gx/` rỗng vì nhóm tự viết check thay cho Great Expectations |
 | Agent demo               | `data/results/agent_demo_answers.json` | Có | 3 câu đầu của frozen test set chạy qua `build_agent`/`run_agent_question` (agent có tool `semantic_search_papers` và `lookup_paper`); 3/3 câu có câu trả lời từ LLM, trường `error` đều `null` |
-| Baseline report          | `data/reports/phase1_report.md`      | Có | Sinh lúc 2026-08-06 10:36 UTC, số liệu khớp `baseline_metrics.json` và `quality_baseline.json` |
+| Baseline report          | `data/reports/phase1_report.md`      | Có | Sinh lúc 2026-08-06 14:52 UTC, số liệu khớp `baseline_metrics.json` và `quality_baseline.json` |
 
 ### Baseline metrics
 
@@ -202,7 +202,7 @@ Vì test set là biến kiểm soát duy nhất khiến phép so sánh có ý ng
 | `mean_token_f1`      |     1.000 | Trùng khít ground truth. Nguyên nhân: `_extract_answer` trích nguyên văn từ metadata (`authors_joined`, `published`, câu đầu của summary) đúng bằng nguồn dựng ground truth, nên F1 bão hòa ở 1.0 theo thiết kế chứ không phải rò rỉ đáp án                           |
 | `judge_accuracy`     |     1.000 | LLM judge (`gpt-4o-mini`) chấm cả 10 câu là đúng; đã xác minh không có câu nào rơi về fallback heuristic                           |
 | `mean_judge_score`   |     5 | Điểm tối đa ở toàn bộ 10 câu, tạo trần rõ ràng để đo mức sụt sau corruption                           |
-| Ragas        | `answer_relevancy` 0.284, `context_precision` 0.700, `context_recall` 0.700, `faithfulness` 0.700 | Chạy với `RUN_RAGAS=1`, judge LLM `gpt-4o-mini` và embedding `text-embedding-3-small`. Ba metric context/faithfulness ở mức 0.700 tạo mốc đối chứng độc lập với token F1. `answer_relevancy` thấp vì câu trả lời là chuỗi trích nguyên văn rất ngắn (tên tác giả, ngày) chứ không phải câu văn hoàn chỉnh |
+| Ragas        | `answer_relevancy` 0.232, `context_precision` 0.700, `context_recall` 0.700, `faithfulness` 0.700 | Chạy với `RUN_RAGAS=1`, judge LLM `gpt-4o-mini` và embedding MiniLM local. Ba metric context/faithfulness ở mức 0.700 tạo mốc đối chứng độc lập với token F1. `answer_relevancy` thấp vì câu trả lời là chuỗi trích nguyên văn rất ngắn (tên tác giả, ngày) chứ không phải câu văn hoàn chỉnh |
 
 ## 8. Data quality và freshness
 
@@ -264,17 +264,17 @@ Thứ hai, nếu fetch lại API thì Crossref sẽ trả kết quả khác (bà
 | `retrieval_hit_rate`   |      1.000 |       0.400 |      1.000 |                      −0.600 |             100% (+0.600) | Toàn bộ mức sụt đến từ 2 tài liệu bị xóa: q1–q6 trượt, q7–q10 vẫn hit |
 | `mean_token_f1`        |      1.000 |       0.310 |      1.000 |                      −0.690 |             100% (+0.690) | Sụt sâu nhất vì gánh cả hai loại hỏng: retrieval trượt (q1–q6) và câu trả lời rỗng do mất summary (q9, `token_f1 = 0` dù hit) |
 | `judge_accuracy`       |      1.000 |       0.300 |      1.000 |                      −0.700 |             100% (+0.700) | Thấp hơn `retrieval_hit_rate` (0.400) đúng một câu: q9 vẫn hit nhưng summary rỗng nên judge chấm sai — lấy đúng tài liệu không đảm bảo trả lời đúng |
-| `mean_judge_score`     |      5 |       2.600 |      5 |                      −2.400 |             100% (+2.400) | Judge cho 1 điểm ở q1/q2/q4, 2 điểm ở q3/q5/q6 và q9 (hit nhưng rỗng nội dung), giữ 5 ở q7/q8/q10 — chấm có phân biệt chứ không phạt đồng loạt |
+| `mean_judge_score`     |      5 |       2.500 |      5 |                      −2.500 |             100% (+2.500) | Judge cho 1 điểm ở q1/q3/q4/q5, 2 điểm ở q2/q6 và q9 (hit nhưng rỗng nội dung), giữ 5 ở q7/q8/q10 — chấm có phân biệt chứ không phạt đồng loạt |
 | `context_precision` (Ragas) |      0.700 |       0.200 |      0.700 |                      −0.500 |             100% (+0.500) | Nguồn độc lập xác nhận kết luận về retrieval: sụt mạnh nhất trong bốn metric Ragas, cùng chiều với `retrieval_hit_rate` |
-| `context_recall` (Ragas) |      0.700 |       0.300 |      0.700 |                      −0.400 |             100% (+0.400) | Phản ánh việc 2 tài liệu bị xóa khỏi index nên context lấy về không còn phủ được ground truth |
+| `context_recall` (Ragas) |      0.700 |       0.350 |      0.700 |                      −0.350 |             100% (+0.350) | Phản ánh việc 2 tài liệu bị xóa khỏi index nên context lấy về không còn phủ được ground truth |
 | `faithfulness` (Ragas) |      0.700 |       0.444 |      0.700 |                      −0.256 |             100% (+0.256) | Sụt nhẹ hơn hai metric context vì câu trả lời vẫn bám vào context lấy được, dù context đó là tài liệu sai |
-| `answer_relevancy` (Ragas) |      0.284 |       0.228 |      0.283 |                      −0.056 |             99.6% (+0.055) | Gần như không phân biệt được ba trạng thái; nhóm không dùng metric này để kết luận (xem mục 12) |
+| `answer_relevancy` (Ragas) |      0.232 |       0.158 |      0.238 |                      −0.074 |             102% (+0.080) | Đúng chiều nhưng biên độ nhỏ nhất trong bốn metric Ragas; repaired nhỉnh hơn baseline 0.006 do dao động của LLM chứ không phải cải thiện thật — nhóm không dùng metric này để kết luận (xem mục 12) |
 | Quality checks pass/fail |      0/9 FAIL (PASS) |       4/9 FAIL (FAIL) |      0/9 FAIL (PASS) |                      +4 check FAIL |             100% (về 0 FAIL) | FAIL đúng 4 check ứng với 4 kịch bản: `paper_id_unique`, `title_min_length`, `summary_min_length`, `freshness_age`. 5 check còn lại giữ PASS ở cả ba cột → corruption có tính chọn lọc |
 | Freshness status         |      Fresh (`stale_rows` 0 / 24 dòng) |       Stale (`stale_rows` 1 / 23 dòng) |      Fresh (`stale_rows` 0 / 24 dòng) |                      `is_fresh` true → false; `oldest_published` 2026-02-09 → 2000-01-01 |             100% (`is_fresh` về true, `oldest_published` về 2026-02-09) | Tín hiệu trực quan nhất của stale injection; `latest_published` cũng lùi 2026-07-17 → 2026-07-13 do 2 record mới nhất bị xóa |
 
 Nêu ít nhất hai kết luận có quan hệ nhân quả được hỗ trợ bởi artifacts:
 
-1. Corruption trên `data/clean/papers_clean_corrupted.csv` (xóa 2 record mới nhất, xóa rỗng 1 summary, làm cũ 1 ngày xuất bản, nhân bản 1 `paper_id`, cắt cụt 1 tiêu đề) → `quality_corrupted.json` chuyển từ 0 lên 4 check FAIL, `freshness_corrupted.json` có `is_fresh: false`, `stale_rows: 1`, `total_rows` 24 → 23 → `corrupted_metrics.json` cho `retrieval_hit_rate` 1.000 → 0.400, `mean_token_f1` 1.000 → 0.310, `judge_accuracy` 1.000 → 0.300, `mean_judge_score` 5 → 2.600, và Ragas `context_precision` 0.700 → 0.200, `context_recall` 0.700 → 0.300, `faithfulness` 0.700 → 0.444.
+1. Corruption trên `data/clean/papers_clean_corrupted.csv` (xóa 2 record mới nhất, xóa rỗng 1 summary, làm cũ 1 ngày xuất bản, nhân bản 1 `paper_id`, cắt cụt 1 tiêu đề) → `quality_corrupted.json` chuyển từ 0 lên 4 check FAIL, `freshness_corrupted.json` có `is_fresh: false`, `stale_rows: 1`, `total_rows` 24 → 23 → `corrupted_metrics.json` cho `retrieval_hit_rate` 1.000 → 0.400, `mean_token_f1` 1.000 → 0.310, `judge_accuracy` 1.000 → 0.300, `mean_judge_score` 5 → 2.500, và Ragas `context_precision` 0.700 → 0.200, `context_recall` 0.700 → 0.350, `faithfulness` 0.700 → 0.444.
 2. Repair dựng lại từ `data/raw/crossref_records.json` qua đúng `build_clean_dataframe` → `quality_repaired.json` về 0 check FAIL, `freshness_repaired.json` về `is_fresh: true` với `stale_rows: 0` và 24 dòng → `repaired_metrics.json` cho cả bốn metric RAG trở lại **đúng** giá trị baseline (1.000 / 1.000 / 1.000 / 5). Cả hai lớp tín hiệu cùng phục hồi thì mới kết luận repair thành công.
 
 Không kết luận corruption “có tác động” nếu số liệu không cho thấy thay đổi. Nếu kết quả khác kỳ vọng, mô tả giả thuyết và cách nhóm đã kiểm tra.
@@ -300,7 +300,7 @@ Một vấn đề tích hợp thứ hai đã xử lý: `judge.reasoning` trong `
 
 | Giới hạn hiện tại | Ảnh hưởng   | Hướng cải thiện có thể kiểm chứng |
 | --------------------- | -------------- | ----------------------------------------- |
-| `answer_relevancy` của Ragas gần như không phân biệt được ba trạng thái (0.284 → 0.228 → 0.283, delta chỉ −0.056) trong khi `context_precision` sụt tới −0.500 | Một trong bốn metric Ragas không đóng góp tín hiệu; nếu chỉ nhìn `answer_relevancy` sẽ kết luận nhầm là corruption không ảnh hưởng | Nguyên nhân giả định: `_extract_answer` trả về chuỗi trích nguyên văn rất ngắn nên phần sinh câu hỏi ngược của `answer_relevancy` không có đủ ngữ cảnh. Kiểm chứng bằng cách thay bằng generation thật qua LLM rồi đo lại; thành công khi `answer_relevancy` baseline vượt 0.6 và delta corrupted đạt ít nhất −0.2 |
+| `answer_relevancy` của Ragas phân biệt yếu giữa ba trạng thái (0.232 → 0.158 → 0.238, delta chỉ −0.074) trong khi `context_precision` sụt tới −0.500 | Một trong bốn metric Ragas không đóng góp tín hiệu; nếu chỉ nhìn `answer_relevancy` sẽ kết luận nhầm là corruption không ảnh hưởng | Nguyên nhân giả định: `_extract_answer` trả về chuỗi trích nguyên văn rất ngắn nên phần sinh câu hỏi ngược của `answer_relevancy` không có đủ ngữ cảnh. Kiểm chứng bằng cách thay bằng generation thật qua LLM rồi đo lại; thành công khi `answer_relevancy` baseline vượt 0.6 và delta corrupted đạt ít nhất −0.2 |
 | Kịch bản `embedding_noise` không bị bất kỳ quality check nào bắt | Một lớp corruption chỉ lộ ra gián tiếp qua metrics RAG; nếu chỉ nhìn `quality_*.json` sẽ kết luận nhầm là dữ liệu sạch | Thêm check đo tỉ lệ ký tự không phải chữ/số và tỉ lệ token lặp trên `text_for_embedding`, cảnh báo khi lệch khỏi phân phối baseline. Thành công khi số check FAIL ở corrupted tăng 4 → 5, check mới trỏ đúng `paper_id` trong `corruption_log.json`, còn baseline và repaired vẫn 0 FAIL |
 | Sáu kịch bản corruption được áp dụng đồng thời trong một lần chạy | Không tách được đóng góp riêng của từng kịch bản vào mức sụt metrics; kết luận "`drop_latest_record` ảnh hưởng mạnh nhất" dựa trên phân tích per-question chứ chưa phải ablation có kiểm soát | Chạy ablation: mỗi lần chỉ bật một kịch bản, giữ nguyên test set và cấu hình, ghi metrics riêng. Thành công khi tổng mức sụt của các lần chạy đơn lẻ giải thích được mức sụt của lần chạy gộp |
 | `mean_token_f1` baseline bão hòa ở 1.000 vì `_extract_answer` trích nguyên văn metadata thay vì để LLM sinh câu trả lời | Metric mất độ phân giải ở đầu trên; không đo được chất lượng diễn đạt, chỉ đo được chất lượng dữ liệu | Thay `_extract_answer` bằng generation thật qua LLM và đo lại. Thành công khi baseline F1 rơi vào khoảng < 1.0 nhưng vẫn cao rõ rệt so với corrupted, tức metric lấy lại được dải phân biệt |
