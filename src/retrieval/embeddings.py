@@ -19,25 +19,29 @@ class ConfiguredEmbeddings(Embeddings):
 
     def __init__(self, provider: str, model_name: str, openai_api_key: str | None = None):
         self.provider = provider.strip().lower()
+        # `model` must stay a plain string: Ragas telemetry reads this attribute and
+        # rejects a non-string with a pydantic ValidationError. The live client lives
+        # in `_client`.
+        self.model: str = model_name
         if self.provider == "openai":
             if not openai_api_key:
                 raise RuntimeError("OPENAI_API_KEY is required when EMBEDDING_PROVIDER=openai.")
-            self.model: Any = OpenAIEmbeddings(model=model_name, api_key=openai_api_key)
+            self._client: Any = OpenAIEmbeddings(model=model_name, api_key=openai_api_key)
         elif self.provider in {"local", "minilm", "sentence_transformers"}:
-            self.model = _load_model(model_name)
+            self._client = _load_model(model_name)
         else:
             raise RuntimeError("Unsupported EMBEDDING_PROVIDER. Expected 'openai' or 'local'.")
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
         if self.provider == "openai":
-            return self.model.embed_documents(texts)
-        embeddings = self.model.encode(texts, normalize_embeddings=True)
+            return self._client.embed_documents(texts)
+        embeddings = self._client.encode(texts, normalize_embeddings=True)
         return embeddings.tolist()
 
     def embed_query(self, text: str) -> list[float]:
         if self.provider == "openai":
-            return self.model.embed_query(text)
-        embedding = self.model.encode([text], normalize_embeddings=True)
+            return self._client.embed_query(text)
+        embedding = self._client.encode([text], normalize_embeddings=True)
         return embedding[0].tolist()
 
 

@@ -25,7 +25,7 @@
     "judge": {
       "score": 1,
       "correct": false,
-      "reasoning": "The model answer lists authors who are completely different from those in the reference answer. Therefore, the model answer is incorrect regarding the authorship of the specified paper."
+      "reasoning": "The model answer provides names that do not match any of the authors listed in the reference answer, indicating a complete mismatch."
     }
   },
   {
@@ -52,9 +52,9 @@
     "retrieval_hit": false,
     "token_f1": 0.0,
     "judge": {
-      "score": 2,
+      "score": 1,
       "correct": false,
-      "reasoning": "The model answer provides a date earlier than the reference answer, but both dates are in 2026. Since the question asks for the publication date, and the model answer does not match the reference exactly, it is considered incorrect. The difference in months is material for a publication date."
+      "reasoning": "The model answer provides a publication date of 2026-02-09, which is incorrect compared to the reference answer of 2026-07-17."
     }
   },
   {
@@ -83,7 +83,7 @@
     "judge": {
       "score": 2,
       "correct": false,
-      "reasoning": "The model answer discusses challenges in Brazilian copyright law regarding generative AI in music and art, which is a different jurisdiction and focus than the reference answer about Indonesian copyright law and the legal vacuum caused by AI under Law Number 28 of 2014. Therefore, the model answer is not materially correct in relation to the question about the Indonesian legal context."
+      "reasoning": "The model answer discusses Brazilian copyright law instead of Indonesian law, which is the focus of the reference answer. Additionally, it does not mention the legal vacuum created by AI in Indonesia's legal system, which is a key point in the reference answer."
     }
   },
   {
@@ -112,7 +112,7 @@
     "judge": {
       "score": 1,
       "correct": false,
-      "reasoning": "The reference answer lists a single author, Fatma Maylasari Saqoti, while the model answer provides different names that do not match the reference. Therefore, the model answer is incorrect."
+      "reasoning": "The model answer lists multiple authors who are not the correct author of the paper, which is Fatma Maylasari Saqoti. Therefore, it is materially incorrect."
     }
   },
   {
@@ -141,7 +141,7 @@
     "judge": {
       "score": 2,
       "correct": false,
-      "reasoning": "The model answer provides a date earlier than the reference answer, indicating a discrepancy. Since the publication date is a specific factual detail, the model answer is not materially correct."
+      "reasoning": "The model answer provides a date that is incorrect compared to the reference answer. While both dates are in 2026, the model answer is not the same as the reference answer, which is the requirement for it to be considered materially correct."
     }
   },
   {
@@ -170,7 +170,7 @@
     "judge": {
       "score": 2,
       "correct": false,
-      "reasoning": "The model answer discusses the general impact of technology and AI on current generations but does not specifically address the paper's focus on AI in online counseling services, including opportunities, challenges, and ethical implications. Therefore, it is only partially relevant and lacks material correctness regarding the paper's main topic."
+      "reasoning": "The model answer discusses the impact of technology and AI on a global scale but does not specifically address the context of online counseling services or the implications for mental health care as mentioned in the reference answer."
     }
   },
   {
@@ -199,7 +199,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer exactly matches the reference answer, correctly listing all the authors of the paper without any errors or omissions."
+      "reasoning": "The model answer matches the reference answer exactly, providing the correct authors of the paper."
     }
   },
   {
@@ -228,7 +228,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer exactly matches the reference answer, providing the correct publication date for the paper."
+      "reasoning": "The model answer matches the reference answer exactly, providing the correct publication date."
     }
   },
   {
@@ -255,9 +255,9 @@
     "retrieval_hit": true,
     "token_f1": 0.0,
     "judge": {
-      "score": 3,
-      "correct": true,
-      "reasoning": "The model answer correctly identifies sustainable development as a global priority addressing environmental challenges alongside economic growth and social welfare, which aligns with the general theme of the paper. However, it does not specifically mention the role of Artificial Intelligence and the Internet of Things in supporting the green economy, which is central to the paper's focus."
+      "score": 2,
+      "correct": false,
+      "reasoning": "The model answer does not address the specific content of the paper regarding the role of Artificial Intelligence and the Internet of Things in supporting the green economy, which is a key aspect of the reference answer."
     }
   },
   {
@@ -286,7 +286,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer exactly matches the reference answer, listing all the authors correctly without any omissions or errors."
+      "reasoning": "The model answer matches the reference answer exactly, providing all the authors' names correctly."
     }
   }
 ]

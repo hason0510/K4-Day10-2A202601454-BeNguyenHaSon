@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from math import isnan
 from statistics import mean
 import os
 import sys
@@ -70,6 +71,33 @@ Return:
         )
 
 
+def _ragas_scores(result: Any) -> dict[str, Any]:
+    """Extract aggregate scores from a Ragas EvaluationResult.
+
+    `dict(result)` breaks on ragas >= 0.4: EvaluationResult is indexed by metric
+    name, so dict() falls back to integer iteration and raises KeyError: 0.
+    """
+    scores = getattr(result, "_scores_dict", None)
+    if not isinstance(scores, dict) or not scores:
+        frame = result.to_pandas().select_dtypes("number")
+        scores = {column: frame[column].tolist() for column in frame.columns}
+
+    cleaned: dict[str, Any] = {}
+    for name, value in scores.items():
+        # ragas >= 0.4 stores a per-sample list here; older versions store a scalar.
+        raw = value if isinstance(value, (list, tuple)) else [value]
+        numbers = []
+        for item in raw:
+            try:
+                number = float(item)
+            except (TypeError, ValueError):
+                continue
+            if not isnan(number):
+                numbers.append(number)
+        cleaned[name] = round(mean(numbers), 4) if numbers else None
+    return cleaned
+
+
 def _run_ragas(settings: Settings, answers: list[dict[str, Any]]) -> dict[str, Any]:
     if os.getenv("RUN_RAGAS", "").lower() not in {"1", "true", "yes"}:
         return {"skipped": "Set RUN_RAGAS=1 to enable the slower Ragas pass."}
@@ -97,7 +125,7 @@ def _run_ragas(settings: Settings, answers: list[dict[str, Any]]) -> dict[str, A
                 settings.embedding_provider, settings.embedding_model, settings.openai_api_key
             ),
         )
-        return dict(result)
+        return _ragas_scores(result)
     except Exception as exc:  # pragma: no cover
         return {"error": f"Ragas evaluation failed: {exc}"}
 

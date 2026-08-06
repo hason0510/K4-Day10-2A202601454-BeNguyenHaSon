@@ -10,7 +10,6 @@
 | Tên nhóm | ChillGuys |
 | Vai trò chính | Source Ingestion Owner |
 | Repository | [K4-Day10-2A202601454-BeNguyenHaSon](https://github.com/hason0510/K4-Day10-2A202601454-BeNguyenHaSon) |
-| Commit chính | `b25ab6f` — `Implement Crossref source ingestion` |
 | Ngày hoàn thành | 2026-08-06 |
 
 ## 2. Vai trò và phạm vi công việc

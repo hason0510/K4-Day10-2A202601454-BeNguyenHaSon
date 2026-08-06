@@ -5,6 +5,9 @@
   "judge_accuracy": 1.0,
   "mean_judge_score": 5,
   "ragas": {
-    "skipped": "Set RUN_RAGAS=1 to enable the slower Ragas pass."
+    "answer_relevancy": 0.283,
+    "context_precision": 0.7,
+    "context_recall": 0.7,
+    "faithfulness": 0.7
   }
 }

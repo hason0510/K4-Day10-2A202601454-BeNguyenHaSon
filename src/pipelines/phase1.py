@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 from core.config import load_settings
-from core.utils import now_utc, write_csv, write_json
+from core.utils import now_utc, read_json, write_csv, write_json
 from evaluation.metrics import evaluate_pipeline
 from evaluation.testset import build_test_set
 from ingestion.cleaning import build_clean_dataframe
 from ingestion.crossref import fetch_source_records, load_raw_records
 from observability.quality import build_freshness_report, run_data_quality_checks
 from observability.reporting import generate_phase1_report
+from retrieval.agent import build_agent, run_agent_question
 from retrieval.index import LocalEmbeddingIndex
 
 
@@ -51,6 +52,23 @@ def main() -> None:
     }
     generate_phase1_report(paths.baseline_report, source_summary, bundle.summary, quality, freshness)
 
+    # Demo the tool-using agent on a few frozen questions. Failures are recorded in
+    # the artifact instead of being swallowed, so a missing LLM is visible.
+    demo_questions = [item["question"] for item in read_json(paths.eval_testset)[:3]]
+    try:
+        agent = build_agent(settings, index)
+        demo_answers = [
+            {"question": question, "answer": run_agent_question(agent, question), "error": None}
+            for question in demo_questions
+        ]
+    except Exception as exc:  # pragma: no cover - depends on live LLM provider
+        demo_answers = [
+            {"question": question, "answer": None, "error": str(exc)} for question in demo_questions
+        ]
+        print(f"WARNING: agent demo failed: {exc}")
+    write_json(paths.demo_answers, demo_answers)
+
     print(f"Baseline complete: {len(clean_df)} clean records, {bundle.summary['samples']} evaluations.")
+    print(f"Agent demo: {paths.demo_answers}")
     print(f"Metrics: {paths.baseline_metrics}")
     print(f"Report: {paths.baseline_report}")

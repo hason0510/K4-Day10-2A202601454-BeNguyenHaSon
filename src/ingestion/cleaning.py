@@ -24,14 +24,16 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
 
     df = pd.DataFrame([asdict(r) for r in records])
 
-    # 1. Drop records with missing title or short summary (< 100 characters)
+    # 1. Normalize text first: remove XML/HTML tags from title and summary.
+    #    Must run before the length rule, otherwise markup inflates the character
+    #    count and a summary that is too short after cleaning would survive.
     df = df.dropna(subset=["title", "summary"])
-    df = df[df["title"].str.strip() != ""]
-    df = df[df["summary"].str.len() >= 100]
-
-    # 2. Normalize text: remove XML/HTML tags from title and summary
     df["title"] = df["title"].apply(_remove_html_tags)
     df["summary"] = df["summary"].apply(_remove_html_tags)
+
+    # 2. Drop records with missing title or short summary (< 100 characters)
+    df = df[df["title"].str.strip() != ""]
+    df = df[df["summary"].str.len() >= 100]
 
     # 3. Create joined string columns for authors and categories
     df["authors_joined"] = df["authors"].apply(
@@ -44,12 +46,9 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
 
     # 4. Calculate freshness: published date and age_days
     df["published_dt"] = pd.to_datetime(df["published"], errors="coerce")
-    df["age_days"] = (
-        (pd.Timestamp(run_date.date()) - df["published_dt"])
-        .dt.days
-        .fillna(-1)
-        .astype(int)
-    )
+    # Ngay khong parse duoc giu nguyen NaN thay vi sentinel -1: -1 se bi doc nham
+    # la "rat moi" va lot qua freshness check.
+    df["age_days"] = (pd.Timestamp(run_date.date()) - df["published_dt"]).dt.days
     df["published"] = df["published_dt"].dt.strftime("%Y-%m-%d").fillna("")
     df = df.drop(columns=["published_dt"])
 

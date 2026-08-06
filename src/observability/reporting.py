@@ -92,6 +92,38 @@ def _ragas_section(metrics: dict[str, Any]) -> str:
     return _md_table(["Ragas metric", "Gia tri"], rows)
 
 
+def _ragas_comparison_rows(
+    baseline: dict[str, Any],
+    corrupted: dict[str, Any],
+    repaired: dict[str, Any],
+) -> list[list[str]]:
+    """Ghep cac ragas metric chung cho ca 3 trang thai, bo qua key skipped/error."""
+    states = [baseline.get("ragas") or {}, corrupted.get("ragas") or {}, repaired.get("ragas") or {}]
+    ignored = {"skipped", "error"}
+    names: list[str] = []
+    for state in states:
+        if not isinstance(state, dict):
+            continue
+        for key in state:
+            if key not in ignored and key not in names:
+                names.append(key)
+
+    rows = []
+    for name in names:
+        base = states[0].get(name) if isinstance(states[0], dict) else None
+        rows.append(
+            [
+                name,
+                _fmt_number(base),
+                _fmt_number(states[1].get(name) if isinstance(states[1], dict) else None),
+                _fmt_number(states[2].get(name) if isinstance(states[2], dict) else None),
+                _fmt_delta(states[1].get(name) if isinstance(states[1], dict) else None, base),
+                _fmt_delta(states[2].get(name) if isinstance(states[2], dict) else None, base),
+            ]
+        )
+    return rows
+
+
 def _failed_check_count(quality: dict[str, Any] | None) -> str:
     if not quality:
         return NA
@@ -195,6 +227,7 @@ def generate_corruption_report(
     report_path = Path(report_path)
     baseline_quality = _load_baseline_quality(report_path)
     baseline_freshness = _load_baseline_freshness(report_path)
+    ragas_rows = _ragas_comparison_rows(baseline_metrics, corrupted_metrics, repaired_metrics)
 
     # Bang 1: metrics RAG, kem delta so voi baseline de thay chieu tut va hoi phuc.
     metric_rows = [
@@ -302,17 +335,26 @@ def generate_corruption_report(
             metric_rows,
         ),
         "",
-        "## 2. Tin hieu observability",
+        "## 2. Ragas",
+        "",
+        _md_table(
+            ["Ragas metric", "Baseline", "Corrupted", "Repaired", "Delta corrupted", "Delta repaired"],
+            ragas_rows,
+        )
+        if ragas_rows
+        else "_Ragas khong chay (dat RUN_RAGAS=1 de bat)._",
+        "",
+        "## 3. Tin hieu observability",
         "",
         _md_table(["Tin hieu", "Baseline", "Corrupted", "Repaired"], observability_rows),
         "",
-        "## 3. Chi tiet tung quality check (so dong loi)",
+        "## 4. Chi tiet tung quality check (so dong loi)",
         "",
         _md_table(["Check", "Baseline", "Corrupted", "Repaired"], check_rows)
         if check_rows
         else "_Khong co quality check nao duoc ghi nhan._",
         "",
-        "## 4. Nhan xet",
+        "## 5. Nhan xet",
         "",
         "- Corruption lam cac quality check chuyen sang FAIL va keo metrics RAG xuong.",
         "- Repair dung lai tu raw snapshot nen phuc hoi duoc ca quality signal lan metrics.",

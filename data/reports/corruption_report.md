@@ -1,6 +1,6 @@
 # Phase 2 - Corruption / Repair Comparison
 
-Sinh luc: 2026-08-06T09:56:39.170453+00:00
+Sinh luc: 2026-08-06T10:40:13.731890+00:00
 
 Ca 3 trang thai duoc danh gia tren cung mot frozen evaluation set, cung model
 va cung top_k. Chi co du lieu dau vao thay doi.
@@ -12,10 +12,19 @@ va cung top_k. Chi co du lieu dau vao thay doi.
 | samples | 10 | 10 | 10 | n/a | n/a |
 | Retrieval hit rate | 1.000 | 0.400 | 1.000 | -0.600 | +0.000 |
 | Mean token F1 | 1.000 | 0.310 | 1.000 | -0.690 | +0.000 |
-| Judge accuracy | 1.000 | 0.400 | 1.000 | -0.600 | +0.000 |
-| Mean judge score | 5 | 2.800 | 5 | -2.200 | +0.000 |
+| Judge accuracy | 1.000 | 0.300 | 1.000 | -0.700 | +0.000 |
+| Mean judge score | 5 | 2.600 | 5 | -2.400 | +0.000 |
 
-## 2. Tin hieu observability
+## 2. Ragas
+
+| Ragas metric | Baseline | Corrupted | Repaired | Delta corrupted | Delta repaired |
+| --- | --- | --- | --- | --- | --- |
+| answer_relevancy | 0.284 | 0.228 | 0.283 | -0.056 | -0.001 |
+| context_precision | 0.700 | 0.200 | 0.700 | -0.500 | +0.000 |
+| context_recall | 0.700 | 0.300 | 0.700 | -0.400 | +0.000 |
+| faithfulness | 0.700 | 0.444 | 0.700 | -0.256 | +0.000 |
+
+## 3. Tin hieu observability
 
 | Tin hieu | Baseline | Corrupted | Repaired |
 | --- | --- | --- | --- |
@@ -26,7 +35,7 @@ va cung top_k. Chi co du lieu dau vao thay doi.
 | is_fresh | PASS | FAIL | PASS |
 | oldest_published | 2026-02-09 | 2000-01-01 | 2026-02-09 |
 
-## 3. Chi tiet tung quality check (so dong loi)
+## 4. Chi tiet tung quality check (so dong loi)
 
 | Check | Baseline | Corrupted | Repaired |
 | --- | --- | --- | --- |
@@ -40,7 +49,7 @@ va cung top_k. Chi co du lieu dau vao thay doi.
 | text_for_embedding_not_null | 0 (PASS) | 0 (PASS) | 0 (PASS) |
 | freshness_age | 0 (PASS) | 1 (FAIL) | 0 (PASS) |
 
-## 4. Nhan xet
+## 5. Nhan xet
 
 - Corruption lam cac quality check chuyen sang FAIL va keo metrics RAG xuong.
 - Repair dung lai tu raw snapshot nen phuc hoi duoc ca quality signal lan metrics.
