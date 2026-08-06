@@ -1,0 +1,4868 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 41917,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2026-07-30T13:03:50Z",
+          "timestamp": 1785416630972,
+          "version": "3.56.0"
+        },
+        "reference-count": 0,
+        "publisher": "AcademyGate",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Metafizika Philos."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              15
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The article is devoted to the study of the relationship between artificial intelligence and humans. First, the development path of artificial intelligence to its current state is briefly described, and its current role and importance in human and society life are also discussed. The rapid development of technology not only changes the life activities, living conditions, and circumstances of modern people, but also affects their spiritual and emotional world, and also changes their taste, worldview, and outlook on life. This change also manifests itself in people's relationships with each other and in the forms of communication. Modern technological development expands human choices. By achieving such development, more effective communication between people is formed. Artificial intelligence is the pinnacle of technological development in the life of mankind. Modern man suffers from a \u201cpandemic of loneliness\u201d. He sees the way out in communication with artificial intelligence and puts it in the place of his friend. Today, he consults with artificial intelligence in all matters - from the simplest everyday issues to solving complex problems. This, in turn, gives rise to a new problem. The article comments on these problems and suggests ways to solve them.</jats:p>",
+        "DOI": "10.33864/mp.2026.v1.i2.56-65",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              10
+            ]
+          ],
+          "date-time": "2026-07-10T17:39:02Z",
+          "timestamp": 1783705142000
+        },
+        "page": "56-65",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "RELATIONSHIP ARTIFICAL INTELLIGENCE AND HUMAN"
+        ],
+        "prefix": "10.33864",
+        "volume": "1",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-1060-7573",
+            "authenticated-orcid": false,
+            "given": "Aynura",
+            "family": "Ahmadova",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/026gk3798",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "Baku Slavic University"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "19700",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Metafizika Philosophy"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              10
+            ]
+          ],
+          "date-time": "2026-07-10T17:39:04Z",
+          "timestamp": 1783705144000
+        },
+        "score": 21.53719,
+        "resource": {
+          "primary": {
+            "URL": "https://academygate.org/article/detail/1275"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              15
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                15
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                15
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.33864/mp.2026.v1.i2.56-65",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T23:12:22Z",
+          "timestamp": 1773270742460,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Universitas Islam Bandung (Unisba)",
+        "issue": "1",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "BCSLS"
+        ],
+        "abstract": "<jats:p>Abstract. The development of Artificial Intelligence (AI) has had a significant impact on modern crime patterns, particularly in based fraud. Technologies such as deepfakes, voice cloning, and automated data manipulation enable perpetrators to commit fraud with high levels of accuracy and effectiveness, making it difficult to detect and potentially causing widespread losses. The research uses a normative juridical method with a legislative approach, criminology, and case analysis. Data are sourced from literature, laws and regulations, official agency reports, and concrete cases. This study examines the causal factors of AI-based crimes using theory criminology.. The results indicate that internal factors driving perpetrators include economic motives, rational calculations that AI offers high profits with low risks, and distortions of moral responsibility due to digital anonymity. External factors include the rapid advancement of accessible technology, low public digital literacy, and limited law enforcement capacity, including digital forensics.Law enforcement is carried out through the provisions of Article 492 of the New Criminal Code and articles in the ITE Law, such as Article 28 paragraph (1), Article 35, Article 51 paragraph (1), and Article 21, to ensnare the manipulation of electronic identity and information. However, its effectiveness is still hampered by the gap between technological developments and the readiness of the authorities.\r\nAbstrak: Perkembangan Artificial Intelligence (AI) telah membawa dampak signifikan terhadap pola kejahatan modern, khususnya dalam tindak pidana penipuan. Teknologi seperti deepfake, voice cloning, dan manipulasi data otomatis memungkinkan pelaku melakukan penipuan dengan tingkat akurasi dan efektivitas tinggi, sehingga sulit dideteksi dan berpotensi menimbulkan kerugian yang luas. Penelitian menggunakan metode yuridis normatif dengan pendekatan perundang-undangan, kriminologi, dan analisis kasus. Data bersumber dari literatur, peraturan perundang-undangan, laporan lembaga resmi, serta kasus konkret. Penelitian ini menelaah faktor-faktor penyebab kejahatan dengan bantuan AI melalui teori kriminologi. Bahwa faktor internal yang mendorong pelaku meliputi motif ekonomi, kalkulasi rasional bahwa AI memberikan keuntungan tinggi dengan risiko rendah, serta distorsi tanggung jawab moral akibat anonimitas digital. Adapun faktor eksternal mencakup pesatnya kemajuan teknologi yang mudah diakses, rendahnya literasi digital masyarakat, dan keterbatasan kapasitas penegakan hukum termasuk forensik digital. Penegakan hukum dilakukan melalui ketentuan Pasal 492 KUHP Baru dan pasal-pasal dalam UU ITE seperti Pasal 28 ayat (1), Pasal 35, Pasal 51 ayat (1), serta Pasal 21 untuk menjerat manipulasi identitas dan informasi elektronik. Namun, efektivitasnya masih terhambat oleh kesenjangan antara perkembangan teknologi dan kesiapan aparat.</jats:p>",
+        "DOI": "10.29313/bcsls.v6i1.23692",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T08:02:23Z",
+          "timestamp": 1773216143000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Kajian Kriminologi Kejahatan dengan Bantuan Artifical Intelligence dan Penegakan Hukumnya Berdasarkan UU ITE"
+        ],
+        "prefix": "10.29313",
+        "volume": "6",
+        "author": [
+          {
+            "given": "Salsa",
+            "family": "Fardiani",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dian Alan",
+            "family": "Setiawan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "11858",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Bandung Conference Series: Law Studies"
+        ],
+        "link": [
+          {
+            "URL": "https://proceedings.unisba.ac.id/index.php/BCSLS/article/download/23692/10064",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://proceedings.unisba.ac.id/index.php/BCSLS/article/download/23692/10064",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              11
+            ]
+          ],
+          "date-time": "2026-03-11T08:02:25Z",
+          "timestamp": 1773216145000
+        },
+        "score": 18.591301,
+        "resource": {
+          "primary": {
+            "URL": "https://proceedings.unisba.ac.id/index.php/BCSLS/article/view/23692"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.29313/bcsls.v6i1.23692",
+        "ISSN": [
+          "2828-2493"
+        ],
+        "issn-type": [
+          {
+            "value": "2828-2493",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2026-07-11T16:14:13Z",
+          "timestamp": 1783786453428,
+          "version": "3.55.0"
+        },
+        "reference-count": 35,
+        "publisher": "Moldova State University",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "abstract": "<jats:p>Based on a corpus of French/Italian economic texts, this article proposes a comparison between a NMT engine (DeepL) and a generative chatbot (ChatGPT-4o), in order to reflect on the impact of AI on translation.</jats:p>",
+        "DOI": "10.59295/teia2025.20",
+        "type": "proceedings-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              8
+            ]
+          ],
+          "date-time": "2026-06-08T10:18:36Z",
+          "timestamp": 1780913916000
+        },
+        "page": "212-237",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Advantages and issues of artifical intelligence for economic translation: from neural machine translation to generative AI"
+        ],
+        "prefix": "10.59295",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2602-3908",
+            "authenticated-orcid": false,
+            "given": "Alessandra",
+            "family": "Rollo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "38593",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref0",
+            "unstructured": "1. ZANOLA, M. T. La communication sp\u00e9cialis\u00e9e. In : M. T. ZANOLA, dir. Le fran\u00e7ais de nos jours. Caract\u00e8res, formes, aspects. Roma : Carocci, 2023, p. 109-130. ISBN 9788829020188."
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "2. LOOCK, R. Traduction automatique et usage linguistique : une analyse de traductions anglais-fran\u00e7ais r\u00e9unies en corpus. In : Meta. 2018. Vol. 63, n\u00b0 3, p. 786-806. ISSN 0026-0452 (imprim\u00e9) 1492-1421 (num\u00e9rique) (consult\u00e9 le 22.11.2025). Disponible: https://www.erudit.org/fr/revues/meta/2018-v63-n3-meta04634/1060173ar/",
+            "DOI": "10.7202/1060173ar"
+          },
+          {
+            "key": "ref2",
+            "unstructured": "3. LAVAULT-OLL\u00c9ON, \u00c9., ZIMINA, M. dir. Des mots aux actes, n\u00b0 8 - Traduction et technologie, regards crois\u00e9s sur de nouvelles pratiques. Paris : \u00c9ditions Classiques Garnier, 2019. 352 p. ISBN \u200e978-2406097785."
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "unstructured": "4. YVON, F. Les deux voies de la traduction automatique. In : Herm\u00e8s, La Revue - La communication au c\u0153ur des connaissances, CNRS-\u00c9ditions. 2019. Vol. 3, n\u00b0 85, p. 62-68. ISSN 0767-9513, ISSN en ligne 1963-1006.",
+            "DOI": "10.3917/herm.085.0062"
+          },
+          {
+            "key": "ref4",
+            "unstructured": "5. VILLA, M. L., ZANOLA, M. T., DANKOVA, K. Langages et savoirs : intelligence artificielle et traduction automatique dans la communication scientifique. In : R. RAUS et al., \u00e9ds. Multilinguisme et vari\u00e9t\u00e9s linguistiques en Europe \u00e0 l'aune de l'intelligence artificielle/Multilinguismo e variazioni linguistiche in Europa nell'era dell'intelligenza artificiale/Multilingualismand Language Varieties in Europe in the Age of Artificial Intelligence. Universit\u00e0 di Torino : De Europa Special Issue, 2022, p. 107-127. ISBN (imprim\u00e9) 9788855268431, ISBN (ebook) 9788875902179."
+          },
+          {
+            "key": "ref5",
+            "doi-asserted-by": "publisher",
+            "unstructured": "6. SOFO, G. La traduction \u00e0 l'\u00e8re num\u00e9rique. Histoire, \u00e9volution et perspectives de la rencontre entre la traduction et l'intelligence artificielle. In : Studi e ricerche, no. 35, Human Translation and Natural Language Processing, Edizioni Ca' Foscari, 2023, p. 17-32. e-ISSN 2610-",
+            "DOI": "10.30687/978-88-6969-762-3/002"
+          },
+          {
+            "key": "ref6",
+            "unstructured": "9123, ISSN 2610-993X (consult\u00e9 le 21.11.2025). Disponible: https://edizionicafoscari.unive.it/it/edizioni/libri/978-88-6969-763-0/la-traduction-a-lere-numerique-histoire-evolution/"
+          },
+          {
+            "key": "ref7",
+            "unstructured": "7. MATTIODA, M. M. et al. dir., MediAzioni, Vol. 39 : L'intelligenza artificiale per la traduzione: verso una nuova progettazione didattica?, 2023. 170 p. ISSN 1974-4382 (consult\u00e9 le 22.11.2025). Disponible : https://mediazioni.unibo.it/issue/view/1207"
+          },
+          {
+            "key": "ref8",
+            "unstructured": "8. SOCI\u00c9T\u00c9 FRAN\u00c7AISE DES TRADUCTEURS. Prise de position de la Soci\u00e9t\u00e9 fran\u00e7aise des traducteurs sur l'intelligence artificielle, 13 juin 2024, p. 1-12 (consult\u00e9 le 23.11.2025). Disponible : https://www.sft.fr/global/gene/link.php?doc_id=546&fg=1"
+          },
+          {
+            "key": "ref9",
+            "doi-asserted-by": "publisher",
+            "unstructured": "9. ZHU, W. et al. Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis. In: Findings of the Association for Computational Linguistics: NAACL 2024, June 16-21, 2024, p. 2765-2781 (consult\u00e9 le 21.11.2025). Disponible: https://aclanthology.org/2024.findings-naacl.176.pdf",
+            "DOI": "10.18653/v1/2024.findings-naacl.176"
+          },
+          {
+            "key": "ref10",
+            "unstructured": "10. PERRIGAUD, A.-C. M\u00e9moire de traduction, TAO, post-\u00e9dition et traitement automatis\u00e9 de la langue : le traducteur en qu\u00eate de sens. Session 3 - TA et Biotraduction. In : Tralogy II, Trouver le sens : o\u00f9 sont nos manques et nos besoins respectifs, Jan 2013, Paris, p. 1-5 (consult\u00e9 le 21.11.2025). Disponible : https://hal.science/hal-02497358v1"
+          },
+          {
+            "key": "ref11",
+            "unstructured": "11. AFFUMT. Non, l'intelligence artificielle ne remplacera pas les traducteurs et les traductrices !, Le Monde, 9 septembre 2024 (consult\u00e9 le 15.11.2025). Disponible: https://www.lemonde.fr/idees/article/2024/09/09/non-l-intelligence-artificielle-ne-remplacera-pas-lestraducteurs-et-les-traductrices_6308656_3232.html"
+          },
+          {
+            "key": "ref12",
+            "unstructured": "12. ATLF. Non, l'intelligence artificielle ne remplacera pas les traducteurs et traductrices, mais elle d\u00e9truit leur m\u00e9tier !, 13 septembre 2024 (consult\u00e9 le 15.11.2025). Disponible: https://atlf.org/non-lintelligence-artificielle-ne-remplacera-pas-les-traducteurs-et-traductricesmais-elle-detruit-leur-metier/"
+          },
+          {
+            "key": "ref13",
+            "unstructured": "13. CBTI. Non, l'intelligence artificielle ne va pas faire dispara\u00eetre la traduction humaine, 18 septembre 2024 (consult\u00e9 le 15.11.2025). Disponible: https://www.cbti-bkvt.org/non-lia-neva-pas-faire-disparaitre-la-traduction-humaine/"
+          },
+          {
+            "key": "ref14",
+            "unstructured": "14. MINIST\u00c8RE DE L'\u00c9CONOMIE, DES FINANCES ET DE LA SOUVERAINET\u00c9 INDUSTRIELLE ET NUM\u00c9RIQUE. Dossier de presse Feuille de Route \u00ab Lutte contre toutes les fraudes aux finances publiques \u00bb - Mai 2023. 1 Juin 2023 (consult\u00e9 le 30.10.2025). Disponible: https://presse.economie.gouv.fr/01062023-dossier-de-presse-feuille-de-route-duplan-lutte-contre-toutes-les-fraudes-aux-finances-publiques/"
+          },
+          {
+            "key": "ref15",
+            "unstructured": "15. UFFICIO ECONOMICO DELL'AMBASCIATA D'ITALIA A PARIGI. Rapporto su investimenti, partenariati e commercio tra Italia e Francia - Edizione 2023 / Rapport sur les investissements, les partenariats et le commerce entre l'Italie et la France - \u00c9dition 2023 (consult\u00e9 le 30.10.2025). Disponible: https://ambparigi.esteri.it/fr/news/dall_ambasciata/2023/09/publication-du-rapport-sur-les-investissements-les-partenariats-et-le-commerceentre-litalie-et-la-france-edition-2023/"
+          },
+          {
+            "key": "ref16",
+            "unstructured": "16. LERAT, P., Les langues sp\u00e9cialis\u00e9es. Paris : PUF, 1995. 198 p. ISBN 978-2130466024."
+          },
+          {
+            "key": "ref17",
+            "unstructured": "17. SCARPA, F. La traduzione specializzata. Lingue speciali e mediazione linguistica. Milano : Hoepli, 2001. 448 p. ISBN 978-8820339319."
+          },
+          {
+            "key": "ref18",
+            "unstructured": "18. GOTTI, M., Specialized Discourse. Linguistic Features and Changing Conventions. Bern : Peter Lang, 2003. 354 p. ISBN 3-03910-027-0."
+          },
+          {
+            "key": "ref19",
+            "unstructured": "19. FLOUZAT-OSMONT D'AMILLY, D., PEL\u00c9, M. 2000, La langue de l'\u00e9conomie. In : G. ANTOINE, B. CERQUIGLINI, dir. Histoire de la langue fran\u00e7aise 1945-2000, Vol. 3. Paris : CNRS \u00e9ditions, 2000, p. 491-501. ISBN 2-271-05762-0."
+          },
+          {
+            "key": "ref20",
+            "doi-asserted-by": "publisher",
+            "unstructured": "20. SPILLNER, B. Discours \u00e9conomique : vari\u00e9t\u00e9s intralinguistiques et diff\u00e9rences contrastives. In : B. IRMTRAUD et al., \u00e9ds. Langue, \u00e9conomie, entreprise : le travail des mots. Paris : Presses Sorbonne Nouvelle, 2007, p. 117-146. ISBN 978-2878543834.",
+            "DOI": "10.4000/books.psn.7917"
+          },
+          {
+            "key": "ref21",
+            "doi-asserted-by": "publisher",
+            "unstructured": "21. LORENZ, B. Des m\u00e9taphores dans le langage financier ou du paysage boursier balay\u00e9 par les vents. In : Traduire [En ligne]. 2008. n\u00b0 217, p. 14-36. ISSN \u00e9lectronique 2272-9992 (consult\u00e9 le 27.10.2025). Disponible : http://journals.openedition.org/traduire/960",
+            "DOI": "10.4000/traduire.960"
+          },
+          {
+            "key": "ref22",
+            "unstructured": "22. BARBIN, F. Sp\u00e9cificit\u00e9s de la traduction \u00e9conomique, financi\u00e8re et commerciale. In : F. BARBIN, S. MONJEAN-DECAUDIN, dir. La traduction juridique et \u00e9conomique. Aspects th\u00e9oriques et pratiques. Paris : Classiques Garnier, Collection \u00ab Translatio \u00bb, n\u00b0 4, 2019, p. 33-44. EAN 9782406095781 - ISBN 2406095789."
+          },
+          {
+            "key": "ref23",
+            "unstructured": "23. VILAR, D. et al. Error Analysis of Statistical Machine Translation Output. In : N. CALZOLARI et al., \u00e9ds. Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC'06). Genoa : European Language Resources Association (ELRA), 2006, p. 697-702 (consult\u00e9 le 03.12.2025). Disponible : http://www.lrec-conf.org/proceedings/lrec2006/pdf/413_pdf.pdf"
+          },
+          {
+            "key": "ref24",
+            "unstructured": "24. ACCADEMIA DELLA CRUSCA. L'articolo con le sigle. 30.09.2002. \u00a9 2019 Accademia della Crusca (consult\u00e9 le 09.01.2026). Disponible : https://accademiadellacrusca.it/it/consulenza/larticolo-con-le-sigle/77#:~:text=Risposta-,L%27articolo%20con%20le%20sigle,30%20settembre%202002,-Parole%20chiave"
+          },
+          {
+            "key": "ref25",
+            "unstructured": "25. MATOUK, J. Pourquoi l'anglais est-il la langue de l'\u00e9conomie. In : X. LAFON, dir. Les langues savantes. Paris : \u00c9ditions du Comit\u00e9 des travaux historiques et scientifiques, Collection \u00ab Actes des congr\u00e8s nationaux des soci\u00e9t\u00e9s historiques et scientifiques \u00bb, 2017, p. 94-97 (consult\u00e9 le 04.12.2025). Publi\u00e9 sur OpenEdition Books : 13 novembre 2018, https://books.openedition.org/cths/603"
+          },
+          {
+            "key": "ref26",
+            "unstructured": "Sites et documents de consultation g\u00e9n\u00e9rale (IAG, DeepL et ChatGPT)"
+          },
+          {
+            "key": "ref27",
+            "unstructured": "1. \u00c0 propos de DeepL Traducteur (consult\u00e9 le 20.11.2025). Disponible: https://support. deepl.com/hc/fr/articles/360019924399-%C3%80-propos-de-DeepL-Traducteur#h_01JMEYX981G6PMAMFP88QHBGTW"
+          },
+          {
+            "key": "ref28",
+            "unstructured": "2. ChatGPT - An AI NLP Model. LTIMindtree (consult\u00e9 le 20.11.2025). Disponible: https://www.ltimindtree.com/wp-content/uploads/2023/02/ChatGPT-An-AI-NLP-Model-POV.pdf"
+          },
+          {
+            "key": "ref29",
+            "unstructured": "3. DeepL (consult\u00e9 le 20.11.2025). Disponible : https://golden.com/wiki/DeepL-XKPJDDA"
+          },
+          {
+            "key": "ref30",
+            "unstructured": "4. EKIN, S. Prompt Engineering for ChatGPT (consult\u00e9 le 22.11.2025). Disponible : https://www.techrxiv.org/users/690417/articles/681648/master/file/data/Prompt_Engineering_for_ChatGPT_Sabit_Ekin/Prompt_Engineering_for_ChatGPT_Sabit_Ekin.pdf?inline=true"
+          },
+          {
+            "key": "ref31",
+            "unstructured": "5. Generative AI Explainer (consult\u00e9 le 20.11.2025). Disponible: https://www.aiforeducation.io/ai-resources/generative-ai-explainer"
+          },
+          {
+            "key": "ref32",
+            "doi-asserted-by": "publisher",
+            "unstructured": "6. How does DeepL work? (consult\u00e9 le 20.11.2025). Disponible : https://www.deepl.com/en/blog/how-does-deepl-work",
+            "DOI": "10.2307/jj.7657713.7"
+          },
+          {
+            "key": "ref33",
+            "unstructured": "7. Le traducteur ChatGPT d'OpenAI rivalise avec Google Translate et vous permet de choisir le style du texte traduit, par exemple \u00abprofessionnel\u00bb, \u00abacad\u00e9mique\u00bb ou \u00abplus fluide\u00bb. D\u00e9veloppez.com, 16 janvier 2026 (consult\u00e9 le 18.01.2026). Disponible: https://intelligence-artificielle.developpez.com/actu/379270/Le-traducteur-ChatGPT-d-OpenAI-rivalise-avec-GoogleTranslate-et-vous-permet-de-choisir-le-style-du-texte-traduit-par-exemple-professionnelacademique-ou-plus-fluide/8. What is Generative AI? (consult\u00e9 le 20.11.2025). Disponible: https://www.nvidia.com/enus/glossary/generative-ai/"
+          },
+          {
+            "key": "ref34",
+            "unstructured": "9. ZHENG, M. C. Prompt Engineering 101. Smartling (consult\u00e9 le 22.11.2025). Disponible: https://custom.mt/wp-content/uploads/2023/04/Prompt-Engineering-101.pdf"
+          }
+        ],
+        "event": {
+          "name": "Conferin\u0163a \u015ftiin\u0163ific\u0103 cu participare interna\u0163ional\u0103 \"Traducerea \u00een era inteligen\u0163ei artificiale: provoc\u0103ri \u015fi oportunit\u0103\u0163i\""
+        },
+        "container-title": [
+          "Traducerea \u00een era inteligen\u0163ei artificiale: provoc\u0103ri \u015fi oportunit\u0103\u0163i"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2026-07-11T15:36:29Z",
+          "timestamp": 1783784189000
+        },
+        "score": 18.418386,
+        "resource": {
+          "primary": {
+            "URL": "https://msuir.usm.md/handle/123456789/20556"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "references-count": 35,
+        "URL": "https://doi.org/10.59295/teia2025.20",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2026-07-20T06:42:14Z",
+          "timestamp": 1784529734895,
+          "version": "3.55.0"
+        },
+        "reference-count": 0,
+        "publisher": "Universitas Pahlawan Tuanku Tambusai",
+        "issue": "1",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  4,
+                  27
+                ]
+              ],
+              "date-time": "2026-04-27T00:00:00Z",
+              "timestamp": 1777248000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "RIGGS"
+        ],
+        "abstract": "<jats:p>Seiring meningkatnya kompleksitas transaksi dan volume data keuangan di era digital, praktik audit modern menghadapi tantangan yang semakin besar dalam mendeteksi kecurangan (fraud). Penelitian ini bertujuan untuk menganalisis peran Artificial Intelligence (AI) dalam meningkatkan efektivitas deteksi fraud melalui pendekatan studi literatur. Metode yang digunakan adalah kualitatif dengan menelaah berbagai jurnal ilmiah, laporan profesional, dan publikasi akademik yang relevan selama periode 2015\u20132025. Data dikumpulkan melalui teknik dokumentasi dengan kata kunci terkait artificial intelligence, fraud detection, dan audit modern, kemudian dianalisis menggunakan pendekatan deskriptif kualitatif melalui proses klasifikasi, perbandingan, dan sintesis temuan penelitian terdahulu. Hasil kajian menunjukkan bahwa penerapan teknologi AI seperti machine learning, data mining, dan natural language processing mampu meningkatkan akurasi dan kecepatan dalam mendeteksi pola anomali dibandingkan metode audit konvensional yang berbasis sampling. AI juga memungkinkan analisis seluruh populasi data (full population analysis), sehingga potensi fraud yang tersembunyi dapat diidentifikasi secara lebih komprehensif. Selain itu, penggunaan AI terbukti meningkatkan efisiensi proses audit, mengurangi beban kerja auditor, serta meminimalkan kesalahan manusia. Namun demikian, implementasi AI dalam audit masih menghadapi berbagai kendala, seperti keterbatasan kompetensi auditor dalam penguasaan teknologi, tingginya biaya implementasi, serta isu etika dan privasi data. Oleh karena itu, diperlukan kesiapan sumber daya manusia, regulasi yang memadai, serta integrasi sistem yang tepat agar pemanfaatan AI dapat berjalan optimal dan berkelanjutan. Dengan demikian, AI memiliki peran strategis dalam mentransformasi praktik audit modern, khususnya dalam meningkatkan kualitas deteksi fraud di era digital.</jats:p>",
+        "DOI": "10.31004/riggs.v5i1.8008",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2026-05-04T02:46:51Z",
+          "timestamp": 1777862811000
+        },
+        "page": "15026-15034",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Peran Artifical Intelligence dalam Mendeteksi Fraud: Studi Literatur pada Praktik Audit Modern"
+        ],
+        "prefix": "10.31004",
+        "volume": "5",
+        "author": [
+          {
+            "given": "Mohamad Afrizal",
+            "family": "Miradji",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aisyah",
+            "family": "Amalia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Dian",
+            "family": "Salmah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Elisa Dwi",
+            "family": "Fransisca",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Elizabeth",
+            "family": "Lovinawati",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "14667",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "RIGGS: Journal of Artificial Intelligence and Digital Business"
+        ],
+        "link": [
+          {
+            "URL": "https://journal.ilmudata.co.id/index.php/RIGGS/article/download/8008/6008",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journal.ilmudata.co.id/index.php/RIGGS/article/download/8008/6008",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2026-05-04T02:46:58Z",
+          "timestamp": 1777862818000
+        },
+        "score": 18.250816,
+        "resource": {
+          "primary": {
+            "URL": "https://journal.ilmudata.co.id/index.php/RIGGS/article/view/8008"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.31004/riggs.v5i1.8008",
+        "ISSN": [
+          "2963-914X",
+          "2963-9298"
+        ],
+        "issn-type": [
+          {
+            "value": "2963-914X",
+            "type": "electronic"
+          },
+          {
+            "value": "2963-9298",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              27
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2026-06-10T15:20:20Z",
+          "timestamp": 1781104820699,
+          "version": "3.54.1"
+        },
+        "reference-count": 0,
+        "publisher": "IGI Global Scientific Publishing",
+        "isbn-type": [
+          {
+            "value": "9798337383378",
+            "type": "print"
+          },
+          {
+            "value": "9798337383392",
+            "type": "electronic"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              23
+            ]
+          ]
+        },
+        "abstract": "<jats:p>The rapid rise of generative AI has redefined the boundaries of personalization, but it has also amplified the risks of opacity and algorithmic manipulation. This chapter is justified by the immediate need to reconcile the effectiveness of automated campaigns with the principles of ethics by design, and it offers a response to the empirical research gap linking marketing performance to algorithmic fairness. In this sense, this chapter analyzes the influence of Artificial Intelligence (AI) on digital marketing, focusing on the ethical, security, and data privacy implications. Starting from the evolution of marketing, we discuss how digitization, machine learning, Generative AI (GIA), and LLMs transform the collection, analysis, and use of data to automate campaigns, segment audiences, and personalize content in real time.Through a bibliometric study in the Web of Science (WoS), scientific production at its intersection is mapped. Thematic clusters are identified on AI applications, ethical and privacy risks, and IAG in the personalization economy.</jats:p>",
+        "DOI": "10.4018/979-8-3373-8337-8.ch004",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              16
+            ]
+          ],
+          "date-time": "2026-04-16T18:52:03Z",
+          "timestamp": 1776365523000
+        },
+        "page": "71-94",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Artifical Intelligence and Digital Marketing"
+        ],
+        "prefix": "10.4018",
+        "author": [
+          {
+            "given": "Andreia",
+            "family": "Couto",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Polytechnic University of C\u00e1vado and Ave, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8588-2422",
+            "authenticated-orcid": true,
+            "given": "Bruno Barbosa",
+            "family": "Sousa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "UNIAG, School of Hospitality and Tourism, Polytechnic University of C\u00e1vado and Ave, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-6927-8906",
+            "authenticated-orcid": true,
+            "given": "Lara Gon\u00e7alves",
+            "family": "Santos",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Polytechnic University of C\u00e1vado and Ave, Portugal"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "2432",
+        "container-title": [
+          "Advances in Computational Intelligence and Robotics",
+          "Impacts of AI on Human Expression and Relationship Building"
+        ],
+        "link": [
+          {
+            "URL": "https://www.igi-global.com/viewtitle.aspx?TitleId=408551",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              16
+            ]
+          ],
+          "date-time": "2026-04-16T18:52:04Z",
+          "timestamp": 1776365524000
+        },
+        "score": 18.163206,
+        "resource": {
+          "primary": {
+            "URL": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-3373-8337-8.ch004"
+          }
+        },
+        "subtitle": [
+          "Ethical Challenges in the Algorithmic Era"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              23
+            ]
+          ]
+        },
+        "ISBN": [
+          "9798337383378",
+          "9798337383392"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.4018/979-8-3373-8337-8.ch004",
+        "ISSN": [
+          "2327-0411",
+          "2327-042X"
+        ],
+        "issn-type": [
+          {
+            "value": "2327-0411",
+            "type": "print"
+          },
+          {
+            "value": "2327-042X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              23
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2026-07-15T12:05:08Z",
+          "timestamp": 1784117108200,
+          "version": "3.55.0"
+        },
+        "reference-count": 0,
+        "publisher": "PT. Penerbit Tiga Mutiara",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  15
+                ]
+              ],
+              "date-time": "2026-07-15T00:00:00Z",
+              "timestamp": 1784073600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "MUTIARA"
+        ],
+        "abstract": "<jats:p>The advancement of digital technology has encouraged the adoption of Artificial Intelligence (AI) in online counseling services to enhance the accessibility and quality of mental health care. The emergence of AI through chatbots, virtual counselors, and digital mental health platforms presents various opportunities, challenges, and ethical implications that require comprehensive examination. This study aims to analyze the opportunities offered by AI, the challenges associated with its implementation, and the ethical implications of its use in online counseling services. The study employed a literature review method with a qualitative approach, examining 15 scientific articles published between 2016 and 2026. Data were analyzed using content analysis through the synthesis of findings from previous studies. The results indicate that AI has the potential to expand access to counseling services, improve service efficiency, support preliminary assessments, and facilitate the delivery of more personalized and data-driven interventions. However, the use of AI continues to face several challenges, including limitations in understanding human emotions and social contexts, the risk of inaccurate responses, algorithmic bias, and the potential for user dependency on technology. The most prominent ethical concerns involve privacy protection, data security, algorithmic transparency, system accountability, and professional responsibility. This study concludes that AI is more appropriately positioned as a supportive tool or co-counselor for professional counselors rather than a replacement for human practitioners. The novelty of this study lies in its integration of the opportunities, challenges, and ethical implications of AI into a comprehensive analytical framework.</jats:p>",
+        "DOI": "10.61404/mutiara.v4i3.530",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2026-07-15T11:04:50Z",
+          "timestamp": 1784113490000
+        },
+        "page": "188-204",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature)"
+        ],
+        "prefix": "10.61404",
+        "volume": "4",
+        "author": [
+          {
+            "family": "Fatma Maylasari Saqoti",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "44184",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "MUTIARA: Jurnal Ilmiah Multidisiplin Indonesia"
+        ],
+        "link": [
+          {
+            "URL": "https://jurnal.tiga-mutiara.com/index.php/jimi/article/download/530/399",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://jurnal.tiga-mutiara.com/index.php/jimi/article/download/530/399",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2026-07-15T11:04:51Z",
+          "timestamp": 1784113491000
+        },
+        "score": 17.931833,
+        "resource": {
+          "primary": {
+            "URL": "https://jurnal.tiga-mutiara.com/index.php/jimi/article/view/530"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "3",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                15
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.61404/mutiara.v4i3.530",
+        "ISSN": [
+          "3025-1028"
+        ],
+        "issn-type": [
+          {
+            "value": "3025-1028",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              26
+            ]
+          ],
+          "date-time": "2026-06-26T02:46:53Z",
+          "timestamp": 1782442013485,
+          "version": "3.54.5"
+        },
+        "reference-count": 0,
+        "publisher": "Perennial Publishing International Group LLC",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  29
+                ]
+              ],
+              "date-time": "2026-06-29T00:00:00Z",
+              "timestamp": 1782691200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "JDHE"
+        ],
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Case presentation: Patient E. suffers severe iatrogenic injury during a sinuplasty due to an AI-assisted navigation system incorrectly mapping the position of the instruments to the paranasal sinus region during surgery, even though the instruments were actually located in the immediate vicinity of the carotid artery. Uncritical reliance of the surgeon on the output of an AI-assisted system lead to a carotid artery lesion and a subsequent ischemic stroke with long-term neurological deficits. This raises ethical and legal questions regarding medical responsibility, the duty to inform, and the allocation of liability. Methodology: Using the described clinical case study as a point of departure, the ethical and legal implications of AI-assisted medical decision-making within the frameworks of biomedical ethics and health regulations and laws in the EU and US were critically qualitatively analyzed. Particular attention was given to questions of autonomy, beneficence, professional responsibility, informed consent, and liability, with the aim of assessing the requirements for the responsible and ethically justifiable use of AI in healthcare. Results: Ethically, the focus is particularly on autonomy, non-maleficence, beneficence, and justice. A potential violation of autonomy occurs when patients are not informed about the use of AI and its risks. The principles of non-maleficence and beneficence are violated when medical plausibility checks are omitted and an \u201cautomation bias\u201d leads to blind trust in the AI-system. Legally, AI remains a medical device and is classified as a high-risk system under the EU AI Act, thereby subject to requirements regarding safety, robustness, and human oversight. The physician\u2019s duty of care (\u201clege artis\u201d) is not diminished by AI but continues to require critical oversight. Additionally, liability issues arise that affect physicians, healthcare facilities, and manufacturers alike. Conclusion: AI can be medically beneficial and improve patient safety when used responsibly. However, the present case demonstrates that a lack of human oversight, as well as insufficient reflection and control can lead to serious harm. It is therefore essential to provide transparent patient information, establish clear oversight mechanisms, offer training, and clearly define legal accountability.</jats:p>",
+        "DOI": "10.66128/jdhe202602.2",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              26
+            ]
+          ],
+          "date-time": "2026-06-26T02:14:19Z",
+          "timestamp": 1782440059000
+        },
+        "page": "28-37",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Ethical Dimension between Innovation and Responsibility - Artifical Intelligence in Medicine and Digital Health"
+        ],
+        "prefix": "10.66128",
+        "volume": "1",
+        "author": [
+          {
+            "given": "Marlon",
+            "family": "Possard",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Research Center Administrative Sciences (RCAS), Department for Administration, Economics, Security and Politics at the University of Applied Sciences Vienna (HCW) and Sigmund-Freud-Private University Vienna and Berlin (SFU)"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sonja",
+            "family": "Bleichert",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of Applied Sciences Vienna"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "55710",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              29
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Digital Health and Ethics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://perennial.pub/journal/jdhe/1/2/3/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://perennial.pub/journal/jdhe/1/2/3/pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              26
+            ]
+          ],
+          "date-time": "2026-06-26T02:14:20Z",
+          "timestamp": 1782440060000
+        },
+        "score": 17.911713,
+        "resource": {
+          "primary": {
+            "URL": "https://perennial.pub/journal/jdhe/1/2/3"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              29
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.66128/jdhe202602.2",
+        "archive": [
+          "Internet Archive"
+        ],
+        "ISSN": [
+          "3070-3816"
+        ],
+        "issn-type": [
+          {
+            "value": "3070-3816",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              29
+            ]
+          ]
+        },
+        "article-number": "3"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              7
+            ]
+          ],
+          "date-time": "2026-06-07T10:58:19Z",
+          "timestamp": 1780829899521,
+          "version": "3.54.1"
+        },
+        "reference-count": 5,
+        "publisher": "MyResearchGo Publication",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "myresearchgo"
+        ],
+        "abstract": "<jats:p>Artificial Intelligence (AI) is one of the most significant areas of technology development that is affecting lives. It is changing their thinking, learning and decision, making process. AI is becoming more influential in guiding youth choices through various application areas like education, career planning, and daily activities. Examples include recommendation systems, virtual assistants, chatbots, educational platforms, and career guidance tools, among others. This paper investigates the impact of AI on decision, making among young people. Firstly, in education, AI allows students to learn at their own pace, get instant help with their studies, and receive course recommendations that will help improve their academic performance. Secondly, the use of AI in career planning through job portals and skill, matching platforms is helping young people identify professions that suit their interests and capabilities. Thirdly, in daily life, AI is transforming behaviours including shopping, entertainment, social media usage, and information consumption by providing targeted recommendations and using algorithms. The study not only points out the advantages that AI brings but also the disadvantages. On the other hand, there is a temptation of too much reliance on AI, lowering of critical thinking skills, algorithmic bias, and data privacy issues. This study employs a descriptive research design that includes data from surveys and secondary sources</jats:p>",
+        "DOI": "10.64448/myresearchgo.vol.2.issue.5.02",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              31
+            ]
+          ],
+          "date-time": "2026-05-31T17:31:41Z",
+          "timestamp": 1780248701000
+        },
+        "page": "10-18",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A STUDY ON ARTIFICAL INTELLIGENCE IN SHAPING YOUTH DECISION- MAKING IN EDUCATION, CAREER AND DAILY-LIFE"
+        ],
+        "prefix": "10.64448",
+        "author": [
+          {
+            "given": "DR SUNITA",
+            "family": "YADAV",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "SHLOK",
+            "family": "SANKHE",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "RAHUL",
+            "family": "GAVAS",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "KRISH",
+            "family": "CHANDAN",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "SWAPNIL",
+            "family": "GUDULKAR",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "53892",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref0",
+            "doi-asserted-by": "publisher",
+            "unstructured": "1. Li, R., Ouyang, S., & Lin, J. (2025).Mediating effect of AI attitudes and AI literacy on the relationship between career self-efficacy and job-seeking anxiety. Journal: BMC Psychology. Link: https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-02757-2 Key idea: AI literacy and attitudes influence how students make career decisions and handle job-seeking anxiety.",
+            "DOI": "10.1186/s40359-025-02757-2"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "publisher",
+            "unstructured": "2. Ya\u015far, H., & Karagucuk, V. (2025).The effect of artificial intelligence anxiety on career decidedness among university students. Journal: Discover Artificial Intelligence (Springer).Link: https://link.springer.com/article/10.1007/s44163-025-00284-y Key idea: AI anxiety and technological changes influence how students choose or delay career decisions.",
+            "DOI": "10.1007/s44163-025-00284-y"
+          },
+          {
+            "key": "ref2",
+            "doi-asserted-by": "publisher",
+            "unstructured": "3. Duan, N., Li, L., & Lin, G. (2026).The impact of AI anxiety on career decisions of college students.Journal: Scientific Reports (Nature).Link: https://doi.org/10.1038/s41598-026-37648-y Key idea: AI-related uncertainty can influence students' career adaptability and decision making patterns.",
+            "DOI": "10.1038/s41598-026-37648-y"
+          },
+          {
+            "key": "ref3",
+            "doi-asserted-by": "publisher",
+            "unstructured": "4. Xie, C., et al. (2022).Influence of Artificial Intelligence in Education on Adolescents' Social Adaptability. Journal:International Journal of Environmental Research and Public Health. Link: https://www.mdpi.com/1660-4601/19/13/7890 Key idea: AI-based education tools positively affect students' social adaptability and learning experience.",
+            "DOI": "10.3390/ijerph19137890"
+          },
+          {
+            "key": "ref4",
+            "unstructured": "5. Baizhanova, A. (2024).Youth perspectives on technology ethics: analysis of teens' ethical reflections on AI in learning activities.Journal: Behaviour & Information Technology Link: https://doi.org/10.1080/0144929X.2024.2350666 Key idea: Youth show growing awareness of ethical challenges and social impacts of AI in daily life."
+          }
+        ],
+        "container-title": [
+          "myresearchgo"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              7
+            ]
+          ],
+          "date-time": "2026-06-07T09:58:53Z",
+          "timestamp": 1780826333000
+        },
+        "score": 17.32751,
+        "resource": {
+          "primary": {
+            "URL": "https://www.myresearchgo.com/may-article-2-2026"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ]
+        },
+        "references-count": 5,
+        "URL": "https://doi.org/10.64448/myresearchgo.vol.2.issue.5.02",
+        "ISSN": [
+          "3107-3816"
+        ],
+        "issn-type": [
+          {
+            "value": "3107-3816",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T19:16:05Z",
+          "timestamp": 1783365365015,
+          "version": "3.54.6"
+        },
+        "reference-count": 30,
+        "publisher": "Institute for Scientific Research and Development",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ISJM"
+        ],
+        "abstract": "<jats:p>Contemporary climate change and the increasing frequency of extreme hydrological events represent one of the most significant challenges for the sustainable development of modern societies. Among natural disasters with the most pronounced economic and social consequences, floods stand out as one of the most destructive phenomena, capable of causing extensive damage to infrastructure, agricultural land, tourism facilities, and local communities. Due to their geographical and climatic characteristics, complex river basin systems, and economic structure, the countries of the Western Balkans belong to regions particularly exposed to this type of risk. Under such conditions, there is a growing need for the development of advanced systems for forecasting, monitoring, and managing flood-related risks. The rapid development of digital technologies, especially artificial intelligence, has created new opportunities for improving strategic risk management in various economic sectors. Intelligent platforms based on artificial intelligence enable the integration and analysis of large volumes of heterogeneous data, including meteorological, hydrological, satellite, and geospatial information. Such integration allows the development of more accurate models for predicting potential flood scenarios. Through the application of machine learning algorithms, big data analytics, and predictive modeling techniques, it becomes possible to identify high-risk areas in a timely manner, optimize early warning systems, and support more effective decision-making processes in water resource management. The application of intelligent artificial intelligence platforms is particularly important in tourism and agricultural regions, which are among the most vulnerable sectors to the consequences of flooding. In tourist destinations, these technologies contribute to improving safety standards, supporting infrastructure planning, and reducing economic losses caused by natural disasters. In agricultural regions, artificial intelligence supports the development of smart farming practices by enabling precise monitoring of soil conditions, water levels, and environmental parameters, thereby improving agricultural productivity and resilience. The aim of this paper is to analyze the role and significance of intelligent artificial intelligence platforms in the planned management of flood risks in tourism and agricultural regions of the Western Balkan countries. Particular attention is given to the institutional and legal framework governing the implementation of such technologies, as well as to their potential economic and social benefits. The findings suggest that the integration of artificial intelligence into flood risk management systems can significantly improve preventive mechanisms, enhance the resilience, and contribute to the sustainable development of the regional economy.</jats:p>",
+        "DOI": "10.33807/monte.20263491",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T18:34:00Z",
+          "timestamp": 1783362840000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "OPERATIONALIZATION OF ARTIFICAL INTELLIGENCE PLATFORMS FOR PKANNED FLOOD RISK MANAGEMENT IN TOURIST AND AGRICULTURAL AREAS OF THE COUNTRIES OF THE WESTERN BALKANS SUBREGION"
+        ],
+        "prefix": "10.33807",
+        "author": [
+          {
+            "given": "Slobodan",
+            "family": "Ne\u0161kovi\u0107",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "19041",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "ref0",
+            "unstructured": "Adaptation to Climate Change in Transboundary Flood Risk Management in the Western Balkans, Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit (GIZ), (2022), Available at: https://www.giz.de/en/projects/adaptation-climate-change-transboundary-flood-risk-management-western-balkans, access date 8.3.2026"
+          },
+          {
+            "key": "ref1",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Al Rawas G, Nikoo MR, Al Wardy M, Etri T, A Critical Review of Emerging Technologies for Flash Flood Prediction: Examining AI, ML, IoT, Cloud Computing, and Robotics, Water, (2024), Available at: https://www.mdpi.com/2073-4441/16/14/2069, Accessed Date 8.3.2026",
+            "DOI": "10.3390/w16142069"
+          },
+          {
+            "key": "ref2",
+            "unstructured": "CIMA Research Foundation, IPA Floods and Fires \u2013 EU Support to Flood Prevention and Forest Fires Risk Management in the Western Balkans and Turkey 2021-2023 (2022), Available at: https://www.cimafoundation.org/en/project/ipa-floods-and-fires/, access date 8.3.2026"
+          },
+          {
+            "key": "ref3",
+            "unstructured": "\u010celik P, (2022), Digital Transformation, Academic Thought, Belgrade, Serbia"
+          },
+          {
+            "key": "ref4",
+            "unstructured": "European Commission, Artificial Intelligence Act \u2013 Regulatory Framework Proposal (2023), Brussels"
+          },
+          {
+            "key": "ref5",
+            "unstructured": "European Environment Agency, (2016), The European Environment \u2014 State and Outlook 2015: Assessment of Global Megatrends, Copenhagen, DK, 2016"
+          },
+          {
+            "key": "ref6",
+            "unstructured": "Federal Hydrometeorological Service of Bosnia and Herzegovina, Integrating Climate Change into Flood Management in the Vrbas River Basin \u2013 Project Description and Activities, Sarajevo, BiH, 2025, Available at: https://www.fhmzbih.gov.ba/latinica/projekti/H-4.php, access date 8.3.2026"
+          },
+          {
+            "key": "ref7",
+            "unstructured": "Federal Hydrometeorological Service of Bosnia and Herzegovina, UNDP Integrating Climate Change into Flood Risk Reduction in the Vrbas River Basin, Sarajevo, (2025) Bosnia and Herzegovina, Available at: https://www.fhmzbih.gov.ba/latinica/projekti/H-4.php, access date 8.3.2026"
+          },
+          {
+            "key": "ref8",
+            "unstructured": "Food and Agriculture Organization of the United Nations, (2019), The State of Food and Agriculture, Moving forward on food loss and waste reduction, Rome, IT"
+          },
+          {
+            "key": "ref9",
+            "unstructured": "International Sava River Basin Commission, Sava River Basin Flood Risk Management Plan, (2019), Zagreb, HR, Available at: https://www.savacommission.org/dokumenti-i-publikacije/upravljanje-vodama-2054/plan-upravljanja-rizicima-od-poplava-2348/2348, Access date 8.3.2026"
+          },
+          {
+            "key": "ref10",
+            "unstructured": "IPA CARE Programme, About IPA CARE: Capacity for Risk Management of Earthquakes and Health Emergencies in T\u00fcrkiye and the Western Balkans, (2023), Available at: https://www.ipacare.eu/, accessed date 8.3.2026"
+          },
+          {
+            "key": "ref11",
+            "unstructured": "Lee H, Li W, (2025), Geospatial Artificial Intelligence for Satellite Based Flood Extent Mapping, arXiv"
+          },
+          {
+            "key": "ref12",
+            "unstructured": "Marr B, (2019), Big Data in Practice, Wiley, London, UK"
+          },
+          {
+            "key": "ref13",
+            "unstructured": "Ministry of Agriculture, Forestry and Water Management of Montenegro, Flood Risk Management Plans in the Danube and Adriatic Basin River Basin District, Podgorica, Montenegro, (2025), Available at: https://www.gov.me/clanak/planovi-upravljanja-rizicima-od-poplava-na-vodnom-podrucju-dunavskog-i-jadranskog-sliva, access date 8.3.2026."
+          },
+          {
+            "key": "ref14",
+            "unstructured": "Ne\u0161kovi\u0107, S., and. oth. (2020), Incorpiration of Information \u2013 Communication Technologies in Economic and Environmental Espionage, Fresenius Environmental Bulletin - FEB, Vol.  29, No. 5, Freising, Germany."
+          },
+          {
+            "key": "ref15",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ne\u0161kovi\u0107, S., (2024), Digitalization of higher education in the context of economic development of the region of Southeast Europe with reference to Montenegro and Bulgaria, International Scientific Journal \u201eMonte\u201c, Vol. 9, No. 1, Institute for Scientific Research and Development, Ulqin, Montenegro.",
+            "DOI": "10.33807/monte.20243113"
+          },
+          {
+            "key": "ref16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Ne\u0161kovi\u0107, S., (2025), Digitalization of the Tourism Economy and Spatial Planning in the Environmental of Climate Goals with the Approach of the Republic of Serbia, Montenegro and Croatia, Intetnational Scientific Journal \u201eMonte\u201c, Vol. 10, No. 1, CC BY-NC-ND 4.0,",
+            "DOI": "10.33807/monte.20253307"
+          },
+          {
+            "key": "ref17",
+            "unstructured": "Ne\u0161kovi\u0107, S., (2025), Application of Artificial Intelligence in the Economic Operations of Companies \u2013 Legal Regulations of the European Union and the Republic of Serbia, Proceedings, Tematski Zbornik radova, knjiga 1, Licenca CC BY 4.0, Nau\u010dna konferencija sa me\u0111unarodnim u\u010de\u0161\u0107em u Valjevu \u201ePoliti\u010dki i ekonomski aspekti porodi\u010dnog preduzetni\u0161tva u kontekstu Zelene agende za Zapadni Balkan sa primenom ve\u0161ta\u010dke inteligencije\u201c, Me\u0111unarodna Akademija Nauka, Umetnosti i Bezbednosti u saradnji sa Univerzitetom \u201eSveti Kiril i Metodij\u201c Veliko Trnovo Bugarska, Internacionalnim Univerzitetom Travnik u Travniku Bosna i Hercegovina, Centrom za strate\u0161ka istra\u017eivanja nacionalne bezbednosti \u2013 CESNA B Beograd i Fakultetom za evropske pravno-politi\u010dke studije u Beogradu, Beograd, Srbija."
+          },
+          {
+            "key": "ref18",
+            "unstructured": "Ne\u0161kovi\u0107, S., (2025), Functioning of Family Businesses in the Construct of the Green Agenda for the Western Balkans and the Implementation of Artifical Intelligence, Thematic Journal of Papers, \u201eGreen Agenda of the European Union, Family Business and Artifical Intelligence \u2013 Political and Social Aspects\u201c, Book 1, Licenca CC BY 4.0, Faculty of European Legal and Political Studies in Belgrade, St. Cyril and St. Methodius, Veliko Tarnovo, Bulgaria, International Academy of Sciences, Arts and Security \u2013 IASAS, MANUB and International University of Travnik in Travnik, Bosnia and Herzegovina."
+          },
+          {
+            "key": "ref19",
+            "unstructured": "Ne\u0161kovi\u0107, S., (2026), The Doctrine of Digitalization of Education with the Incorporation of Information and Communication Technologies in the Green and Circular Economy Instruments of the Western Balkan Countries, Proceedings, Tematski Zbornik radova, knjiga 5, Licenca CC BY 4.0, pp. 29-43, Nau\u010dna konferencija sa me\u0111unarodnim u\u010de\u0161\u0107em u Kragujevcu \u201ePolitika ekonomske stabilnosti, digitalizacija obrazovanja i cirkularna ekonomija u dr\u017eavama Zapadnog Balkana\u201c, Me\u0111unarodna Akademija Nauka, Umetnosti i Bezbednosti \u2013 MANUB, Univerzitet \u201eSveti Kiril i Metodij\u201c Veliko Trnovo, Bugarska, Centar za strate\u0161ka istra\u017eivanja nacionalne bezbednosti \u2013 CESNA B Beograd i Internacionalni Univerzitet Travnik u Travniku, Bosna i Hercegovina."
+          },
+          {
+            "key": "ref20",
+            "unstructured": "Republic Hydrometeorological Service of Serbia, Hydrometeorological Monitoring \u2013 Seasonal Forecast and Extreme Weather Warnings, Belgrade, Serbia, (2025), Available at: https://hidmet.gov.rs/latin/prognoza/naslovna_prognoza.php, Access date 8.3.2026"
+          },
+          {
+            "key": "ref21",
+            "unstructured": "Meteorological and Hydrological Service of the Republic of Serbia, Monitoring and Early Warning System, Belgrade, Serbia, (2025), Available at: https://hidmet.gov.rs/latin/orhmz/novosti.php, Access date 8.3.2026"
+          },
+          {
+            "key": "ref22",
+            "unstructured": "Scott D, Hall M, G\u00f6ssling S, (2920), Tourism and Climate Change: Impacts, Adaptation and Mitigation, Routledge, London, UK"
+          },
+          {
+            "key": "ref23",
+            "unstructured": "Smith K, (2020), Environmental Hazards: Assessing Risk and Reducing Disaster, Routledge, London, UK"
+          },
+          {
+            "key": "ref24",
+            "unstructured": "UN Office for Disaster Risk Reduction (UNDRR), (2020), Global Assessment Report on Disaster Risk Reduction, Geneva, CH"
+          },
+          {
+            "key": "ref25",
+            "unstructured": "UN World Tourism Organization, (2019), Tourism and Disaster Risk Reduction Report, Madrid, ES"
+          },
+          {
+            "key": "ref26",
+            "unstructured": "United Nations Development Programme, How the Western Balkans is tackling flood risk \u2013 UNDP Climate Promise overview, New York, NY, (2025), Available at: https://climatepromise.undp.org/news-and-stories/how-western-balkans-tackling-flood-risk, access date 8.3.2026"
+          },
+          {
+            "key": "ref27",
+            "unstructured": "United Nations Development Programme, Increasing Climate-Resilient Flood Risk Management in Bosnia and Herzegovina (Project Description), Sarajevo, BiH, (2025), Available at: https://www.undp.org/bs/bosnia-herzegovina/news/klimatski-otporno-upravljanje-rizikom-od-poplava, Access date 8.3.2026"
+          },
+          {
+            "key": "ref28",
+            "unstructured": "World Meteorological Organization & Global Water Partnership, (2018), Multi-hazard Early Warning Systems: A Checklist, Geneva, CH"
+          },
+          {
+            "key": "ref29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zheng B, Chu VW, (2025), Multi-hazard Early Warning Systems for Agriculture with Featural-Temporal Explanations, arxiv",
+            "DOI": "10.2139/ssrn.6240678"
+          }
+        ],
+        "container-title": [
+          "International Scientific Journal Monte"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T18:34:52Z",
+          "timestamp": 1783362892000
+        },
+        "score": 17.13572,
+        "resource": {
+          "primary": {
+            "URL": "https://journalmonte.com/archives/3491"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ]
+        },
+        "references-count": 30,
+        "URL": "https://doi.org/10.33807/monte.20263491",
+        "ISSN": [
+          "2661-264X",
+          "2661-2666"
+        ],
+        "issn-type": [
+          {
+            "value": "2661-264X",
+            "type": "print"
+          },
+          {
+            "value": "2661-2666",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              16
+            ]
+          ],
+          "date-time": "2026-03-16T11:18:02Z",
+          "timestamp": 1773659882925,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "PT. Academic Bright Collaboration",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  2,
+                  14
+                ]
+              ],
+              "date-time": "2026-02-14T00:00:00Z",
+              "timestamp": 1771027200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "VOICE"
+        ],
+        "abstract": "<jats:p>Kurangnya pemahaman mendalam mengenai literasi kecerdasan buatan (AI) di kalangan mahasiswa pendidikan tinggi menjadi tantangan tersendiri dalam mempersiapkan generasi yang adaptif terhadap perkembangan teknologi. Penelitian ini bertujuan untuk menganalisis tingkat literasi AI mahasiswa Jurusan Teknik Informatika dan Komputer (JTIK) Universitas Negeri Makassar (UNM), mencakup aspek pemahaman konsep dasar, kemampuan penggunaan aplikasi, serta kesadaran terhadap isu etika. Pendekatan kuantitatif dengan desain cross-sectional digunakan dalam penelitian ini, dengan instrumen kuesioner dan analisis deskriptif sebagai metode utama. Temuan menunjukkan bahwa mayoritas mahasiswa telah memiliki kemampuan fungsional dalam mengenali dan memanfaatkan aplikasi berbasis AI dalam kehidupan sehari-hari. AI juga dipahami sebagai alat yang mampu meningkatkan efisiensi pekerjaan, meskipun dimensi kesadaran etis belum sepenuhnya terinternalisasi. Indikasi awal terhadap kewaspadaan etika telah terlihat, namun memerlukan penguatan melalui pendekatan kurikulum yang lebih komprehensif. Penelitian ini merekomendasikan integrasi literasi AI yang seimbang antara aspek teknis dan etis dalam pendidikan tinggi sebagai respons terhadap tuntutan era digital.</jats:p>",
+        "DOI": "10.61220/voice.v2i1.31",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2024-06-19T22:59:04Z",
+          "timestamp": 1718837944000
+        },
+        "page": "72-81",
+        "source": "Crossref",
+        "is-referenced-by-count": 2,
+        "title": [
+          "Analisis Literasi Artifical Intelligence Mahasiswa Pada Perguruan Tinggi"
+        ],
+        "prefix": "10.66053",
+        "author": [
+          {
+            "family": "Israwati Hamsar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Hajar Dewantara",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Hijri Andini",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Sulfan Ardiansyah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Nur Afrilia Afrizah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Muh Getri Putra Hasta",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "55616",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              14
+            ]
+          ]
+        },
+        "container-title": [
+          "Journal of Vocational, Informatics and Computer Education"
+        ],
+        "link": [
+          {
+            "URL": "https://ejournal.abcollab.id/index.php/VOICE/article/download/139/127",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ejournal.abcollab.id/index.php/VOICE/article/download/139/127",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              16
+            ]
+          ],
+          "date-time": "2026-03-16T10:29:19Z",
+          "timestamp": 1773656959000
+        },
+        "score": 16.76157,
+        "resource": {
+          "primary": {
+            "URL": "https://ejournal.abcollab.id/index.php/VOICE/article/view/139"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              14
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.61220/voice.v2i1.31",
+        "ISSN": [
+          "2988-6325",
+          "2988-4918"
+        ],
+        "issn-type": [
+          {
+            "value": "2988-6325",
+            "type": "electronic"
+          },
+          {
+            "value": "2988-4918",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              14
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T15:45:14Z",
+          "timestamp": 1782920714918,
+          "version": "3.54.5"
+        },
+        "reference-count": 0,
+        "publisher": "Sekolah Tinggi Agama Islam Pangeran Dharma Kusuma Segeran Indramayu",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2026-07-01T00:00:00Z",
+              "timestamp": 1782864000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "JPE"
+        ],
+        "abstract": "<jats:p>This study aims to describe the overview of digital ethics and academic behavior of STAI KHARISMA students in the era of artificial intelligence. The research employed a descriptive quantitative approach with a survey method. The sample consisted of 50 students selected through purposive sampling. The instrument used was a questionnaire with 16 statement items using a Likert scale of 1-5. Data analysis was conducted descriptively by calculating frequencies, percentages, and mean scores. The results showed that the level of students' digital ethics was high with a mean score of 33.6 out of 40. The digital communication ethics indicator obtained the highest percentage (92%), while the digital honesty indicator obtained the lowest percentage (72%). The level of students' academic behavior was also high with a mean score of 32.2 out of 40. The academic discipline indicator obtained the highest percentage (86%), while the academic integrity indicator obtained the lowest percentage (70%). This study concludes that STAI KHARISMA students already have good digital ethics and academic behavior, but there is still a need for improvement in the aspects of digital honesty and academic integrity.</jats:p>",
+        "DOI": "10.55656/jpe.v6i2.672",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T14:54:57Z",
+          "timestamp": 1782917697000
+        },
+        "page": "174-191",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Gambaran Etika Digital terhadap Perilaku Akademik Mahasiswa di Era Kecerdasan Buatan/Artifical  Intelligence (AI) (Studi Kasus STAI KHARISMA)"
+        ],
+        "prefix": "10.55656",
+        "volume": "6",
+        "author": [
+          {
+            "given": "Kun",
+            "family": "Nurachadijat",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Yulia",
+            "family": "SanicaPopy",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Sita",
+            "family": "Nurhomsah",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rizki",
+            "family": "Utari",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "34583",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Jurnal Pendidikan Educandum"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.staisdharma.ac.id/index.php/jpe/article/download/672/512",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.staisdharma.ac.id/index.php/jpe/article/download/672/512",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T14:54:58Z",
+          "timestamp": 1782917698000
+        },
+        "score": 16.708096,
+        "resource": {
+          "primary": {
+            "URL": "https://ojs.staisdharma.ac.id/index.php/jpe/article/view/672"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.55656/jpe.v6i2.672",
+        "ISSN": [
+          "3032-5684",
+          "2528-3499"
+        ],
+        "issn-type": [
+          {
+            "value": "3032-5684",
+            "type": "electronic"
+          },
+          {
+            "value": "2528-3499",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T16:14:52Z",
+          "timestamp": 1783354492548,
+          "version": "3.54.6"
+        },
+        "reference-count": 0,
+        "publisher": "Yayasan Zia Salsabila",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  30
+                ]
+              ],
+              "date-time": "2026-06-30T00:00:00Z",
+              "timestamp": 1782777600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ABDI CENDEKIA"
+        ],
+        "abstract": "<jats:p>Penelitian ini bertujuan untuk menganalisis pengaruh penggunaan Artificial Intelligence (AI) terhadap kemandirian belajar peserta didik pada mata pelajaran Pendidikan Agama Islam (PAI). Transformasi digital dalam pendidikan telah mendorong integrasi teknologi AI, yang menawarkan potensi besar sekaligus menghadirkan tantangan tersendiri, terutama dalam konteks penguatan kemandirian belajar. Penelitian ini menggunakan pendekatan kuantitatif dengan metode survei eksplanatori. Sampel penelitian terdiri dari peserta didik jenjang sekolah menengah yang mengikuti pembelajaran PAI berbasis platform digital dengan dukungan AI. Data dikumpulkan melalui kuesioner terstruktur yang mengukur tingkat kemandirian belajar dan persepsi terhadap penggunaan AI. Analisis data dilakukan menggunakan teknik regresi untuk menguji pengaruh antar variabel. Hasil penelitian menunjukkan bahwa pemanfaatan AI dalam pembelajaran PAI memiliki pengaruh yang signifikan terhadap peningkatan kemandirian belajar peserta didik. Temuan ini sejalan dengan penelitian lain yang mengungkapkan bahwa AI, melalui fitur seperti chatbot islami dan sistem adaptif, mampu memberikan umpan balik personal dan memperluas akses materi, sehingga mendorong siswa untuk lebih proaktif, bertanggung jawab, dan percaya diri dalam proses belajarnya. Namun demikian, penelitian juga mengidentifikasi potensi risiko ketergantungan pada jawaban instan yang dapat melemahkan kemampuan analisis kritis jika penggunaan AI tidak diawasi dengan tepat. Penelitian ini menyimpulkan bahwa AI efektif dalam menumbuhkan kemandirian belajar PAI, dengan syarat pendidik memainkan peran kunci sebagai fasilitator dan pengawas untuk memastikan penggunaan teknologi tetap sejalan dengan tujuan pendidikan karakter dan nilai-nilai keislaman. Temuan ini diharapkan dapat memberikan kontribusi bagi pengembangan model pembelajaran PAI yang inovatif dan adaptif di era digital.</jats:p>",
+        "DOI": "10.61253/abdicendekia.v5i2.917",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T15:22:46Z",
+          "timestamp": 1783351366000
+        },
+        "page": "2278-2287",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Pengaruh Penggunaan Artifical Intelligence (AI) Terhadap Kemandirian Belajar Peserta Didik pada Mata Pelajaran Pendidikan Agama Islam"
+        ],
+        "prefix": "10.61253",
+        "volume": "5",
+        "author": [
+          {
+            "given": "Muhammad Aufa",
+            "family": "Muis",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fahrureza",
+            "family": "Fahrureza",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tuti",
+            "family": "Nuriyati",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "40070",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Abdi Cendekia : Jurnal Pengabdian Masyarakat"
+        ],
+        "link": [
+          {
+            "URL": "https://zia-research.com/index.php/abdicendekia/article/download/917/681",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://zia-research.com/index.php/abdicendekia/article/download/917/681",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2026-07-06T15:22:46Z",
+          "timestamp": 1783351366000
+        },
+        "score": 16.510876,
+        "resource": {
+          "primary": {
+            "URL": "https://zia-research.com/index.php/abdicendekia/article/view/917"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                25
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.61253/abdicendekia.v5i2.917",
+        "ISSN": [
+          "2962-7923",
+          "2963-8968"
+        ],
+        "issn-type": [
+          {
+            "value": "2962-7923",
+            "type": "electronic"
+          },
+          {
+            "value": "2963-8968",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              8
+            ]
+          ],
+          "date-time": "2026-07-08T06:15:49Z",
+          "timestamp": 1783491349329,
+          "version": "3.55.0"
+        },
+        "reference-count": 0,
+        "publisher": "Arden Jaya Publisher",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  30
+                ]
+              ],
+              "date-time": "2026-06-30T00:00:00Z",
+              "timestamp": 1782777600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "AJPP"
+        ],
+        "abstract": "<jats:p>Perkembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) telah menyebabkan perubahan besar dalam cara masyarakat mencari hukum Islam, terutama di kalangan generasi muda yang mencakup lebih dari 60 persen populasi Indonesia, Fenomena ini dikenal sebagai agama algoritmik. Perubahan ini menghasilkan fenomena fatwa instan yang didasarkan pada chatbot AI, yang sering muncul tanpa adanya proses verifikasi keilmuan yang memadai, sehingga keabsahan terhadap metodologinya patut dipersoalkan. Penelitian ini bertujuan untuk meneliti sejauh mana platform AI generatif dapat memenuhi kualifikasi metodologis seorang mujtahid dalam proses ijtihad hukum Islam, serta merumuskan posisi ideal AI dalam tatanan hukum Islam saat ini. Penelitian ini menerapkan metode studi pustaka (library research) dengan pendekatan deskriptif kualitatif yang berfokus pada normatif-filosofis, di mana data primer terdiri dari kitab-kitab usul fikih yang diakui serta data sekunder berupa artikel ilmiah yang dianalisis menggunakan teknik analisis isi (content analysis). Penelitian mengungkapkan bahwa AI generatif secara mendasar tidak memenuhi kriteria mujtahid karena tidak memiliki kesadaran spiritual (syu'ur), niat (niyyah), dan tanggung jawab moral (taklif), serta tidak dapat menjalankan proses tarjih atau memahami kemaslahatan dan konteks sosial ('urf) secara mendalam. Ketergantungan pada AI berpotensi menghasilkan halusinasi dan memproduksi output yang tidak terjamin kredibilitasnya, seperti hadis atau dalil palsu, bias dalam representasi mazhab, serta kurangnya akuntabilitas saat terjadinya kesalahan hukum. Temuan ini menunjukkan pentingnya AI ditempatkan secara seimbang sebagai alat untuk riset dan edukasi, bukan sebagai penentu mutlak, dengan kerja sama antara lembaga fatwa dan ahli teknologi informasi untuk mengembangkan regulasi serta penyaringan data keagamaan yang terpercaya dan sesuai dengan prinsip maqasid al-syariah.</jats:p>",
+        "DOI": "10.57250/ajpp.v5i2.3033",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              8
+            ]
+          ],
+          "date-time": "2026-07-08T05:36:26Z",
+          "timestamp": 1783488986000
+        },
+        "page": "2076-2085",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Fenomena Fatwa Instan pada Platform AI sebagai Tantangan Metodologi Ijtihad di Tengah Perkembangan Artifical Intelligence"
+        ],
+        "prefix": "10.57250",
+        "volume": "5",
+        "author": [
+          {
+            "family": "Najwa Isaura Sabila",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Fathima Zahra",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "M. Sahril",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Alfath Oktaraya Adoe",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Abdul Fadhil",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "36910",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Arus Jurnal Psikologi dan Pendidikan"
+        ],
+        "link": [
+          {
+            "URL": "https://jurnal.ardenjaya.com/index.php/ajpp/article/download/3033/1970",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://jurnal.ardenjaya.com/index.php/ajpp/article/download/3033/1970",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              8
+            ]
+          ],
+          "date-time": "2026-07-08T05:36:27Z",
+          "timestamp": 1783488987000
+        },
+        "score": 16.435244,
+        "resource": {
+          "primary": {
+            "URL": "https://jurnal.ardenjaya.com/index.php/ajpp/article/view/3033"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                18
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.57250/ajpp.v5i2.3033",
+        "ISSN": [
+          "2963-8933"
+        ],
+        "issn-type": [
+          {
+            "value": "2963-8933",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2026-05-11T14:32:13Z",
+          "timestamp": 1778509933479,
+          "version": "3.51.4"
+        },
+        "reference-count": 15,
+        "publisher": "Institute of Advanced Knowledge and Science",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  2
+                ]
+              ],
+              "date-time": "2026-05-02T00:00:00Z",
+              "timestamp": 1777680000000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ijmst"
+        ],
+        "abstract": "<jats:p>This study aims to analyze the influence of stem cells on the accuracy of Artificial Intelligence-based cellular differentiation predictions in the field of biotechnology. The method used is a literature study with a qualitative-descriptive approach through the collection and analysis of various relevant scientific literature. The results of the study indicate that stem cells have a crucial role in the cellular differentiation process through complex biological mechanisms, thus producing high-value data for analysis. On the other hand, Artificial Intelligence can improve prediction accuracy by utilizing machine learning algorithms to process large and complex biological data. The integration between stem cells and Artificial Intelligence has made a significant contribution to the development of modern biotechnology, particularly in regenerative therapy and tissue engineering. However, there are still challenges in terms of data quality, the complexity of biological systems, and regulatory aspects that need to be considered. Thus, this study confirms that the collaboration between biological approaches and digital technology has great potential in improving the effectiveness and efficiency of cellular differentiation predictions in the future.</jats:p>",
+        "DOI": "10.69693/ijmst.v4i2.8440",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2026-05-11T13:31:46Z",
+          "timestamp": 1778506306000
+        },
+        "page": "180-186",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Pengaruh Stem Cell terhadap Akurasi Prediksi Diferensiasi Seluler Berbasis Artifical Intelligence dalam Bioteknologi"
+        ],
+        "prefix": "10.69693",
+        "volume": "4",
+        "author": [
+          {
+            "given": "Aghisna",
+            "family": "Pertiwi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Putri Silvia",
+            "family": "Ariyanti",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dwi",
+            "family": "Haryani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Shintia Ratu",
+            "family": "Ismail",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Indriyana",
+            "family": "Puspawati",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "50235",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "184942",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Aisyah, R., & Jatmiko, S. W. (2019). Jalur Sinyal Tgf-\u0392 Berperan Dalam Self Renewal , Diferensiasi , Dan Proliferasi stem Cell. Jurnal Saintika Medika, 15(1), 50\u201359. https://doi.org/http://ejournal.umm.ac.id/index.php/sainmed",
+            "DOI": "10.22219/sm.Vol15.SMUMM1.8002"
+          },
+          {
+            "key": "184943",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chaterji, S., Ahn, E. H., & Kim, D. (2017). CRISPR Genome Engineering for Human Pluripotent Stem Cell Research. Journal Theranostics, 7(18), 4445\u20134469. https://doi.org/10.7150/thno.18456",
+            "DOI": "10.7150/thno.18456"
+          },
+          {
+            "key": "184944",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Choudhery, M. S., Arif, T., & Mahmood, R. (2025). Applications of artificial intelligence in stem cell therapy. World Journal of Stem Cells, 17(8), 1\u201315. https://doi.org/10.4252/wjsc.v17.i8.106086",
+            "DOI": "10.4252/wjsc.v17.i8.106086"
+          },
+          {
+            "key": "184945",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Han, H. (2025). Challenges of reproducible AI in biomedical data science. Han BMC Medical Genomics, 18(8), 2\u20136. https://doi.org/10.1186/s12920-024-02072-6",
+            "DOI": "10.1186/s12920-024-02072-6"
+          },
+          {
+            "key": "184946",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Issa, J., Chaar, M. A., Kempisty, B., Gasiorowski, L., Olszewski, R., Mozdziak, P., & Konwinska, M. D. (2022). Artificial-Intelligence-Based Imaging Analysis of Stem Cells : A Systematic Scoping Review. Jurnal Biology MDPI, 11(1412), 2\u201315. https://doi.org/https://doi.org/10.3390/biology11101412",
+            "DOI": "10.3390/biology11101412"
+          },
+          {
+            "key": "184947",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Jordan, C. T. (2008). The Leukemic stem cell. Journal of Clinical Oncology, 20(1), 13\u201318. https://doi.org/https://doi.org/10.1200/JCO.2010.31.0904",
+            "DOI": "10.1016/j.beha.2006.10.005"
+          },
+          {
+            "key": "184948",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Marei, H. E. (2025). Smarter stem cells : how AI is supercharging iPSC technology. Cell and Tissue Research, 402(3), 283\u2013301. https://doi.org/10.1007/s00441-025-03999-7",
+            "DOI": "10.1007/s00441-025-03999-7"
+          },
+          {
+            "key": "184949",
+            "unstructured": "Noviantari, A. (2020). Pemanfaatan Teknologi Biologi Sel Dalam Dunia Kedokteran Modern. PROSIDER SEMINAR SAINS NASIONAL, 1(1), 121\u2013127. https://doi.org/http://proceeding.unindra.ac.id/index.php/sinasis/index"
+          },
+          {
+            "key": "184950",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Nur, N. F., Mufliha, N., & Rachmawati. (2026). Perkembangan Teknologi CRISPR dari Cas9 Konvensional Menuju Sistem Editing Presisi Tinggi dalam Aplikasi Bioteknologi Kesehatan. Journal of Artificial Intelligence and Digital Business (RIGGS), 5(1), 12475\u201312486. https://doi.org/https://journal.ilmudata.co.id/ index.php/RIGGS",
+            "DOI": "10.31004/riggs.v5i1.7740"
+          },
+          {
+            "key": "184951",
+            "unstructured": "Pertiwi, W., Judijanto, L., Apriansi, M., Suparningtyas, J. F., Lada, Y. G., Mahyuni, S., & Nuroniah, H. S. (2025). Bioteknologi: Teori dan penerapan dalam berbagai bidang. PT Sonpedia Publishing Indonesia."
+          },
+          {
+            "key": "184952",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Snyder, H. (2019). Literature review as a research methodology : An overview and guidelines. Journal of Business Research, 01(48), 333\u2013339. https://doi.org/10.1016/j.jbusres.2019.07.039",
+            "DOI": "10.1016/j.jbusres.2019.07.039"
+          },
+          {
+            "key": "184953",
+            "unstructured": "Trianah, N., Saptiawati., Liswati, C., & Pratiwi, R. H. (2025). Tinjauan Ilmiah terhadap Sel Punca Dewasa : Peran Terapeutik , Keamanan ,dan Aplikasinya dalam Penyakit Degeneratif. Jurnal Cakrawala Pendidikan Dan Biologi, 2(3), 72\u201394. https://doi.org/https://doi.org/10.61132/jucapenbi.v2i3.565"
+          },
+          {
+            "key": "184954",
+            "unstructured": "Wibowo, A. (2025). Regulasi Aplikasi (Artificial Intelligence) (J. T. Santoso (ed.)). Universitas STEKOM."
+          },
+          {
+            "key": "184955",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Widjaya, M. A., Lee, S.-D., & Ho, Y. (2021). Impactful factors and research design in CRISPR-edited stem cell research from top 10 highly cited articles. Stem Cell Research & Therapy, 12(411), 2\u20139. https://doi.org/https://doi.org/10.1186/s13287-021-02471-x",
+            "DOI": "10.1186/s13287-021-02471-x"
+          },
+          {
+            "key": "184956",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Zhu, Y., Huang, R., Wu, Z., Song, S., Cheng, L., & Zhu, R. (2021). Deep learning-based predictive identification of neural stem cell differentiation. Nature Communications, 12(2614), 1\u201313. https://doi.org/10.1038/s41467-021-22758-0",
+            "DOI": "10.1038/s41467-021-22758-0"
+          }
+        ],
+        "container-title": [
+          "Indonesian Journal of Multidisciplinary on Social and Technology"
+        ],
+        "link": [
+          {
+            "URL": "https://journal.ilmudata.co.id/index.php/ijmst/article/download/8440/6165",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journal.ilmudata.co.id/index.php/ijmst/article/download/8440/6165",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              11
+            ]
+          ],
+          "date-time": "2026-05-11T13:38:23Z",
+          "timestamp": 1778506703000
+        },
+        "score": 16.33779,
+        "resource": {
+          "primary": {
+            "URL": "https://journal.ilmudata.co.id/index.php/ijmst/article/view/8440"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ]
+        },
+        "references-count": 15,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                16
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.69693/ijmst.v4i2.8440",
+        "ISSN": [
+          "2986-6782",
+          "2986-6790"
+        ],
+        "issn-type": [
+          {
+            "value": "2986-6782",
+            "type": "electronic"
+          },
+          {
+            "value": "2986-6790",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2026-05-30T07:03:27Z",
+          "timestamp": 1780124607463,
+          "version": "3.54.0"
+        },
+        "reference-count": 0,
+        "publisher": "Universitas Pamulang",
+        "issue": "2",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "j. Abdimas Tri Dharma manaj."
+        ],
+        "abstract": "<jats:p>Perkembangan teknologi telah menciptakan perubahan besar dalam skala global, terutama setelah hadir nya Artificial Intelligence dalam mengerjakan suatu hal yang biasanya di lakukan oleh Generasi saat ini yang tumbuh bersama teknologi dan media sosial. Tentu hadir nya Artificial Intelligence ini mendapatkan dampak positif dan negatif secara bersamaan dari masyarakat. pengabdian kepada masyarakat ini bertujuan untuk meningkatkan literasi serta pemahaman digital siswa MA Daarul Hikmah dengan memberikan pelatihan dan pendampingan terkait penting nya mengetahui teknologi dan membuat teknologi tersebut tepat dan menyenangkan. Kegiatan ini melibatkan beberapa tahap, seperti pemberian materi, diskusi interaktif, dan simulasi praktik menggunakan.\r\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Tujuan utama kegiatan adalah membekali siswa dengan pemahaman mendalam tentang menggunakan Artificial Intelligence sebagai alat bantu dalam kehidupan di zaman saat ini. Selain itu, siswa juga dilatih untuk mengembangkan pengetahuan nya tentang dampak positif dan negatif dari adanya teknologi Artificial Intelligence ini yang diharapkan dapat membantu para siswa mengetahui dampak jangka panjang dari adanya Artificial Intelligence dalam kehidupan secara global.\r\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Hasil dari program menunjukkan adanya ada peningkatan yang cukup signifikan dalam praktek yang di jalankan oleh siswa terhadap teknologi Artificial Intelligence. Namun siswa lebih memahami bagaimana cara kerja Artificial Intelligence yaitu membantu memudahkan permasalahan bahkan secara global, namun karena hebat nya Artificial Intelligence, banyak siswa yang lebih mempercayakan Artificial Intelligence daripada pengetahuan diri nya sendiri. Tetapi disamping itu program ini juga berhasil membuka wawasan siswa tentang peluang wirausaha ataupun peluang lain yang di berikan oleh Artificial Intelligence, sehingga mereka lebih bisa dengan mudah memanfaatkan teknologi yang tersedia untuk membantu mereka dalam menjalani kehidupan dan beragama. Dengan demikian, pelatihan ini diharapkan dapat memberikan kontribusi nyata bagi kesiapan siswa dalam menghadapi perkembangan zaman yang terus berkembang</jats:p>",
+        "DOI": "10.32493/abmas.v7i2.p124-133.y2026",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2026-05-30T06:48:41Z",
+          "timestamp": 1780123721000
+        },
+        "page": "124-133",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Pelatihan Dan Penyuluhan Pembelajaran Yang Tepat Dan Menyenangkan Melalui Artifical Intelligence ( AI)"
+        ],
+        "prefix": "10.32493",
+        "volume": "7",
+        "author": [
+          {
+            "family": "Senen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Muhammad Rhama Dhani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Arya Daiva Sugiharto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Dwi Cahyo Sajati",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "17652",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "container-title": [
+          "Jurnal Abdimas Tri Dharma Manajemen"
+        ],
+        "link": [
+          {
+            "URL": "https://openjournal.unpam.ac.id/index.php/ABMAS/article/download/59525/28372",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://openjournal.unpam.ac.id/index.php/ABMAS/article/download/59525/28372",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2026-05-30T06:48:41Z",
+          "timestamp": 1780123721000
+        },
+        "score": 16.219976,
+        "resource": {
+          "primary": {
+            "URL": "https://openjournal.unpam.ac.id/index.php/ABMAS/article/view/59525"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                15
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.32493/abmas.v7i2.p124-133.y2026",
+        "ISSN": [
+          "2716-070X",
+          "2715-7105"
+        ],
+        "issn-type": [
+          {
+            "value": "2716-070X",
+            "type": "electronic"
+          },
+          {
+            "value": "2715-7105",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T16:23:26Z",
+          "timestamp": 1777652606750,
+          "version": "3.51.4"
+        },
+        "reference-count": 0,
+        "publisher": "Edtech Publishers (OPC) Private Limited",
+        "issue": "04",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "IJCOPE"
+        ],
+        "abstract": "<jats:p>Artificial Intelligence (AI) has rapidly emerged as one of the most transformative technologies in the field of higher education. In recent years, AI-powered tools such as ChatGPT, Grammarly, and other intelligent systems have become an integral part of students\u2019 academic routines. These tools are widely used for a variety of purposes, including generating ideas, improving writing quality, completing assignments, and understanding complex concepts. While the adoption of AI tools among university students has increased significantly, there is still a lack of clarity regarding the underlying motivations behind their usage.\nThis research paper focuses on exploring the specific motivations that drive university students, particularly postgraduate management (MBA) students, to use AI tools in their academic activities. Unlike many existing studies that primarily examine the outcomes or impacts of AI usage, this study emphasizes understanding the reasons behind students\u2019 reliance on these technologies. The research aims to identify whether students are using AI as a learning aid, a productivity tool, or simply as a shortcut to complete academic tasks with minimal effort.\nThe study adopts a descriptive research design and is based on primary data collected through a structured questionnaire. The respondents include MBA students who actively use AI tools for academic purposes. The data collected is analyzed using simple statistical techniques such as percentage analysis and frequency distribution to identify patterns in student behavior and motivations.\nThe findings of the study reveal that the primary motivations for using AI tools include time-saving, ease of access, reduction in academic stress, and improvement in assignment quality. Many students reported that AI helps them overcome challenges such as writer\u2019s block, lack of clarity in concepts, and tight academic deadlines. At the same time, the study also highlights certain concerns, such as over-dependence on AI tools, reduced critical thinking ability, and confusion regarding academic ethics.</jats:p>",
+        "DOI": "10.55041/ijcope.v2i4.893",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T06:54:17Z",
+          "timestamp": 1777445657000
+        },
+        "page": "1-26",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Role of Artifical Intelligence Tools in Enhancing Learing Outcomes Among University Students"
+        ],
+        "prefix": "10.55041",
+        "volume": "02",
+        "author": [
+          {
+            "given": "DR. MONA SHARMA",
+            "family": "DR. MONA SHARMA",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "MASTER OF BUSINESS ADMINISTRATION (MBA) SCHOOL OF BUSINESS MANAGEMENT"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "MOHIT MEHRA",
+            "family": "MOHIT MEHRA",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "MASTER OF BUSINESS ADMINISTRATION (MBA) SCHOOL OF BUSINESS MANAGEMENT"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "33635",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ]
+        },
+        "container-title": [
+          "International Journal of Creative and Open Research in Engineering and Management"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2026-04-29T06:54:17Z",
+          "timestamp": 1777445657000
+        },
+        "score": 16.172642,
+        "resource": {
+          "primary": {
+            "URL": "https://ijcope.org/article/role-of-artifical-intelligence-tools-in-enhancing-learing-outcomes-among-university-students/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "04",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                29
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.55041/ijcope.v2i4.893",
+        "ISSN": [
+          "3108-1754"
+        ],
+        "issn-type": [
+          {
+            "value": "3108-1754",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              29
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T09:10:27Z",
+          "timestamp": 1783933827387,
+          "version": "3.55.0"
+        },
+        "reference-count": 0,
+        "publisher": "Universitas 45 Surabaya",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  13
+                ]
+              ],
+              "date-time": "2026-07-13T00:00:00Z",
+              "timestamp": 1783900800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Trending"
+        ],
+        "abstract": "<jats:p>Sustainable development has become a global priority in addressing environmental challenges while maintaining economic growth and social welfare. In the digital era, Artificial Intelligence (AI) and the Internet of Things (IoT) have emerged as key technologies that support the implementation of a green economy through efficient and data-driven resource management. This study aims to analyze the role of AI and IoT in supporting sustainable development, examine their contribution to improving resource efficiency, and identify the challenges associated with their implementation. The study employs a conceptual research method with a qualitative approach based on a literature review of recent scientific journals, books, and other relevant academic publications. The findings indicate that AI enhances decision-making, optimizes resource utilization, and reduces operational waste, while IoT enables real-time monitoring and automated management across various sectors. The integration of AI and IoT creates intelligent systems that improve energy efficiency, support environmental management, and strengthen green economy practices. However, challenges such as digital infrastructure gaps, limited human resources, high implementation costs, and data security concerns remain. Therefore, collaboration among governments, industries, and educational institutions is essential to maximize the contribution of AI and IoT to sustainable development.</jats:p>",
+        "DOI": "10.30640/trending.v4i3.7273",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T08:58:06Z",
+          "timestamp": 1783933086000
+        },
+        "page": "597-609",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy"
+        ],
+        "prefix": "10.30640",
+        "volume": "4",
+        "author": [
+          {
+            "family": "Adira Devina Mahmudi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Alvina Safitri",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Mila Hariani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "12087",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ]
+        },
+        "container-title": [
+          "Trending: Jurnal Manajemen dan Ekonomi"
+        ],
+        "link": [
+          {
+            "URL": "https://jurnaluniv45sby.ac.id/index.php/Trending/article/download/7273/5539",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://jurnaluniv45sby.ac.id/index.php/Trending/article/download/7273/5539",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ],
+          "date-time": "2026-07-13T08:58:07Z",
+          "timestamp": 1783933087000
+        },
+        "score": 15.868946,
+        "resource": {
+          "primary": {
+            "URL": "https://jurnaluniv45sby.ac.id/index.php/Trending/article/view/7273"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "3",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                3
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.30640/trending.v4i3.7273",
+        "ISSN": [
+          "2962-083X",
+          "2964-531X"
+        ],
+        "issn-type": [
+          {
+            "value": "2962-083X",
+            "type": "electronic"
+          },
+          {
+            "value": "2964-531X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              13
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              5
+            ]
+          ],
+          "date-time": "2026-05-05T03:13:32Z",
+          "timestamp": 1777950812285,
+          "version": "3.51.4"
+        },
+        "reference-count": 0,
+        "publisher": "Ingegneria Sismica",
+        "issue": "4",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ING SISMICA-ITAL"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ]
+        },
+        "abstract": "<jats:p>In order to solve the problems of low accuracy and poor performance in the field of image recognition in massive image recognition, this paper proposes an image denoising algorithm based on improved CGAN after optimizing and improving the traditional conditional generative adversarial network (CGAN) algorithm on the basis of the neural network model by using the least-squares loss function and adopting techniques such as attention pyramid network. After that, the loss entropy of convolutional neural network is optimized, and the model network and shared feature parameters are constructed by inductive migration algorithm in the model training stage to achieve accurate recognition of denoised images. The results show that the denoised image repaired by this paper's algorithm has the best quality and structural similarity, and its PSNR and SSIM values are improved by 2.28dB and 0.124 respectively compared with those of the traditional CGAN model, which can significantly reduce the checkerboard effect phenomenon and improve the quality of the image. The improved convolutional neural network model achieves a correct rate of 99.47% for image recognition, and the recognition accuracy of 10 different types of images in the MNIST dataset is improved by 2.87% to 17.85% compared with the traditional convolutional neural network model. Comprehensive analysis shows that the model proposed in this paper has good application in both image denoising and recognition accuracy.</jats:p>",
+        "DOI": "10.65102/is2026246",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2026-05-04T08:14:42Z",
+          "timestamp": 1777882482000
+        },
+        "page": "1-19",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Design of clear recognition algorithm after network image noise removal in computer vision"
+        ],
+        "prefix": "10.65102",
+        "volume": "42",
+        "author": [
+          {
+            "given": "Ke",
+            "family": "Dong",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "School of Computer and Artifical Intelligence, Xihang University, Xi'an City 710077, Shaanxi Province, China",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "14346",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ]
+        },
+        "container-title": [
+          "Ingegneria Sismica"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              4
+            ]
+          ],
+          "date-time": "2026-05-04T08:14:43Z",
+          "timestamp": 1777882483000
+        },
+        "score": 15.662563,
+        "resource": {
+          "primary": {
+            "URL": "https://ingegneriasismica.com/2026/volume-43-issue-1/design-of-clear-recognition-algorithm-after-network-image-noise-removal-in-computer-vision/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                30
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                30
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.65102/is2026246",
+        "ISSN": [
+          "0393-1420",
+          "3103-3997"
+        ],
+        "issn-type": [
+          {
+            "value": "0393-1420",
+            "type": "print"
+          },
+          {
+            "value": "3103-3997",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              30
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2026-02-12T23:45:04Z",
+          "timestamp": 1770939904716,
+          "version": "3.50.1"
+        },
+        "reference-count": 34,
+        "issue": "01",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  2,
+                  9
+                ]
+              ],
+              "date-time": "2026-02-09T00:00:00Z",
+              "timestamp": 1770595200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "REMUNOM"
+        ],
+        "abstract": "<jats:p>O presente artigo examina os desafios e lacunas do Direito Autoral brasileiro diante do avan\u00e7o da Intelig\u00eancia Artificial (IA) generativa, especialmente na produ\u00e7\u00e3o musical e art\u00edstica. Investiga-se a tens\u00e3o entre autoria humana, fundamento essencial da Lei n\u00ba 9.610/1998 e da Constitui\u00e7\u00e3o Federal, e as obras criadas por sistemas automatizados, que carecem de criatividade humana. A pesquisa discute o uso indevido de obras protegidas no treinamento de algoritmos, os impactos econ\u00f4micos sobre artistas e produtores e os dilemas \u00e9ticos relacionados \u00e0 reprodu\u00e7\u00e3o de vozes e estilos musicais. Tamb\u00e9m aborda a necessidade de transpar\u00eancia no uso de datasets e de mecanismos de remunera\u00e7\u00e3o justa aos autores originais. Por fim, conclui-se a necessidade da cria\u00e7\u00e3o de um marco regulat\u00f3rio moderno e equilibrado, como o Projeto de Lei n\u00ba 2.338/2023, capaz de conciliar inova\u00e7\u00e3o tecnol\u00f3gica, seguran\u00e7a jur\u00eddica e valoriza\u00e7\u00e3o da criatividade humana no contexto digital contempor\u00e2neo.</jats:p>",
+        "DOI": "10.61164/ehd2ct91",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ],
+          "date-time": "2026-02-09T16:37:57Z",
+          "timestamp": 1770655077000
+        },
+        "page": "1-22",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A QUEST\u00c3O DOS DIREITOS AUTORAIS COM O USO DE INTELIG\u00caNCIA ARTIFICIAL NO BRASIL",
+          "THE ISSUE OF COPYRIGHT IN THE USE OF ARTIFICAL INTELLIGENCE IN BRAZIL"
+        ],
+        "prefix": "10.66104",
+        "volume": "2",
+        "author": [
+          {
+            "given": "Weverson Gabriel",
+            "family": "Rosa de Azevedo",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Victor",
+            "family": "Conte Andr\u00e9",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "83520",
+            "doi-asserted-by": "crossref",
+            "unstructured": "TURING, Alan M. Computing Machinery and Intelligence. Mind. Vol. 49. 1950.",
+            "DOI": "10.1093/mind/LIX.236.433"
+          },
+          {
+            "key": "83521",
+            "unstructured": "ASIMOV, Isaac. Isaac Asimov's Book of Science and Nature Quotations. 1988."
+          },
+          {
+            "key": "83522",
+            "unstructured": "BRASIL. Constitui\u00e7\u00e3o da Rep\u00fablica Federativa do Brasil de 1988. Bras\u00edlia, DF: Di\u00e1rio Oficial da Uni\u00e3o, 5 out. 1988."
+          },
+          {
+            "key": "83523",
+            "unstructured": "ASCEN\u00c7\u00c3O. Jos\u00e9 de Oliveira. Direito Autoral. Rio de Janeiro, Renovar, 1997."
+          },
+          {
+            "key": "83524",
+            "unstructured": "ALENCAR, Ana Catarina de. IAs generativas e direitos autorais: o que voc\u00ea precisa saber. 18 de maio de 2023. Dispon\u00edvel em: https://www.conjur.com.br/2023-mai-18/direito-digital-ias-generativas-direitos-autorais-voce-saber/. Acesso em: 15 out. 2025."
+          },
+          {
+            "key": "83525",
+            "unstructured": "BRASIL. Lei n\u00ba 9.610, de 19 de fevereiro de 1998. Altera, atualiza e consolida a legisla\u00e7\u00e3o sobre direitos autorais e d\u00e1 outras provid\u00eancias. Senado Federal, 1998. Dispon\u00edvel em: https://www.planalto.gov.br/ccivil_03/leis/l9610.htm. Acesso em: 15 out. 2025."
+          },
+          {
+            "key": "83526",
+            "unstructured": "WACHOWICZ, Marcos. INTELIG\u00caNCIA ARTIFICIAL E CRIATIVIDADE. Novos Conceitos na Propriedade Intelectual. Curitiba, GEDAI, 2019. Dispon\u00edvel em: https://gedai.ufpr.br/inteligencia-artificial-criatividade-novos-conceitos-na-propriedade-intelectual/. Acesso em: 17 out. 2025."
+          },
+          {
+            "key": "83527",
+            "unstructured": "G1, Deutsche Welle. Disputa em torno de selfie de macaco chega ao fim. Alemanha, 2017. Dispon\u00edvel em: https://g1.globo.com/mundo/noticia/disputa-em-torno-de-selfie-de-macaco-chega-ao-fim.ghtml. Acesso em: 17 de out. 2025."
+          },
+          {
+            "key": "83528",
+            "unstructured": "Copyright Office. Copyright and Artificial Intelligence. Dispon\u00edvel em: https://www.copyright.gov/ai/#:~:text=Report%20on%20Copyright%20and%20Artificial,expressions%20of%20interest%20from%20stakeholders. Acesso em 17 de out. 2025."
+          },
+          {
+            "key": "83529",
+            "unstructured": "O GLOBO. Tribunal dos EUA rejeita direito autoral para arte gerada por IA sem interven\u00e7\u00e3o humana. 2025. Dispon\u00edvel em: https://oglobo.globo.com/cultura/noticia/2025/03/19/tribunal-dos-eua-rejeita-direito-autoral-para-arte-gerada-por-ia-sem-intervencao-humana.ghtml. Acesso em: 17 out. 2025."
+          },
+          {
+            "key": "83530",
+            "unstructured": "BIBLIOTECA NACIONAL. A Lei 9.610/98 vale para estrangeiros tamb\u00e9m?. Rio de Janeiro, 2016. Dispon\u00edvel em: https://antigo.bn.gov.br/pergunta-resposta/lei-961098-vale-estrangeiros-tambem. Acesso em: 17 out. 2025."
+          },
+          {
+            "key": "83531",
+            "unstructured": "WIPO. Ades\u00e3o ao Sistema Internacional de Direitos Autorais: O que est\u00e1 em jogo?. 2017. https://www.wipo.int/edocs/pubdocs/pt/wipo_pub_flyer_crsystem.pdf. Acesso em: 17 out 2025"
+          },
+          {
+            "key": "83532",
+            "unstructured": "GOVERNO FEDERAL. Decreto no 75.699, de 6 de maio de 1975 \u2013 Conven\u00e7\u00e3o de Berna para a Prote\u00e7\u00e3o das Obras Liter\u00e1rias e Art\u00edsticas (Revis\u00e3o de Paris, de 1971). 1975. Dispon\u00edvel em: https://www.gov.br/turismo/pt-br/secretaria-especial-da-cultura/assuntos/direitos-autorais/legislacao-de-direitos-autorais/legislacao-internacional-de-direitos-autorais. Acesso em: 18 out. 2025"
+          },
+          {
+            "key": "83533",
+            "unstructured": "UNASUS, Universidade Aberta do SUS. PERGUSTAS & RESPOSTAS SOBRE DIREITOS AUTORAIS. Bras\u00edlia, 2014. Dispon\u00edvel em: https://www.unasus.gov.br/uploads/pagina/ACESSO_ABERTO/perguntas_e_respostas_sobre_direitos_autorais.pdf. Acesso em: 18 de out. 2025."
+          },
+          {
+            "key": "83534",
+            "unstructured": "BRASIL. LEI N\u00ba 9.279/1996 - Regula direitos e obriga\u00e7\u00f5es relativos \u00e0 propriedade industrial. Dispon\u00edvel em: https://www.planalto.gov.br/ccivil_03/leis/l9279.htm. Acesso em: 18 de out. 2025."
+          },
+          {
+            "key": "83535",
+            "unstructured": "GUARNIERI, Mario Eduardo Martinez. DESAFIOS E PERSPECTIVAS DO DIREITO AUTORAL EM TEMPOS EXTRAORDIN\u00c1RIOS: UMA AN\u00c1LISE DA AUTORIA DE OBRAS GERADAS COM INTELIG\u00caNCIA ARTIFICIAL. UFRJ. Rio de Janeiro, 2024. Dispon\u00edvel em: https://pantheon.ufrj.br/handle/11422/26410?locale=es. Acesso em: 19 out. 2025."
+          },
+          {
+            "key": "83536",
+            "unstructured": "O GLOBO. Ind\u00fastria da m\u00fasica est\u00e1 amea\u00e7ada por bandas geradas por IA: 'desafio incompar\u00e1vel'. Rio de Janeiro, 2025. Dispon\u00edvel em: https://oglobo.globo.com/cultura/musica/noticia/2025/07/30/industria-da-musica-esta-ameacada-por-bandas-geradas-por-ia-desafio-incomparavel.ghtml. Acesso em: 22 out. 2025."
+          },
+          {
+            "key": "83537",
+            "unstructured": "SIDRAN, L\u00e9o. Ind\u00fastria da m\u00fasica est\u00e1 amea\u00e7ada por bandas geradas por IA: 'desafio incompar\u00e1vel'. Rio de Janeiro, 2025. Dispon\u00edvel em: https://oglobo.globo.com/cultura/musica/noticia/2025/07/30/industria-da-musica-esta-ameacada-por-bandas-geradas-por-ia-desafio-incomparavel.ghtml. Acesso em: 22 out. 2025."
+          },
+          {
+            "key": "83538",
+            "unstructured": "SAID, Tabita. Pioneiro e ridicularizado, Alan Turing desafiou suposta superioridade da intelig\u00eancia humana. 2024. Dispon\u00edvel em: https://jornal.usp.br/ciencias/pioneiro-e-ridicularizado-alan-turing-desafiou-suposta-superioridade-da-inteligencia-humana/. Acesso em: 23 out. 2025"
+          },
+          {
+            "key": "83539",
+            "unstructured": "GON\u00c7ALVES, Bernardo. Turing\u2019s Test, a Beautiful Thought Experiment. USP, S\u00e3o Paulo, 2024. Dispon\u00edvel em: https://www.computer.org/csdl/magazine/an/2024/03/10614793/1Z0o1iK0CY0. Acesso em 23 out. 2025."
+          },
+          {
+            "key": "83540",
+            "unstructured": "CNN BRASIL. STF lan\u00e7a IA que vai resumir votos e auxiliar an\u00e1lise de reclama\u00e7\u00f5es. 2024. Dispon\u00edvel em: https://www.cnnbrasil.com.br/politica/stf-lanca-ia-que-vai-resumir-votos-e-auxiliar-analise-de-reclamacoes/. Acesso em: 25 out. 2025."
+          },
+          {
+            "key": "83541",
+            "unstructured": "Supremo Tribunal Federal. STF lan\u00e7a MARIA, ferramenta de intelig\u00eancia artificial que dar\u00e1 mais agilidade aos servi\u00e7os do Tribunal. 2024. Dispon\u00edvel em: https://noticias.stf.jus.br/postsnoticias/stf-lanca-maria-ferramenta-de-inteligencia-artificial-que-dara-mais-agilidade-aos-servicos-do-tribunal/. Acesso em 25 out. 2025."
+          },
+          {
+            "key": "83542",
+            "unstructured": "Supremo Tribunal Federal. STF amplia uso de intelig\u00eancia artificial em apoio \u00e0 atividade jurisdicional. 2025. Dispon\u00edvel em: https://noticias.stf.jus.br/postsnoticias/stf-amplia-uso-de-inteligencia-artificial-em-apoio-a-atividade-jurisdicional/. Acesso em: 25 out. 2025"
+          },
+          {
+            "key": "83543",
+            "unstructured": "O GLOBO. Estudo aponta que m\u00fasica e audiovisual perder\u00e3o R$ 116 bilh\u00f5es para intelig\u00eancia artificial at\u00e9 2028. Rio de Janeiro, 2024. Dispon\u00edvel em: https://oglobo.globo.com/cultura/noticia/2024/12/04/estudo-aponta-que-musica-e-audiovisual-perderao-r-116-bilhoes-para-inteligencia-artificial-ate-2028.ghtml. Acesso em: 27 out. 2025."
+          },
+          {
+            "key": "83544",
+            "unstructured": "CNN BRASIL. Dias antes de morrer, Ozzy Osbourne foi alvo de v\u00eddeo fake com IA. Dispon\u00edvel em: https://www.cnnbrasil.com.br/entretenimento/dias-antes-de-morrer-ozzy-osbourne-foi-alvo-de-video-fake-com-ia/. Acesso em: 27 out. 2025."
+          },
+          {
+            "key": "83545",
+            "unstructured": "CNN BRASIL. Paul McCartney e Elton John pedem mais prote\u00e7\u00e3o para artistas contra IA. 2025. Dispon\u00edvel em: https://www.cnnbrasil.com.br/entretenimento/paul-mccartney-e-elton-john-pedem-mais-protecao-para-artistas-contra-ia/. Acesso em: 27 out. 2025"
+          },
+          {
+            "key": "83546",
+            "unstructured": "MEDIUM. O impacto da Intelig\u00eancia Artificial na ind\u00fastria musical. 2024. Dispon\u00edvel em: https://medium.com/labjorfaap/o-impacto-da-intelig%C3%AAncia-artificial-na-ind%C3%BAstria-musical-2c4e32520206. Acesso em: 27 out. 2025"
+          },
+          {
+            "key": "83547",
+            "unstructured": "AG\u00caNCIA GOV. Cultura apoia marco regulat\u00f3rio da intelig\u00eancia artificial aprovado pelo Senado. 2024. Dispon\u00edvel em: https://agenciagov.ebc.com.br/noticias/202412/senado-aprova-marco-regulatorio-da-inteligencia-artificial?utm_source=chatgpt.com. Acesso em: 03 nov. 2025"
+          },
+          {
+            "key": "83548",
+            "unstructured": "GOVERNO FEDERAL. Direitos autorais, remunera\u00e7\u00e3o e intelig\u00eancia artificial. 2024. Dispon\u00edvel em: https://www.gov.br/cultura/pt-br/assuntos/noticias/direitos-autorais-remuneracao-e-inteligencia-artificial?utm_source=chatgpt.com. Acesso em: 03 nov. 2025"
+          },
+          {
+            "key": "83549",
+            "unstructured": "CORR\u00caA, \u00c9rica Guimar\u00e3es. Direitos Autorais e obras geradas por Intelig\u00eancia Artificial: quest\u00f5es legais e implica\u00e7\u00f5es futuras. Dispon\u00edvel em: https://www.gov.br/inpi/pt-br/servicos/programas-de-computador/Direitosautoraiseobrasgeradas.pdf. Acesso em: 03 nov. 2025"
+          },
+          {
+            "key": "83550",
+            "unstructured": "REPOSIT\u00d3RIO. Regula\u00e7\u00e3o da Intelig\u00eancia Artificial. 2022. Dispon\u00edvel em: https://repositorio.enap.gov.br/bitstream/1/7419/1/2022.12.08%20-%20Regula%C3%A7%C3%A3o%20da%20Intelig%C3%AAncia%20Artificial.pdf. Acesso em: 03 nov. 2025."
+          },
+          {
+            "key": "83551",
+            "unstructured": "OBSERVAT\u00d3RIO. Impactos do PL 2338/2023 - Mensura\u00e7\u00e3o da redu\u00e7\u00e3o de ganhos de produtividade decorrente da remunera\u00e7\u00e3o de direitos autorais proposta sobre o uso de IA. 2025. Dispon\u00edvel em: https://observatorio.cc/wp-content/uploads/2025/09/Ecoa-Remuneracao-e-IA_20250908-1.pdf. Acesso em: 03 nov. 2025"
+          },
+          {
+            "key": "83552",
+            "unstructured": "C\u00c2MARA LEGISLATIVA. Projeto regulamenta uso da intelig\u00eancia artificial no Brasil. 2025. Dispon\u00edvel em: https://www.camara.leg.br/noticias/1159193-projeto-que-regulamenta-uso-da-inteligencia-artificial-no-brasil. Acesso em: 03 nov. 2025"
+          },
+          {
+            "key": "83553",
+            "unstructured": "SENADO FEDERAL. Projeto de Lei n\u00b0 2338, de 2023. 2023. Dispon\u00edvel em: https://www25.senado.leg.br/web/atividade/materias/-/materia/157233#:~:text=Projeto%20de%20Lei%20n%C2%B0%202338%2C%20de%202023&text=Ementa:%20Disp%C3%B5e%20sobre%20o%20uso%20da%20Intelig%C3%AAncia%20Artificial.&text=Disp%C3%B5e%20sobre%20o%20uso%20da%20Intelig%C3%AAncia%20Artificial.,-Local:%20Plen%C3%A1rio%20do. Acesso em: 04 nov. 2025"
+          }
+        ],
+        "container-title": [
+          "Revista Multidisciplinar do Nordeste Mineiro"
+        ],
+        "link": [
+          {
+            "URL": "https://remunom.ojsbr.com/multidisciplinar/article/download/5072/5086",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://remunom.ojsbr.com/multidisciplinar/article/download/5072/5086",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2026-02-12T22:57:38Z",
+          "timestamp": 1770937058000
+        },
+        "score": 15.306002,
+        "resource": {
+          "primary": {
+            "URL": "https://remunom.ojsbr.com/multidisciplinar/article/view/5072"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        },
+        "references-count": 34,
+        "journal-issue": {
+          "issue": "01",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                9
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.61164/ehd2ct91",
+        "ISSN": [
+          "2178-6925"
+        ],
+        "issn-type": [
+          {
+            "value": "2178-6925",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              9
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T08:37:02Z",
+          "timestamp": 1782895022491,
+          "version": "3.54.5"
+        },
+        "reference-count": 0,
+        "publisher": "Researcher Connect Innovation and Impact Private Limited and MRI",
+        "issue": "1s",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  19
+                ]
+              ],
+              "date-time": "2026-06-19T00:00:00Z",
+              "timestamp": 1781827200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "OAIJSE"
+        ],
+        "abstract": "<jats:p>The use of artificial intelligence has made persistent and tailored monitoring of physiological functions possible, though with the problem of reliability and safety in deployment . The aspect of sleep monitoring is the most sensitive since it is closely linked with cardiovascular, metabolic, and cognitive well-being. Most current automated systems are based on a small number of sensing modalities and non-transparent learning models which limit robustness and interpretability in real-word settings.\r\nThis paper introduces a multimodal artificial intelligence sleep monitoring system that combines heterogenous physiological and behavioral indicators of sleep cycles in a late-fusion learning system. The framework maintains modality- specific representations and enables adaptive temporal integration to enhance resilience in unconstrained conditions. In order to raise its reliability, the system integrates uncertainty-aware inference and intrinsic explainability, enabling predictive confidence estimation and features contributions supplied by individual modalities.\r\nInstead of creating an autonomous diagnostic system, the offered method acts under the version of the decision-support tool because it reveals interpretable outputs and highlights the predictions of low level of confidence to be reviewed by experts. Experimental findings show better performance compared to unimodal baselines especially in physiologically ambiguous sleep states, while maintaining transparency and reliability.\r\nThis framework adds a deployable and interpretable solution of intelligent sleep monitoring solution to healthcare.\r\n\u00a0</jats:p>",
+        "DOI": "10.65521/oaijse.v9i1s.3594",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T07:01:32Z",
+          "timestamp": 1782889292000
+        },
+        "page": "20-25",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A Responsible and Risk-Aware Artifical Intelligence Framework for Multimodal Sleep Cycle Monitoring Using Wearable and Contactless Physiological Sensing"
+        ],
+        "prefix": "10.65521",
+        "volume": "9",
+        "author": [
+          {
+            "given": "Soham",
+            "family": "Chouk",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Aditi",
+            "family": "Gupta",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Eva",
+            "family": "Singh",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Rajesh B.",
+            "family": "Ghongade",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ay L.",
+            "family": "Prabhakar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ay L.",
+            "family": "Prabhakar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "55029",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Open Access International Journal of Science and Engineering"
+        ],
+        "link": [
+          {
+            "URL": "https://journals.mriindia.com/index.php/oaijse/article/download/3594/3405",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://journals.mriindia.com/index.php/oaijse/article/download/3594/3405",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T07:01:32Z",
+          "timestamp": 1782889292000
+        },
+        "score": 14.89926,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.mriindia.com/index.php/oaijse/article/view/3594"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              19
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "1s",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                18
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.65521/oaijse.v9i1s.3594",
+        "ISSN": [
+          "2456-3293"
+        ],
+        "issn-type": [
+          {
+            "value": "2456-3293",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              19
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2026-07-17T07:04:58Z",
+          "timestamp": 1784271898000,
+          "version": "3.55.0"
+        },
+        "reference-count": 0,
+        "publisher": "Sekolah Tinggi Agama Buddha Nalanda",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  17
+                ]
+              ],
+              "date-time": "2026-07-17T00:00:00Z",
+              "timestamp": 1784246400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "TUTURAN"
+        ],
+        "abstract": "<jats:p>The rapid development of Generative Artificial Intelligence (AI) technology in the Industry 4.0 era has created a legal vacuum (rechtsvacuum) in Indonesia's positive legal system, because Law Number 28 of 2014 concerning Copyright (UUHC) is still based on the paradigm of human authorship as the sole legal subject of the creator. This condition creates uncertainty regarding the ownership status of digital works, the limits of legal responsibility, and the exploitation of copyrighted works as AI training data without permission. This study aims to analyze the urgency of legal protection for works produced by AI in Indonesia and examine the limits of copyright protection for songs produced through artificial intelligence. The research method used is prescriptive normative legal research with a legislative and conceptual approach through literature study. The results show that AI regulation is needed to create legal certainty and protect the economic rights of human creators. Copyright protection for AI-based music is conditional, namely works that are entirely generated through simple commands are still in legal uncertainty, while works with significant human creative contributions through parameter adjustments, lyric writing, and curation can obtain protection. This study emphasizes the need to revise the UUHC by establishing a minimum limit for human contribution and requiring transparency of AI training data.</jats:p>",
+        "DOI": "10.47861/tuturan.v4i3.2655",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2026-07-17T06:34:05Z",
+          "timestamp": 1784270045000
+        },
+        "page": "364-372",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia"
+        ],
+        "prefix": "10.47861",
+        "volume": "4",
+        "author": [
+          {
+            "family": "Putu Ayu Nandita Putri",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Anak Agung Ayu Ngurah Sri Rahayu Gorda",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Kadek Julia Mahdewi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Bagus Gede Ari Rama",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "27794",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ]
+        },
+        "container-title": [
+          "TUTURAN: Jurnal Ilmu Komunikasi, Sosial dan Humani..."
+        ],
+        "link": [
+          {
+            "URL": "https://e-journal.nalanda.ac.id/index.php/TUTURAN/article/download/2655/2154",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://e-journal.nalanda.ac.id/index.php/TUTURAN/article/download/2655/2154",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2026-07-17T06:34:06Z",
+          "timestamp": 1784270046000
+        },
+        "score": 14.613911,
+        "resource": {
+          "primary": {
+            "URL": "https://e-journal.nalanda.ac.id/index.php/TUTURAN/article/view/2655"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "3",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                7
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.47861/tuturan.v4i3.2655",
+        "ISSN": [
+          "2985-9204",
+          "2985-9743"
+        ],
+        "issn-type": [
+          {
+            "value": "2985-9204",
+            "type": "electronic"
+          },
+          {
+            "value": "2985-9743",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              17
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2026-03-02T17:02:10Z",
+          "timestamp": 1772470930373,
+          "version": "3.50.1"
+        },
+        "reference-count": 8,
+        "publisher": "Brazilian Journals",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  3,
+                  2
+                ]
+              ],
+              "date-time": "2026-03-02T00:00:00Z",
+              "timestamp": 1772409600000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-nc/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Rev. Foco"
+        ],
+        "abstract": "<jats:p>A crescente complexidade dos dados e das transa\u00e7\u00f5es no ambiente digital exige a otimiza\u00e7\u00e3o cont\u00ednua dos sistemas de gerenciamento de bancos de dados relacionais (SGBDRs). Este trabalho objetiva analisar como as t\u00e9cnicas de Intelig\u00eancia Artificial (IA), em particular o Machine Learning (Aprendizado de M\u00e1quina), podem ser empregadas para aprimorar o desempenho, a seguran\u00e7a e a manuten\u00e7\u00e3o de SGBDRs tradicionais. O estudo focou na revis\u00e3o bibliogr\u00e1fica de trabalhos recentes que aplicam algoritmos de IA, como redes neurais e aprendizado por refor\u00e7o, na otimiza\u00e7\u00e3o de consultas (query optimization), na indexa\u00e7\u00e3o automatizada e na detec\u00e7\u00e3o de anomalias. Constatou-se que a IA oferece um caminho promissor para transcender as limita\u00e7\u00f5es dos otimizadores de consulta heur\u00edsticos e baseados em custos, que, muitas vezes, falham em ambientes com cargas de trabalho din\u00e2micas. Os resultados indicam que sistemas h\u00edbridos, combinando a robustez dos modelos relacionais com a capacidade preditiva da IA, demonstram ganhos significativos em efici\u00eancia operacional e adaptabilidade. Conclui-se que a integra\u00e7\u00e3o de IA em SGBDRs \u00e9 uma tend\u00eancia emergente e necess\u00e1ria para o futuro da gest\u00e3o de dados.</jats:p>",
+        "DOI": "10.54751/revistafoco.v19n3-001",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2026-03-02T16:13:18Z",
+          "timestamp": 1772467998000
+        },
+        "page": "e11545",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "A OTIMIZA\u00c7\u00c3O DE BANCO DE DADOS RELACIONAIS ATRAV\u00c9S DE TE\u00c9CNICAS DE INTELIG\u00caNCIA ARTIFICAL"
+        ],
+        "prefix": "10.54751",
+        "volume": "19",
+        "author": [
+          {
+            "given": "T\u00e1cio Luiz Nunes",
+            "family": "Dantas",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "30764",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "232978",
+            "unstructured": "DAS, S.; JAYAPANDIAN, R.; ARTHI, S. Improving Query Optimization using Machine Learning techniques. In: International Conference on Advances in Computing, Communication and Control (ICACCC), 2021, p. 1-6."
+          },
+          {
+            "key": "232979",
+            "unstructured": "GAO, H. et al. Automatic Index Tuning in Relational Databases with Deep Reinforcement Learning. In: Proceedings of the VLDB Endowment, v. 13, n. 12, 2020, p. 3085\u20133098."
+          },
+          {
+            "key": "232980",
+            "unstructured": "GALM, Alessandro. Como otimizar banco de dados com IA em 2025. 21 fev. 2025. Dispon\u00edvel em: https://alessandrogalm.com.br/como-otimizar-banco-de-dados-com-ia-em-2025/. Acessado em: 10 de novembro de 2025."
+          },
+          {
+            "key": "232981",
+            "unstructured": "LEE, J. et al. An Adaptive Query Optimizer via Deep Reinforcement Learning. IEEE Transactions on Knowledge and Data Engineering, v. 35, n. 4, 2023, p. 3704-3717."
+          },
+          {
+            "key": "232982",
+            "unstructured": "MELO, C.; SANTOS, L.; BORGES, T. Otimiza\u00e7\u00e3o de Consultas em SGBD: Uma Revis\u00e3o Bibliogr\u00e1fica. Revista Brasileira de Computa\u00e7\u00e3o Aplicada, v. 10, n. 2, 2018, p. 115-128."
+          },
+          {
+            "key": "232983",
+            "doi-asserted-by": "crossref",
+            "unstructured": "MENEZES, I. V. C. B. et al. Aplica\u00e7\u00f5es de intelig\u00eancia artificial na otimiza\u00e7\u00e3o de banco de dados. RECIMA21 - Revista Cient\u00edfica Multidisciplinar,v.4, n. 12, 2023. Dispon\u00edvel em: https://recima21.com.br/recima21/article/download/4516/3166/28098. Acessado em: 10 de novembro de 2025.",
+            "DOI": "10.47820/recima21.v4i12.4516"
+          },
+          {
+            "key": "232984",
+            "unstructured": "STONEBRAKER, M. et al. The Case for Autonomous Data Management Systems. Communications of the ACM, v. 65, n. 3, 2022, p. 106-116."
+          },
+          {
+            "key": "232985",
+            "unstructured": "ZHANG, K. et al. DB-BERT: A Pre-training Model for Database Systems. In: Proceedings of the 2019 ACM SIGMOD International Conference on Management of Data, 2019, p. 1215-1230."
+          }
+        ],
+        "container-title": [
+          "REVISTA FOCO"
+        ],
+        "link": [
+          {
+            "URL": "https://ojs.focopublicacoes.com.br/foco/article/download/11545/8100",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://ojs.focopublicacoes.com.br/foco/article/download/11545/8100",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2026-03-02T16:13:23Z",
+          "timestamp": 1772468003000
+        },
+        "score": 13.126789,
+        "resource": {
+          "primary": {
+            "URL": "https://ojs.focopublicacoes.com.br/foco/article/view/11545"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        },
+        "references-count": 8,
+        "journal-issue": {
+          "issue": "3",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                2
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.54751/revistafoco.v19n3-001",
+        "ISSN": [
+          "1981-223X"
+        ],
+        "issn-type": [
+          {
+            "value": "1981-223X",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              2
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2026-04-06T17:20:05Z",
+          "timestamp": 1775496005559,
+          "version": "3.50.1"
+        },
+        "reference-count": 0,
+        "publisher": "Wisdom Leaf Press (A division of ICAPSR)",
+        "isbn-type": [
+          {
+            "value": "9788198630582",
+            "type": "print"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "abstract": "<jats:p>This article delves into the diverse applications of AI in mental healthcare, emphasizing its role in clinical diagnosis, prognosis, and treatment, alongside the challenges and barriers to its adoption. The COVID-19 pandemic has intensified the need for effective mental health solutions. From an initial pool of 214 review papers, 146 were excluded due to being unregistered, duplicates, irrelevant, or for unspecified reasons. Key sources include JAMA Psychiatry, the American Psychiatric Association, Elsevier, PubMed, MEDLINE, and Google Scholar. AI addresses the shortage of mental healthcare providers by automating tasks, allowing clinicians to focus more on patient care. Machine Learning (ML) and Natural Language Processing (NLP) are central to AI-driven mental healthcare, aiding in precise diagnosis and personalized treatment through pattern recognition and analysis of clinical records. AI also integrates data from various sources, enhancing the understanding of mental illnesses and improving prognosis for conditions like depression and suicide risk. Despite ethical, legal, and data quality challenges, overcoming these barriers is essential for the future of AI in mental healthcare. The concept of \"Artificial Wisdom\" (AW) envisions AI as not only intelligent but also compassionate and ethically sound, aiming to redefine mental health treatment with fairness, transparency, and privacy.</jats:p>",
+        "DOI": "10.55938/wlp.v2i50.362",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2026-04-06T15:48:01Z",
+          "timestamp": 1775490481000
+        },
+        "page": "01-22",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Artifical Wisdom in Psychotherapy: Clinical Implementation and Future Horizons: A Review Paper"
+        ],
+        "prefix": "10.55938",
+        "author": [
+          {
+            "given": "Priyanshu",
+            "family": "Kunwar",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Nidhi",
+            "family": "Verma",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Deepika",
+            "family": "Chamoli Shahi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "34968",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "container-title": [
+          "Psychological Frontiers: Emerging Trends and Applications"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2026-04-06T15:48:02Z",
+          "timestamp": 1775490482000
+        },
+        "score": 12.661153,
+        "resource": {
+          "primary": {
+            "URL": "https://journals.icapsr.com/index.php/wlp/article/view/362"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "ISBN": [
+          "9788198630582"
+        ],
+        "references-count": 0,
+        "URL": "https://doi.org/10.55938/wlp.v2i50.362",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2026-06-22T04:49:18Z",
+          "timestamp": 1782103758238,
+          "version": "3.54.5"
+        },
+        "reference-count": 0,
+        "publisher": "Asosiasi Penelitian dan Pengajar Ilmu Hukum Indonesia",
+        "issue": "2",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  22
+                ]
+              ],
+              "date-time": "2026-06-22T00:00:00Z",
+              "timestamp": 1782086400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://creativecommons.org/licenses/by-sa/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "KaryaNyata"
+        ],
+        "abstract": "<jats:p>The Artificial Intelligence (AI) Utilization Training represents a structured community service initiative targeting students of Rumah Yatim and Pesantren Ruhama. This program is designed to equip participants with additional competencies, encompassing practical skills and contemporary digital literacy aligned with the evolving demands of the educational sector. The AI utilization training aims to enhance students\u2019 digital literacy, thereby fostering their capacity to adapt to emerging technological advancements. Participants are trained to comprehend foundational AI concepts and their applications in learning, productivity, and innovation, contributing to their preparedness for the Industrial Revolution 4.0 and Society 5.0. Observations conducted in collaboration with partner institutions identified several challenges, including limited student engagement in digital literacy, insufficient infrastructure, and a lack of understanding regarding AI utilization. In response, this program implements targeted workshops and training sessions focused on AI applications. The activities undertaken in this program include: (1) facilitating access to AI applications and providing instructional guidance to enable students to acquire fundamental digital skills with minimal barriers; and (2) delivering interactive, engaging, and easily comprehensible instruction on basic AI applications through practical demonstrations and hands-on exercises. This initiative is expected to promote the development and enrichment of students\u2019 competencies in both theoretical and practical dimensions of digital literacy. Consequently, participants demonstrate improved proficiency and confidence in AI utilization, enhancing their readiness to navigate current and future digital technology landscapes. Empirical outcomes indicate an increase in participants\u2019 knowledge, understanding, skills, and competency related to AI from 85% prior to training to 95% post-training.</jats:p>",
+        "DOI": "10.62951/karyanyata.v3i2.3319",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2026-06-22T04:24:59Z",
+          "timestamp": 1782102299000
+        },
+        "page": "125-139",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Pemanfaatan Artifical Intelegence (AI) Guna Peningkatan dan Memperkaya Kecakapan Digital Dikalangan Siswa"
+        ],
+        "prefix": "10.62951",
+        "volume": "3",
+        "author": [
+          {
+            "family": "Deden Rosid Waltam",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Wawan Budiarto",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Bambang Herlambang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "49717",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        },
+        "container-title": [
+          "Karya Nyata : Jurnal Pengabdian kepada Masyarakat"
+        ],
+        "link": [
+          {
+            "URL": "https://pkm.lpkd.or.id/index.php/KaryaNyata/article/download/3319/3077",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://pkm.lpkd.or.id/index.php/KaryaNyata/article/download/3319/3077",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ],
+          "date-time": "2026-06-22T04:24:59Z",
+          "timestamp": 1782102299000
+        },
+        "score": 12.100296,
+        "resource": {
+          "primary": {
+            "URL": "https://pkm.lpkd.or.id/index.php/KaryaNyata/article/view/3319"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "2",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.62951/karyanyata.v3i2.3319",
+        "ISSN": [
+          "3047-0323",
+          "3047-0080"
+        ],
+        "issn-type": [
+          {
+            "value": "3047-0323",
+            "type": "electronic"
+          },
+          {
+            "value": "3047-0080",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              22
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 24,
+    "query": {
+      "start-index": 0,
+      "search-terms": "artifical intelligence"
+    }
+  }
+}
