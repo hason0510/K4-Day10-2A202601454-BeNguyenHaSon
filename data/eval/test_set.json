@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question_type": "factual",
+    "question": "Who authored the paper 'Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia'?",
+    "ground_truth": "Putu Ayu Nandita Putri, Anak Agung Ayu Ngurah Sri Rahayu Gorda, Kadek Julia Mahdewi, Bagus Gede Ari Rama",
+    "ground_truth_doc_ids": [
+      "10.47861/tuturan.v4i3.2655"
+    ]
+  },
+  {
+    "id": "q2",
+    "question_type": "factual",
+    "question": "When was the paper 'Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia' published?",
+    "ground_truth": "2026-07-17",
+    "ground_truth_doc_ids": [
+      "10.47861/tuturan.v4i3.2655"
+    ]
+  },
+  {
+    "id": "q3",
+    "question_type": "summary",
+    "question": "What is the paper 'Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia' about?",
+    "ground_truth": "The rapid development of Generative Artificial Intelligence (AI) technology in the Industry 4.0 era has created a legal vacuum (rechtsvacuum) in Indonesia's positive legal system, because Law Number 28 of 2014 concerning Copyright (UUHC) is still based on the paradigm of human authorship as the sole legal subject of the creator.",
+    "ground_truth_doc_ids": [
+      "10.47861/tuturan.v4i3.2655"
+    ]
+  },
+  {
+    "id": "q4",
+    "question_type": "factual",
+    "question": "Who authored the paper 'Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature)'?",
+    "ground_truth": "Fatma Maylasari Saqoti",
+    "ground_truth_doc_ids": [
+      "10.61404/mutiara.v4i3.530"
+    ]
+  },
+  {
+    "id": "q5",
+    "question_type": "factual",
+    "question": "When was the paper 'Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature)' published?",
+    "ground_truth": "2026-07-15",
+    "ground_truth_doc_ids": [
+      "10.61404/mutiara.v4i3.530"
+    ]
+  },
+  {
+    "id": "q6",
+    "question_type": "summary",
+    "question": "What is the paper 'Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature)' about?",
+    "ground_truth": "The advancement of digital technology has encouraged the adoption of Artificial Intelligence (AI) in online counseling services to enhance the accessibility and quality of mental health care.",
+    "ground_truth_doc_ids": [
+      "10.61404/mutiara.v4i3.530"
+    ]
+  },
+  {
+    "id": "q7",
+    "question_type": "factual",
+    "question": "Who authored the paper 'Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy'?",
+    "ground_truth": "Adira Devina Mahmudi, Alvina Safitri, Mila Hariani",
+    "ground_truth_doc_ids": [
+      "10.30640/trending.v4i3.7273"
+    ]
+  },
+  {
+    "id": "q8",
+    "question_type": "factual",
+    "question": "When was the paper 'Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy' published?",
+    "ground_truth": "2026-07-13",
+    "ground_truth_doc_ids": [
+      "10.30640/trending.v4i3.7273"
+    ]
+  },
+  {
+    "id": "q9",
+    "question_type": "summary",
+    "question": "What is the paper 'Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy' about?",
+    "ground_truth": "Sustainable development has become a global priority in addressing environmental challenges while maintaining economic growth and social welfare.",
+    "ground_truth_doc_ids": [
+      "10.30640/trending.v4i3.7273"
+    ]
+  },
+  {
+    "id": "q10",
+    "question_type": "factual",
+    "question": "Who authored the paper 'Gambaran Etika Digital terhadap Perilaku Akademik Mahasiswa di Era Kecerdasan Buatan/Artifical Intelligence (AI) (Studi Kasus STAI KHARISMA)'?",
+    "ground_truth": "Kun Nurachadijat, Yulia SanicaPopy, Sita Nurhomsah, Rizki Utari",
+    "ground_truth_doc_ids": [
+      "10.55656/jpe.v6i2.672"
+    ]
+  }
+]

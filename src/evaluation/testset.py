@@ -6,6 +6,8 @@ from typing import Any
 
 import pandas as pd
 
+from core.utils import first_sentence
+
 
 def build_test_set(df: pd.DataFrame, output_path: Path | str) -> list[dict[str, Any]]:
     """Build a test set from the cleaned dataframe and save it to a JSON file."""
@@ -36,7 +38,7 @@ def build_test_set(df: pd.DataFrame, output_path: Path | str) -> list[dict[str, 
             test_set.append({
                 "id": f"q{question_idx}",
                 "question_type": "factual",
-                "question": f"Ai là tác giả của bài báo '{title}'?",
+                "question": f"Who authored the paper '{title}'?",
                 "ground_truth": authors,
                 "ground_truth_doc_ids": [paper_id]
             })
@@ -47,7 +49,7 @@ def build_test_set(df: pd.DataFrame, output_path: Path | str) -> list[dict[str, 
             test_set.append({
                 "id": f"q{question_idx}",
                 "question_type": "factual",
-                "question": f"Bài báo '{title}' được xuất bản vào ngày nào?",
+                "question": f"When was the paper '{title}' published?",
                 "ground_truth": published,
                 "ground_truth_doc_ids": [paper_id]
             })
@@ -58,7 +60,7 @@ def build_test_set(df: pd.DataFrame, output_path: Path | str) -> list[dict[str, 
             test_set.append({
                 "id": f"q{question_idx}",
                 "question_type": "factual",
-                "question": f"Bài báo '{title}' thuộc (các) chủ đề/danh mục nào?",
+                "question": f"What categories does the paper '{title}' belong to?",
                 "ground_truth": categories,
                 "ground_truth_doc_ids": [paper_id]
             })
@@ -69,14 +71,15 @@ def build_test_set(df: pd.DataFrame, output_path: Path | str) -> list[dict[str, 
             test_set.append({
                 "id": f"q{question_idx}",
                 "question_type": "summary",
-                "question": f"Nội dung tóm tắt của bài báo '{title}' là gì?",
-                "ground_truth": summary,
+                "question": f"What is the paper '{title}' about?",
+                "ground_truth": first_sentence(summary),
                 "ground_truth_doc_ids": [paper_id]
             })
             question_idx += 1
 
         # Limit to around 10-15 questions total to keep it small as requested (5-10 câu)
-        if question_idx > 10:
+        if len(test_set) >= 10:
+            test_set = test_set[:10]
             break
 
     # 3. Save JSON to output_path

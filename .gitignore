@@ -6,3 +6,5 @@ src/*.egg-info/
 lab/
 **/__pycache__/
 .agents/
+data/chroma/*
+!data/chroma/.gitkeep

@@ -1,0 +1,72 @@
+{
+  "report_name": "baseline",
+  "generated_at": "2026-08-06T09:55:22.495342+00:00",
+  "total_rows": 24,
+  "checks": [
+    {
+      "name": "row_count_min",
+      "passed": true,
+      "observed": 24,
+      "expected": ">= 15 dong",
+      "failed_rows": 0
+    },
+    {
+      "name": "paper_id_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'paper_id' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "paper_id_unique",
+      "passed": true,
+      "observed": "24 gia tri duy nhat / 24 dong",
+      "expected": "paper_id unique tren toan bang",
+      "failed_rows": 0
+    },
+    {
+      "name": "title_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'title' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "title_min_length",
+      "passed": true,
+      "observed": "do dai nho nhat = 44, 0 dong duoi nguong",
+      "expected": "moi dong co do dai 'title' >= 10 ky tu",
+      "failed_rows": 0
+    },
+    {
+      "name": "published_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'published' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "summary_min_length",
+      "passed": true,
+      "observed": "summary_chars nho nhat = 210, 0 dong duoi nguong",
+      "expected": "moi dong co summary >= 100 ky tu",
+      "failed_rows": 0
+    },
+    {
+      "name": "text_for_embedding_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'text_for_embedding' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "freshness_age",
+      "passed": true,
+      "observed": "age_days lon nhat = 178, 0 dong stale",
+      "expected": "moi dong co age_days <= 180",
+      "failed_rows": 0
+    }
+  ],
+  "failed_checks": [],
+  "all_passed": true
+}

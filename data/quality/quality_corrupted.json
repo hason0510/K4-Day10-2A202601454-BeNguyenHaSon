@@ -1,0 +1,77 @@
+{
+  "report_name": "corrupted",
+  "generated_at": "2026-08-06T09:56:18.745703+00:00",
+  "total_rows": 23,
+  "checks": [
+    {
+      "name": "row_count_min",
+      "passed": true,
+      "observed": 23,
+      "expected": ">= 15 dong",
+      "failed_rows": 0
+    },
+    {
+      "name": "paper_id_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'paper_id' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "paper_id_unique",
+      "passed": false,
+      "observed": "22 gia tri duy nhat / 23 dong",
+      "expected": "paper_id unique tren toan bang",
+      "failed_rows": 1
+    },
+    {
+      "name": "title_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'title' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "title_min_length",
+      "passed": false,
+      "observed": "do dai nho nhat = 5, 1 dong duoi nguong",
+      "expected": "moi dong co do dai 'title' >= 10 ky tu",
+      "failed_rows": 1
+    },
+    {
+      "name": "published_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'published' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "summary_min_length",
+      "passed": false,
+      "observed": "summary_chars nho nhat = 0, 1 dong duoi nguong",
+      "expected": "moi dong co summary >= 100 ky tu",
+      "failed_rows": 1
+    },
+    {
+      "name": "text_for_embedding_not_null",
+      "passed": true,
+      "observed": "0 dong bi null hoac rong",
+      "expected": "moi dong co 'text_for_embedding' khong null va khong rong",
+      "failed_rows": 0
+    },
+    {
+      "name": "freshness_age",
+      "passed": false,
+      "observed": "age_days lon nhat = 9999, 1 dong stale",
+      "expected": "moi dong co age_days <= 180",
+      "failed_rows": 1
+    }
+  ],
+  "failed_checks": [
+    "paper_id_unique",
+    "title_min_length",
+    "summary_min_length",
+    "freshness_age"
+  ],
+  "all_passed": false
+}

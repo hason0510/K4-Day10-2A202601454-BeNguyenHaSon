@@ -1,0 +1,148 @@
+[
+  {
+    "paper_id": "10.47861/tuturan.v4i3.2655",
+    "scenario": "drop_latest_record",
+    "field": "record",
+    "before": {
+      "paper_id": "10.47861/tuturan.v4i3.2655",
+      "title": "Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia",
+      "summary": "The rapid development of Generative Artificial Intelligence (AI) technology in the Industry 4.0 era has created a legal vacuum (rechtsvacuum) in Indonesia's positive legal system, because Law Number 28 of 2014 concerning Copyright (UUHC) is still based on the paradigm of human authorship as the sole legal subject of the creator. This condition creates uncertainty regarding the ownership status of digital works, the limits of legal responsibility, and the exploitation of copyrighted works as AI training data without permission. This study aims to analyze the urgency of legal protection for works produced by AI in Indonesia and examine the limits of copyright protection for songs produced through artificial intelligence. The research method used is prescriptive normative legal research with a legislative and conceptual approach through literature study. The results show that AI regulation is needed to create legal certainty and protect the economic rights of human creators. Copyright protection for AI-based music is conditional, namely works that are entirely generated through simple commands are still in legal uncertainty, while works with significant human creative contributions through parameter adjustments, lyric writing, and curation can obtain protection. This study emphasizes the need to revise the UUHC by establishing a minimum limit for human contribution and requiring transparency of AI training data.",
+      "authors": [
+        "Putu Ayu Nandita Putri",
+        "Anak Agung Ayu Ngurah Sri Rahayu Gorda",
+        "Kadek Julia Mahdewi",
+        "Bagus Gede Ari Rama"
+      ],
+      "categories": [],
+      "primary_category": "",
+      "published": "2026-07-17",
+      "updated": "2026-07-17",
+      "abs_url": "https://doi.org/10.47861/tuturan.v4i3.2655",
+      "pdf_url": "https://e-journal.nalanda.ac.id/index.php/TUTURAN/article/download/2655/2154",
+      "comment": "",
+      "authors_joined": "Putu Ayu Nandita Putri, Anak Agung Ayu Ngurah Sri Rahayu Gorda, Kadek Julia Mahdewi, Bagus Gede Ari Rama",
+      "categories_joined": "",
+      "summary_chars": 1432,
+      "age_days": 20,
+      "text_for_embedding": "Title: Urgensi Pengaturan Hukum Hak Cipta terhadap Musik yang Dihasilkan oleh Artifical Intelligence dalam Sistem Hukum Indonesia | Authors: Putu Ayu Nandita Putri, Anak Agung Ayu Ngurah Sri Rahayu Gorda, Kadek Julia Mahdewi, Bagus Gede Ari Rama | Summary: The rapid development of Generative Artificial Intelligence (AI) technology in the Industry 4.0 era has created a legal vacuum (rechtsvacuum) in Indonesia's positive legal system, because Law Number 28 of 2014 concerning Copyright (UUHC) is still based on the paradigm of human authorship as the sole legal subject of the creator. This condition creates uncertainty regarding the ownership status of digital works, the limits of legal responsibility, and the exploitation of copyrighted works as AI training data without permission. This study aims to analyze the urgency of legal protection for works produced by AI in Indonesia and examine the limits of copyright protection for songs produced through artificial intelligence. The research method used is prescriptive normative legal research with a legislative and conceptual approach through literature study. The results show that AI regulation is needed to create legal certainty and protect the economic rights of human creators. Copyright protection for AI-based music is conditional, namely works that are entirely generated through simple commands are still in legal uncertainty, while works with significant human creative contributions through parameter adjustments, lyric writing, and curation can obtain protection. This study emphasizes the need to revise the UUHC by establishing a minimum limit for human contribution and requiring transparency of AI training data."
+    },
+    "after": null
+  },
+  {
+    "paper_id": "10.61404/mutiara.v4i3.530",
+    "scenario": "drop_latest_record",
+    "field": "record",
+    "before": {
+      "paper_id": "10.61404/mutiara.v4i3.530",
+      "title": "Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature)",
+      "summary": "The advancement of digital technology has encouraged the adoption of Artificial Intelligence (AI) in online counseling services to enhance the accessibility and quality of mental health care. The emergence of AI through chatbots, virtual counselors, and digital mental health platforms presents various opportunities, challenges, and ethical implications that require comprehensive examination. This study aims to analyze the opportunities offered by AI, the challenges associated with its implementation, and the ethical implications of its use in online counseling services. The study employed a literature review method with a qualitative approach, examining 15 scientific articles published between 2016 and 2026. Data were analyzed using content analysis through the synthesis of findings from previous studies. The results indicate that AI has the potential to expand access to counseling services, improve service efficiency, support preliminary assessments, and facilitate the delivery of more personalized and data-driven interventions. However, the use of AI continues to face several challenges, including limitations in understanding human emotions and social contexts, the risk of inaccurate responses, algorithmic bias, and the potential for user dependency on technology. The most prominent ethical concerns involve privacy protection, data security, algorithmic transparency, system accountability, and professional responsibility. This study concludes that AI is more appropriately positioned as a supportive tool or co-counselor for professional counselors rather than a replacement for human practitioners. The novelty of this study lies in its integration of the opportunities, challenges, and ethical implications of AI into a comprehensive analytical framework.",
+      "authors": [
+        "Fatma Maylasari Saqoti"
+      ],
+      "categories": [],
+      "primary_category": "",
+      "published": "2026-07-15",
+      "updated": "2026-07-15",
+      "abs_url": "https://doi.org/10.61404/mutiara.v4i3.530",
+      "pdf_url": "https://jurnal.tiga-mutiara.com/index.php/jimi/article/download/530/399",
+      "comment": "",
+      "authors_joined": "Fatma Maylasari Saqoti",
+      "categories_joined": "",
+      "summary_chars": 1783,
+      "age_days": 22,
+      "text_for_embedding": "Title: Peran Artifical Intelligence (AI) dalam Layanan Konseling Online: Peluang, Tantangan, dan Implikasi Etis (Studi Literature) | Authors: Fatma Maylasari Saqoti | Summary: The advancement of digital technology has encouraged the adoption of Artificial Intelligence (AI) in online counseling services to enhance the accessibility and quality of mental health care. The emergence of AI through chatbots, virtual counselors, and digital mental health platforms presents various opportunities, challenges, and ethical implications that require comprehensive examination. This study aims to analyze the opportunities offered by AI, the challenges associated with its implementation, and the ethical implications of its use in online counseling services. The study employed a literature review method with a qualitative approach, examining 15 scientific articles published between 2016 and 2026. Data were analyzed using content analysis through the synthesis of findings from previous studies. The results indicate that AI has the potential to expand access to counseling services, improve service efficiency, support preliminary assessments, and facilitate the delivery of more personalized and data-driven interventions. However, the use of AI continues to face several challenges, including limitations in understanding human emotions and social contexts, the risk of inaccurate responses, algorithmic bias, and the potential for user dependency on technology. The most prominent ethical concerns involve privacy protection, data security, algorithmic transparency, system accountability, and professional responsibility. This study concludes that AI is more appropriately positioned as a supportive tool or co-counselor for professional counselors rather than a replacement for human practitioners. The novelty of this study lies in its integration of the opportunities, challenges, and ethical implications of AI into a comprehensive analytical framework."
+    },
+    "after": null
+  },
+  {
+    "paper_id": "10.30640/trending.v4i3.7273",
+    "scenario": "blank_summary",
+    "field": "summary",
+    "before": "Sustainable development has become a global priority in addressing environmental challenges while maintaining economic growth and social welfare. In the digital era, Artificial Intelligence (AI) and the Internet of Things (IoT) have emerged as key technologies that support the implementation of a green economy through efficient and data-driven resource management. This study aims to analyze the role of AI and IoT in supporting sustainable development, examine their contribution to improving resource efficiency, and identify the challenges associated with their implementation. The study employs a conceptual research method with a qualitative approach based on a literature review of recent scientific journals, books, and other relevant academic publications. The findings indicate that AI enhances decision-making, optimizes resource utilization, and reduces operational waste, while IoT enables real-time monitoring and automated management across various sectors. The integration of AI and IoT creates intelligent systems that improve energy efficiency, support environmental management, and strengthen green economy practices. However, challenges such as digital infrastructure gaps, limited human resources, high implementation costs, and data security concerns remain. Therefore, collaboration among governments, industries, and educational institutions is essential to maximize the contribution of AI and IoT to sustainable development.",
+    "after": ""
+  },
+  {
+    "paper_id": "10.30640/trending.v4i3.7273",
+    "scenario": "blank_summary",
+    "field": "summary_chars",
+    "before": 1450,
+    "after": 0
+  },
+  {
+    "paper_id": "10.55656/jpe.v6i2.672",
+    "scenario": "stale_publication",
+    "field": "published",
+    "before": "2026-07-01",
+    "after": "2000-01-01"
+  },
+  {
+    "paper_id": "10.55656/jpe.v6i2.672",
+    "scenario": "stale_publication",
+    "field": "age_days",
+    "before": 36,
+    "after": 9999
+  },
+  {
+    "paper_id": "10.61253/abdicendekia.v5i2.917",
+    "scenario": "embedding_noise",
+    "field": "text_for_embedding",
+    "before": "Title: Pengaruh Penggunaan Artifical Intelligence (AI) Terhadap Kemandirian Belajar Peserta Didik pada Mata Pelajaran Pendidikan Agama Islam | Authors: Muhammad Aufa Muis, Fahrureza Fahrureza, Tuti Nuriyati | Summary: Penelitian ini bertujuan untuk menganalisis pengaruh penggunaan Artificial Intelligence (AI) terhadap kemandirian belajar peserta didik pada mata pelajaran Pendidikan Agama Islam (PAI). Transformasi digital dalam pendidikan telah mendorong integrasi teknologi AI, yang menawarkan potensi besar sekaligus menghadirkan tantangan tersendiri, terutama dalam konteks penguatan kemandirian belajar. Penelitian ini menggunakan pendekatan kuantitatif dengan metode survei eksplanatori. Sampel penelitian terdiri dari peserta didik jenjang sekolah menengah yang mengikuti pembelajaran PAI berbasis platform digital dengan dukungan AI. Data dikumpulkan melalui kuesioner terstruktur yang mengukur tingkat kemandirian belajar dan persepsi terhadap penggunaan AI. Analisis data dilakukan menggunakan teknik regresi untuk menguji pengaruh antar variabel. Hasil penelitian menunjukkan bahwa pemanfaatan AI dalam pembelajaran PAI memiliki pengaruh yang signifikan terhadap peningkatan kemandirian belajar peserta didik. Temuan ini sejalan dengan penelitian lain yang mengungkapkan bahwa AI, melalui fitur seperti chatbot islami dan sistem adaptif, mampu memberikan umpan balik personal dan memperluas akses materi, sehingga mendorong siswa untuk lebih proaktif, bertanggung jawab, dan percaya diri dalam proses belajarnya. Namun demikian, penelitian juga mengidentifikasi potensi risiko ketergantungan pada jawaban instan yang dapat melemahkan kemampuan analisis kritis jika penggunaan AI tidak diawasi dengan tepat. Penelitian ini menyimpulkan bahwa AI efektif dalam menumbuhkan kemandirian belajar PAI, dengan syarat pendidik memainkan peran kunci sebagai fasilitator dan pengawas untuk memastikan penggunaan teknologi tetap sejalan dengan tujuan pendidikan karakter dan nilai-nilai keislaman. Temuan ini diharapkan dapat memberikan kontribusi bagi pengembangan model pembelajaran PAI yang inovatif dan adaptif di era digital.",
+    "after": " zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload Title: Pengaruh Penggunaan Artifical Intelligence (AI) Terhadap Kemandirian Bela"
+  },
+  {
+    "paper_id": "10.57250/ajpp.v5i2.3033",
+    "scenario": "truncate_title",
+    "field": "title",
+    "before": "Fenomena Fatwa Instan pada Platform AI sebagai Tantangan Metodologi Ijtihad di Tengah Perkembangan Artifical Intelligence",
+    "after": "Fenom"
+  },
+  {
+    "paper_id": "10.30640/trending.v4i3.7273",
+    "scenario": "rebuild_embedding_text",
+    "field": "text_for_embedding",
+    "before": "Title: Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy | Authors: Adira Devina Mahmudi, Alvina Safitri, Mila Hariani | Summary: Sustainable development has become a global priority in addressing environmental challenges while maintaining economic growth and social welfare. In the digital era, Artificial Intelligence (AI) and the Internet of Things (IoT) have emerged as key technologies that support the implementation of a green economy through efficient and data-driven resource management. This study aims to analyze the role of AI and IoT in supporting sustainable development, examine their contribution to improving resource efficiency, and identify the challenges associated with their implementation. The study employs a conceptual research method with a qualitative approach based on a literature review of recent scientific journals, books, and other relevant academic publications. The findings indicate that AI enhances decision-making, optimizes resource utilization, and reduces operational waste, while IoT enables real-time monitoring and automated management across various sectors. The integration of AI and IoT creates intelligent systems that improve energy efficiency, support environmental management, and strengthen green economy practices. However, challenges such as digital infrastructure gaps, limited human resources, high implementation costs, and data security concerns remain. Therefore, collaboration among governments, industries, and educational institutions is essential to maximize the contribution of AI and IoT to sustainable development.",
+    "after": "Title: Sustainable Development in the Digital Era: the Role Artifical Intelligence and the Internet of Things in Suporting the Green Economy | Authors: Adira Devina Mahmudi, Alvina Safitri, Mila Hariani | Summary: "
+  },
+  {
+    "paper_id": "10.55656/jpe.v6i2.672",
+    "scenario": "rebuild_embedding_text",
+    "field": "text_for_embedding",
+    "before": "Title: Gambaran Etika Digital terhadap Perilaku Akademik Mahasiswa di Era Kecerdasan Buatan/Artifical Intelligence (AI) (Studi Kasus STAI KHARISMA) | Authors: Kun Nurachadijat, Yulia SanicaPopy, Sita Nurhomsah, Rizki Utari | Summary: This study aims to describe the overview of digital ethics and academic behavior of STAI KHARISMA students in the era of artificial intelligence. The research employed a descriptive quantitative approach with a survey method. The sample consisted of 50 students selected through purposive sampling. The instrument used was a questionnaire with 16 statement items using a Likert scale of 1-5. Data analysis was conducted descriptively by calculating frequencies, percentages, and mean scores. The results showed that the level of students' digital ethics was high with a mean score of 33.6 out of 40. The digital communication ethics indicator obtained the highest percentage (92%), while the digital honesty indicator obtained the lowest percentage (72%). The level of students' academic behavior was also high with a mean score of 32.2 out of 40. The academic discipline indicator obtained the highest percentage (86%), while the academic integrity indicator obtained the lowest percentage (70%). This study concludes that STAI KHARISMA students already have good digital ethics and academic behavior, but there is still a need for improvement in the aspects of digital honesty and academic integrity.",
+    "after": "Title: Gambaran Etika Digital terhadap Perilaku Akademik Mahasiswa di Era Kecerdasan Buatan/Artifical Intelligence (AI) (Studi Kasus STAI KHARISMA) | Authors: Kun Nurachadijat, Yulia SanicaPopy, Sita Nurhomsah, Rizki Utari | Summary: This study aims to describe the overview of digital ethics and academic behavior of STAI KHARISMA students in the era of artificial intelligence. The research employed a descriptive quantitative approach with a survey method. The sample consisted of 50 students selected through purposive sampling. The instrument used was a questionnaire with 16 statement items using a Likert scale of 1-5. Data analysis was conducted descriptively by calculating frequencies, percentages, and mean scores. The results showed that the level of students' digital ethics was high with a mean score of 33.6 out of 40. The digital communication ethics indicator obtained the highest percentage (92%), while the digital honesty indicator obtained the lowest percentage (72%). The level of students' academic behavior was also high with a mean score of 32.2 out of 40. The academic discipline indicator obtained the highest percentage (86%), while the academic integrity indicator obtained the lowest percentage (70%). This study concludes that STAI KHARISMA students already have good digital ethics and academic behavior, but there is still a need for improvement in the aspects of digital honesty and academic integrity."
+  },
+  {
+    "paper_id": "10.57250/ajpp.v5i2.3033",
+    "scenario": "rebuild_embedding_text",
+    "field": "text_for_embedding",
+    "before": "Title: Fenomena Fatwa Instan pada Platform AI sebagai Tantangan Metodologi Ijtihad di Tengah Perkembangan Artifical Intelligence | Authors: Najwa Isaura Sabila, Fathima Zahra, M. Sahril, Alfath Oktaraya Adoe, Abdul Fadhil | Summary: Perkembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) telah menyebabkan perubahan besar dalam cara masyarakat mencari hukum Islam, terutama di kalangan generasi muda yang mencakup lebih dari 60 persen populasi Indonesia, Fenomena ini dikenal sebagai agama algoritmik. Perubahan ini menghasilkan fenomena fatwa instan yang didasarkan pada chatbot AI, yang sering muncul tanpa adanya proses verifikasi keilmuan yang memadai, sehingga keabsahan terhadap metodologinya patut dipersoalkan. Penelitian ini bertujuan untuk meneliti sejauh mana platform AI generatif dapat memenuhi kualifikasi metodologis seorang mujtahid dalam proses ijtihad hukum Islam, serta merumuskan posisi ideal AI dalam tatanan hukum Islam saat ini. Penelitian ini menerapkan metode studi pustaka (library research) dengan pendekatan deskriptif kualitatif yang berfokus pada normatif-filosofis, di mana data primer terdiri dari kitab-kitab usul fikih yang diakui serta data sekunder berupa artikel ilmiah yang dianalisis menggunakan teknik analisis isi (content analysis). Penelitian mengungkapkan bahwa AI generatif secara mendasar tidak memenuhi kriteria mujtahid karena tidak memiliki kesadaran spiritual (syu'ur), niat (niyyah), dan tanggung jawab moral (taklif), serta tidak dapat menjalankan proses tarjih atau memahami kemaslahatan dan konteks sosial ('urf) secara mendalam. Ketergantungan pada AI berpotensi menghasilkan halusinasi dan memproduksi output yang tidak terjamin kredibilitasnya, seperti hadis atau dalil palsu, bias dalam representasi mazhab, serta kurangnya akuntabilitas saat terjadinya kesalahan hukum. Temuan ini menunjukkan pentingnya AI ditempatkan secara seimbang sebagai alat untuk riset dan edukasi, bukan sebagai penentu mutlak, dengan kerja sama antara lembaga fatwa dan ahli teknologi informasi untuk mengembangkan regulasi serta penyaringan data keagamaan yang terpercaya dan sesuai dengan prinsip maqasid al-syariah.",
+    "after": "Title: Fenom | Authors: Najwa Isaura Sabila, Fathima Zahra, M. Sahril, Alfath Oktaraya Adoe, Abdul Fadhil | Summary: Perkembangan teknologi kecerdasan buatan (Artificial Intelligence/AI) telah menyebabkan perubahan besar dalam cara masyarakat mencari hukum Islam, terutama di kalangan generasi muda yang mencakup lebih dari 60 persen populasi Indonesia, Fenomena ini dikenal sebagai agama algoritmik. Perubahan ini menghasilkan fenomena fatwa instan yang didasarkan pada chatbot AI, yang sering muncul tanpa adanya proses verifikasi keilmuan yang memadai, sehingga keabsahan terhadap metodologinya patut dipersoalkan. Penelitian ini bertujuan untuk meneliti sejauh mana platform AI generatif dapat memenuhi kualifikasi metodologis seorang mujtahid dalam proses ijtihad hukum Islam, serta merumuskan posisi ideal AI dalam tatanan hukum Islam saat ini. Penelitian ini menerapkan metode studi pustaka (library research) dengan pendekatan deskriptif kualitatif yang berfokus pada normatif-filosofis, di mana data primer terdiri dari kitab-kitab usul fikih yang diakui serta data sekunder berupa artikel ilmiah yang dianalisis menggunakan teknik analisis isi (content analysis). Penelitian mengungkapkan bahwa AI generatif secara mendasar tidak memenuhi kriteria mujtahid karena tidak memiliki kesadaran spiritual (syu'ur), niat (niyyah), dan tanggung jawab moral (taklif), serta tidak dapat menjalankan proses tarjih atau memahami kemaslahatan dan konteks sosial ('urf) secara mendalam. Ketergantungan pada AI berpotensi menghasilkan halusinasi dan memproduksi output yang tidak terjamin kredibilitasnya, seperti hadis atau dalil palsu, bias dalam representasi mazhab, serta kurangnya akuntabilitas saat terjadinya kesalahan hukum. Temuan ini menunjukkan pentingnya AI ditempatkan secara seimbang sebagai alat untuk riset dan edukasi, bukan sebagai penentu mutlak, dengan kerja sama antara lembaga fatwa dan ahli teknologi informasi untuk mengembangkan regulasi serta penyaringan data keagamaan yang terpercaya dan sesuai dengan prinsip maqasid al-syariah."
+  },
+  {
+    "paper_id": "10.61253/abdicendekia.v5i2.917",
+    "scenario": "duplicate_record",
+    "field": "record",
+    "before": null,
+    "after": {
+      "paper_id": "10.61253/abdicendekia.v5i2.917",
+      "title": "Pengaruh Penggunaan Artifical Intelligence (AI) Terhadap Kemandirian Belajar Peserta Didik pada Mata Pelajaran Pendidikan Agama Islam",
+      "summary": "Penelitian ini bertujuan untuk menganalisis pengaruh penggunaan Artificial Intelligence (AI) terhadap kemandirian belajar peserta didik pada mata pelajaran Pendidikan Agama Islam (PAI). Transformasi digital dalam pendidikan telah mendorong integrasi teknologi AI, yang menawarkan potensi besar sekaligus menghadirkan tantangan tersendiri, terutama dalam konteks penguatan kemandirian belajar. Penelitian ini menggunakan pendekatan kuantitatif dengan metode survei eksplanatori. Sampel penelitian terdiri dari peserta didik jenjang sekolah menengah yang mengikuti pembelajaran PAI berbasis platform digital dengan dukungan AI. Data dikumpulkan melalui kuesioner terstruktur yang mengukur tingkat kemandirian belajar dan persepsi terhadap penggunaan AI. Analisis data dilakukan menggunakan teknik regresi untuk menguji pengaruh antar variabel. Hasil penelitian menunjukkan bahwa pemanfaatan AI dalam pembelajaran PAI memiliki pengaruh yang signifikan terhadap peningkatan kemandirian belajar peserta didik. Temuan ini sejalan dengan penelitian lain yang mengungkapkan bahwa AI, melalui fitur seperti chatbot islami dan sistem adaptif, mampu memberikan umpan balik personal dan memperluas akses materi, sehingga mendorong siswa untuk lebih proaktif, bertanggung jawab, dan percaya diri dalam proses belajarnya. Namun demikian, penelitian juga mengidentifikasi potensi risiko ketergantungan pada jawaban instan yang dapat melemahkan kemampuan analisis kritis jika penggunaan AI tidak diawasi dengan tepat. Penelitian ini menyimpulkan bahwa AI efektif dalam menumbuhkan kemandirian belajar PAI, dengan syarat pendidik memainkan peran kunci sebagai fasilitator dan pengawas untuk memastikan penggunaan teknologi tetap sejalan dengan tujuan pendidikan karakter dan nilai-nilai keislaman. Temuan ini diharapkan dapat memberikan kontribusi bagi pengembangan model pembelajaran PAI yang inovatif dan adaptif di era digital.",
+      "authors": [
+        "Muhammad Aufa Muis",
+        "Fahrureza Fahrureza",
+        "Tuti Nuriyati"
+      ],
+      "categories": [],
+      "primary_category": "",
+      "published": "2026-06-30",
+      "updated": "2026-07-06",
+      "abs_url": "https://doi.org/10.61253/abdicendekia.v5i2.917",
+      "pdf_url": "https://zia-research.com/index.php/abdicendekia/article/download/917/681",
+      "comment": "",
+      "authors_joined": "Muhammad Aufa Muis, Fahrureza Fahrureza, Tuti Nuriyati",
+      "categories_joined": "",
+      "summary_chars": 1913,
+      "age_days": 37,
+      "text_for_embedding": " zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload  zzz_noise_token corrupted_context irrelevant_payload Title: Pengaruh Penggunaan Artifical Intelligence (AI) Terhadap Kemandirian Bela"
+    }
+  }
+]
